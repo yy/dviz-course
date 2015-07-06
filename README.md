@@ -1,2 +1,3 @@
-# dviz_course
-Data visualization course material
+# dviz-course
+
+IU SoCIC I422 Data Visualization course material. 
