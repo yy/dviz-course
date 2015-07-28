@@ -3,7 +3,7 @@
 IU SoCIC I422 Data Visualization course material. 
 
 
-# Media, forum, and online resources
+# Online visualization resources
 
 - Media
   - http://fivethirtyeight.com 
@@ -13,6 +13,8 @@ IU SoCIC I422 Data Visualization course material.
 - Forum
   - [r/visualization](https://www.reddit.com/r/visualization/)
   - [r/DataIsBeautiful](https://www.reddit.com/r/dataisbeautiful/)
+  - [r/infographic](https://www.reddit.com/r/infographic/)
+  - [r/dataviz](https://www.reddit.com/r/dataviz/)
   - [r/datsets](https://www.reddit.com/r/datasets/)
   - [Q &amp; A at Edward Tufte's website](http://www.edwardtufte.com/bboard/q-and-a?topic_id=1)
 
@@ -23,3 +25,7 @@ IU SoCIC I422 Data Visualization course material.
   - http://junkcharts.typepad.com
   - https://eagereyes.org
   - http://chartporn.org
+
+- D3.js 
+  - http://yyahnwiki.appspot.com/D3.js 
+  - http://bl.ocks.org/mbostock - a lot of examples by the creator of D3.js
