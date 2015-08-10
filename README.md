@@ -2,8 +2,18 @@
 
 IU SoCIC I422 Data Visualization course material. 
 
+# Resources
 
-# Online visualization resources
+- D3.js 
+  - http://d3js.org
+  - Online playgrounds
+    - http://jsfiddle.net
+    - http://phrogz.net/JS/d3-playground/
+  - http://yyahnwiki.appspot.com/D3.js - a collection of resources
+  - http://bl.ocks.org/mbostock - a lot of examples by the creator of D3.js
+      - http://bost.ocks.org/mike/ - Mike Bostock's homepage 
+
+## Media, Forums, and Blogs about Visualization
 
 - Media
   - http://fivethirtyeight.com 
@@ -26,6 +36,3 @@ IU SoCIC I422 Data Visualization course material.
   - https://eagereyes.org
   - http://chartporn.org
 
-- D3.js 
-  - http://yyahnwiki.appspot.com/D3.js 
-  - http://bl.ocks.org/mbostock - a lot of examples by the creator of D3.js
