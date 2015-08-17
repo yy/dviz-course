@@ -1,9 +1,16 @@
-The mid-term and final assessment will be project-based. For the mid-term
-project, you will perform exploratory data analyses on datasets of your choice
-(which will be set through discussion with the instructors). The final
-assessment will be about creating web-based explanatory visualization that
-communicate insights into datasets (ideally from the datasets that you analyzed
-at the mid-term). 
+You will complete two (midterm and final) projects. In the midterm project, you
+will perform *exploratory and hypothesis-driven analysis* of complex datasets.
+The specific datasets or types of questions will be discussed with Instructors.
+For the final project, you will create a webpage that extensively *explain and
+communicate* facts and insights that you found in a dataset (can be the dataset
+from the mid-term). 
+
+# Readings about team project
+
+Before your project, check out these advices:
+
+- [What makes a group succeed](http://tuvalu.santafe.edu/~simon/hackathon-skills.pdf) by [Simon DeDeo](http://homes.soic.indiana.edu/sdedeo/)
+ 
 
 # Mid-term project
 
@@ -36,3 +43,4 @@ class. It should address
 ## Final presentation (12/8, 12/10)
 
 ## Final report (Due: 12/15)
+
