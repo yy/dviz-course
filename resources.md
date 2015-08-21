@@ -32,3 +32,18 @@
   - https://eagereyes.org
   - http://chartporn.org
 
+- Twitter
+  - https://twitter.com/DataIsBeautiful (r/DataIsBeautiful)
+  - https://twitter.com/tamaramunzner
+  - https://twitter.com/flowingdata
+  - https://twitter.com/jeffrey_heer
+  - https://twitter.com/mbostock
+  - https://twitter.com/kimay
+  - https://twitter.com/blprnt
+  - https://twitter.com/wattenberg
+  - https://twitter.com/amandacox
+  - https://twitter.com/mslima
+  - https://twitter.com/UpshotNYT
+  - https://twitter.com/benbendc
+  - https://twitter.com/IsabelMeirelles
+  - https://twitter.com/JanWillemTulp
