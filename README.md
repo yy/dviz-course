@@ -1,4 +1,4 @@
 # dviz-course
 
-IU SoCIC I422 Data Visualization course material. 
+IU SoIC I422 Data Visualization course material. 
 
