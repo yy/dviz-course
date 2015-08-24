@@ -33,4 +33,9 @@
 - [Pulse of the Nation](http://www.ccs.neu.edu/home/amislove/twittermood/)
 - [‘Stop-and-Frisk’ Is All but Gone From New York](http://www.nytimes.com/interactive/2014/09/19/nyregion/stop-and-frisk-is-all-but-gone-from-new-york.html?_r=0)
 
+## From lab
+
+**Exploratory vs. Explantory visualization**
+
+- [Exploratory vs. explanatory visualization]()
 
