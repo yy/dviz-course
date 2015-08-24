@@ -4,7 +4,7 @@
 
 - [Python setup](https://github.com/yy/dviz-course/blob/master/w01-intro/python-setup.md)
 
-# After the classes, if you get curious 
+# After the classes, if you get curious and want to know more
 
 ## From lecture
 
