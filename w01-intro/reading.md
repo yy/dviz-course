@@ -30,5 +30,9 @@
 
 # Reading for the week 2
 
-- E. R. Tufte, VDQI Ch. 1 and 2 (Canvas). 
+## For the lecture
+
+- E. R. Tufte, VDQI Ch. 1 and 2 (see Canvas). 
+
+## For the lab
 
