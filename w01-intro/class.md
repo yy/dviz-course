@@ -1,6 +1,3 @@
-# Before the class
-
-
 # If you want to know more
 
 **Why quizzes and exams (retrievals) are more critical than reading or lecture in learning?**
