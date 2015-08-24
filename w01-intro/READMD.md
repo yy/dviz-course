@@ -1,6 +1,6 @@
 # Before the classes
 
-## Before the lab 
+## For the lab 
 
 - [Python setup](https://github.com/yy/dviz-course/blob/master/w01-intro/python-setup.md)
 
@@ -33,12 +33,4 @@
 - [Pulse of the Nation](http://www.ccs.neu.edu/home/amislove/twittermood/)
 - [‘Stop-and-Frisk’ Is All but Gone From New York](http://www.nytimes.com/interactive/2014/09/19/nyregion/stop-and-frisk-is-all-but-gone-from-new-york.html?_r=0)
 
-
-# Reading for the week 2
-
-## For the lecture
-
-- E. R. Tufte, VDQI Ch. 1 and 2 (see Canvas). 
-
-## For the lab
 
