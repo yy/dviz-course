@@ -9,7 +9,7 @@ IU SoIC I422 Data Visualization course material.
 | 1    | Introduction                         | Visualization tools and Python stack |
 | 2    | History and integrity                | Python review and IPython notebook   |
 | 3    | (Labor day)                          | Python visualization tools           |
-| 4    | Perception and design                                                      ||
+| 4    | Perception and design                                                     | |
 | 5    | Data and Fundamental visualization I (low dimensional data)                ||
 | 6    | Fundamental visualization II (high dimensional data)                       ||
 | 7    | Geospatial data and maps I                                                 ||
