@@ -30,5 +30,5 @@
 
 **Exploratory vs. Explantory visualization**
 
-- See [Exemplary visualizations](https://github.com/yy/dviz-course/blob/master/exemplary_viz.md)
+- See [Exploratory vs. explanatory visualization](https://github.com/yy/dviz-course/wiki/Exploratory-vs.-explanatory-visualization)
 
