@@ -1,12 +1,10 @@
-# Before the class
-
 - [Python setup](https://github.com/yy/dviz-course/blob/master/w01-intro/python-setup.md)
 
 # If you want to know more
 
 **Exploratory vs. Explantory visualization**
 
-- See [Exemplary visualizations](https://github.com/yy/dviz-course/blob/master/exemplary_viz.md)
+- See https://github.com/yy/dviz-course/wiki/Exploratory-vs.-explanatory-visualization
 
 **Visualization tools**
 
