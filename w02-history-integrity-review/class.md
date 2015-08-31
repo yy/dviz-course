@@ -13,7 +13,9 @@ called the [McGurk Effect](https://en.wikipedia.org/wiki/McGurk_effect).
 Probably more striking example is so-called [rubber hand
 illusion](https://www.youtube.com/watch?v=sxwn1w7MJvk). 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sxwn1w7MJvk" frameborder="0" allowfullscreen></iframe>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=sxwn1w7MJvk
+" target="_blank"><img src="http://img.youtube.com/vi/sxwn1w7MJvk/0.jpg" 
+alt="Rubber hand illusion" width="240" height="180" border="10" /></a>
 
    
 
