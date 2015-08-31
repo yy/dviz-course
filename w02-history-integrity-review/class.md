@@ -25,7 +25,26 @@ There have been a lot of bad data visualizations from News media. They seem to d
 
 - [Unemployment rate under president Obama](http://flowingdata.com/2011/12/12/fox-news-still-makes-awesome-charts/)
 
-**It is hard to deduce causality and visualization makes it worse**
+**Correlation != causality and visualization often gives fall impression**
 
 ![xkcd: correlation](https://imgs.xkcd.com/comics/correlation.png)
-*[xkcd: Correlation](https://xkcd.com/552/)
+*[xkcd: Correlation](https://xkcd.com/552/)*
+
+As this comic beautifully captured, the correlation does not guarantee causation, but the fact is usually not very intuitive to many people. First of all, if you have a lot of numbers, it is very easy to conjure spurious correlations. 
+
+![xkcd: significant](https://imgs.xkcd.com/comics/significant.png)
+*[xkcd: Significant](https://xkcd.com/882/)
+
+On the following website, you can find really weird and hillarious correlations that do not make any sense. 
+
+- [Spurious correlations](http://www.tylervigen.com/spurious-correlations) 
+- [Correlation or Causation?](http://www.bloomberg.com/bw/magazine/correlation-or-causation-12012011-gfx.html)
+
+And then, it is often not easy to realize the existence of potential **[confounding variables (factors)](https://en.wikipedia.org/wiki/Confounding)**. 
+
+
+
+
+
+
+
