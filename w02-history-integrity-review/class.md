@@ -4,7 +4,7 @@
 
 # If you want to know more
 
-**Seeing is believing**
+## Seeing is believing
 
 As our brain tries to integrate information from multiple sources and as our
 vision is a dominent sensory input, vision can interfere and dominate other
@@ -19,13 +19,13 @@ alt="Rubber hand illusion" width="240" height="180" border="10" /></a>
 
 Apparently, it is very easy to create an illusion that a crude rubber hand is yours. 
 
-**Bad visualizations**
+## Bad visualizations
 
 There have been a lot of bad data visualizations from News media. They seem to decrease as data visualization is highlighted more and more. But still you will be able to find some glaring errors in data visualizations in news. For instance, 
 
 - [Unemployment rate under president Obama](http://flowingdata.com/2011/12/12/fox-news-still-makes-awesome-charts/)
 
-**Correlation != causality and visualization often gives false impression**
+## Correlation != causation
 
 ![xkcd: correlation](https://imgs.xkcd.com/comics/correlation.png)
 *[xkcd: Correlation](https://xkcd.com/552/)*
@@ -44,7 +44,7 @@ And then, it is often not easy to realize the existence of potential **[confound
 
 With the power of visual images, it is easy to mislead people by showing strong correlation and arguing the existence of causality. 
 
-**There are three kinds of lies: lies, damned lies, and statistics.**
+## There are three kinds of lies: lies, damned lies, and statistics.
 
 Although I believe that statistics is one of the best tools that we have to make informed decisions, it is still true that you can be fooled by hidden details. The following book explains how one can be fooled by statistics and statistical graphics. This book is concise, witty, and extremely useful!  
 
