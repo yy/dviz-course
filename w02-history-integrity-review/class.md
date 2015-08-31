@@ -25,7 +25,7 @@ There have been a lot of bad data visualizations from News media. They seem to d
 
 - [Unemployment rate under president Obama](http://flowingdata.com/2011/12/12/fox-news-still-makes-awesome-charts/)
 
-**Correlation != causality and visualization often gives fall impression**
+**Correlation != causality and visualization often gives false impression**
 
 ![xkcd: correlation](https://imgs.xkcd.com/comics/correlation.png)
 *[xkcd: Correlation](https://xkcd.com/552/)*
@@ -40,10 +40,15 @@ On the following website, you can find really weird and hillarious correlations 
 - [Spurious correlations](http://www.tylervigen.com/spurious-correlations) 
 - [Correlation or Causation?](http://www.bloomberg.com/bw/magazine/correlation-or-causation-12012011-gfx.html)
 
-And then, it is often not easy to realize the existence of potential **[confounding variables (factors)](https://en.wikipedia.org/wiki/Confounding)**. For instance, if there is a [negative correlation between maternal mortality and births by C-sections](http://www.economist.com/blogs/graphicdetail/2015/08/daily-chart-2), it is very easy to fall into a trap to think, "Oh, this indicates that C-section saves lives!" However, if number of C-sections in a country is strongly affected by the wealth of the country, and if the maternal mortality is also strongly affected by the wealth of the country, the negative correlation can be clearly visible **even if C-section increases maternal mortality slightly**. 
+And then, it is often not easy to realize the existence of potential **[confounding variables (factors)](https://en.wikipedia.org/wiki/Confounding)**. For instance, if there is a [negative correlation between maternal mortality and births by C-sections](http://www.economist.com/blogs/graphicdetail/2015/08/daily-chart-2), it is very easy to fall into a trap to think, "Oh, this indicates that C-section saves lives!" However, if number of C-sections in a country is strongly affected by the wealth of the country, and if the maternal mortality is also strongly affected by the wealth of the country, the negative correlation can be clearly visible **even if** C-section increases maternal mortality slightly! 
 
+With the power of visual images, it is easy to mislead people by showing strong correlation and arguing the existence of causality. 
 
+**There are three kinds of lies: lies, damned lies, and statistics.**
 
+Although I believe that statistics is one of the best tools that we have to make informed decisions, it is still true that you can be fooled by hidden details. The following book explains how one can be fooled by statistics and statistical graphics. This book is concise, witty, and extremely useful!  
+
+- [How to Lie with Statistics](http://www.amazon.com/How-Lie-Statistics-Darrell-Huff/dp/0393310728)
 
 
 
