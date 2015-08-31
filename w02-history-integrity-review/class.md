@@ -48,7 +48,7 @@ With the power of visual images, it is easy to mislead people by showing strong 
 
 Although I believe that statistics is one of the best tools that we have to make informed decisions, it is still true that you can be fooled by hidden details. The following book explains how one can be fooled by statistics and statistical graphics. This book is concise, witty, and extremely useful!  
 
-- [How to Lie with Statistics](http://www.amazon.com/How-Lie-Statistics-Darrell-Huff/dp/0393310728)
+- ![](http://ecx.images-amazon.com/images/I/51FKg7ecS%2BL._SX334_BO1,204,203,200_.jpg)  [How to Lie with Statistics](http://www.amazon.com/How-Lie-Statistics-Darrell-Huff/dp/0393310728)
 
 
 
