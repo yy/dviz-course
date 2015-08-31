@@ -33,14 +33,14 @@ There have been a lot of bad data visualizations from News media. They seem to d
 As this comic beautifully captured, the correlation does not guarantee causation, but the fact is usually not very intuitive to many people. First of all, if you have a lot of numbers, it is very easy to conjure spurious correlations. 
 
 ![xkcd: significant](https://imgs.xkcd.com/comics/significant.png)
-*[xkcd: Significant](https://xkcd.com/882/)
+*[xkcd: Significant](https://xkcd.com/882/)*
 
 On the following website, you can find really weird and hillarious correlations that do not make any sense. 
 
 - [Spurious correlations](http://www.tylervigen.com/spurious-correlations) 
 - [Correlation or Causation?](http://www.bloomberg.com/bw/magazine/correlation-or-causation-12012011-gfx.html)
 
-And then, it is often not easy to realize the existence of potential **[confounding variables (factors)](https://en.wikipedia.org/wiki/Confounding)**. 
+And then, it is often not easy to realize the existence of potential **[confounding variables (factors)](https://en.wikipedia.org/wiki/Confounding)**. For instance, if there is a [negative correlation between maternal mortality and births by C-sections](http://www.economist.com/blogs/graphicdetail/2015/08/daily-chart-2), it is very easy to fall into a trap to think, "Oh, this indicates that C-section saves lives!" However, if number of C-sections in a country is strongly affected by the wealth of the country, and if the maternal mortality is also strongly affected by the wealth of the country, the negative correlation can be clearly visible **even if C-section increases maternal mortality slightly**. 
 
 
 
