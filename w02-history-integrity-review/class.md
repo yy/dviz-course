@@ -17,6 +17,15 @@ illusion](https://www.youtube.com/watch?v=sxwn1w7MJvk).
 " target="_blank"><img src="http://img.youtube.com/vi/sxwn1w7MJvk/0.jpg" 
 alt="Rubber hand illusion" width="240" height="180" border="10" /></a>
 
-   
+Apparently, it is very easy to create an illusion that a crude rubber hand is yours. 
 
+**Bad visualizations**
+
+There have been a lot of bad data visualizations from News media. They seem to decrease as data visualization is highlighted more and more. But still you will be able to find some glaring errors in data visualizations in news. For instance, 
+
+- [Unemployment rate under president Obama](http://flowingdata.com/2011/12/12/fox-news-still-makes-awesome-charts/)
+
+**It is hard to deduce causality and visualization makes it worse**
+
+![xkcd: correlation](https://imgs.xkcd.com/comics/correlation.png)
 
