@@ -23,7 +23,9 @@ Apparently, it is very easy to create an illusion that a crude rubber hand is yo
 
 There have been a lot of bad data visualizations from News media. They seem to decrease as data visualization is highlighted more and more. But still you will be able to find some glaring errors in data visualizations in news. For instance, 
 
+- [WTF Visualizations](http://viz.wtf/) 
 - [Unemployment rate under president Obama](http://flowingdata.com/2011/12/12/fox-news-still-makes-awesome-charts/)
+- [Flowing data: Ugly visualization](http://flowingdata.com/category/visualization/ugly-visualization/)
 
 ## Correlation != causation
 
