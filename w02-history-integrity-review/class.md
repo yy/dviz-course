@@ -28,4 +28,4 @@ There have been a lot of bad data visualizations from News media. They seem to d
 **It is hard to deduce causality and visualization makes it worse**
 
 ![xkcd: correlation](https://imgs.xkcd.com/comics/correlation.png)
-*[xkcd: Correlation](https://xkcd.com/552/)
+*[xkcd: Correlation](https://xkcd.com/552/)*
