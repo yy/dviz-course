@@ -31,8 +31,6 @@ There have been a lot of bad data visualizations from News media. They seem to d
 
 ![xkcd: correlation](https://imgs.xkcd.com/comics/correlation.png)
 *[xkcd: Correlation](https://xkcd.com/552/)*
-<<<<<<< HEAD
-=======
 
 As this comic beautifully captured, the correlation does not guarantee causation, but the fact is usually not very intuitive to many people. First of all, if you have a lot of numbers, it is very easy to conjure spurious correlations. 
 
@@ -58,5 +56,3 @@ Although I believe that statistics is one of the best tools that we have to make
 
 
 
-
->>>>>>> 2eb1ab699d9ede9d185d5f386401d68f0cf9d8e4
