@@ -1,7 +1,13 @@
 # Before the class
 
 - Research about "Stevens' power law". 
-- 
+- What is "Pre-attentive processing"?
+- Bang Wong, "Points of view" (they are very short columns)
+  - [Color coding](http://www.nature.com/nmeth/journal/v7/n8/full/nmeth0810-573.html)
+  - [Design of data figures](http://www.nature.com/nmeth/journal/v7/n9/full/nmeth0910-665.html)
+  - [Salience](http://www.nature.com/nmeth/journal/v7/n10/full/nmeth1010-773.html)
+  - [Gestalt principles (Part 1)](http://www.nature.com/nmeth/journal/v7/n11/full/nmeth1110-863.html)
+  - [Avoiding color](http://www.nature.com/nmeth/journal/v8/n7/full/nmeth.1642.html)
 
 # If you want to know more
 
