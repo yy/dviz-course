@@ -9,4 +9,6 @@ Read the following online tutorial and have a basic understanding of
 
 [Google's Python Class](https://developers.google.com/edu/python/?hl=en) is also a nice resource.
 
-# If you want to know more
+# Lab assignment
+
+* https://github.com/yy/dviz-course/blob/master/w02-history-integrity-review/lab02.ipynb
