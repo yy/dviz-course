@@ -2,7 +2,7 @@
 
 - Research about "Stevens' power law". 
 - What is "Pre-attentive processing"?
-- Bang Wong, "Points of view" (they are very short columns)
+- Bang Wong, from "Points of View" (they are very short columns)
   - [Color coding](http://www.nature.com/nmeth/journal/v7/n8/full/nmeth0810-573.html)
   - [Design of data figures](http://www.nature.com/nmeth/journal/v7/n9/full/nmeth0910-665.html)
   - [Salience](http://www.nature.com/nmeth/journal/v7/n10/full/nmeth1010-773.html)
@@ -11,3 +11,6 @@
 
 # If you want to know more
 
+- Bang Wong, "Points of View" - http://clearscience.info/wp/?p=546
+- M. Agrawala, W. Li, and F. Berthouzoz, [Design principles for visual communication](http://vis.berkeley.edu/papers/designprinciples/p60-agrawala.pdf)
+- Colin Ware, [Visual Thinking: for Design](http://www.amazon.com/Visual-Thinking-Kaufmann-Interactive-Technologies/dp/0123708966)
