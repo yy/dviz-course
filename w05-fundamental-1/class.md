@@ -22,4 +22,7 @@
 - [The Non-Designer's Design Book](http://www.amazon.com/Non-Designers-Design-Book-3rd/dp/0321534042) by Robin Williams concisely and easily explains some of the most fundamental design principles. 
 - [99% invisible](http://99percentinvisible.org) is a podcast about "invisible" designs that surround us. It is one of the most fascinating podcast. 
 
+## Data visualization zoo
 
+- [A tour through the visualization zoo](http://queue.acm.org/detail.cfm?id=1743567)
+- [The Grammar of Graphics](http://www.amazon.com/The-Grammar-Graphics-Statistics-Computing/dp/0387245448)
