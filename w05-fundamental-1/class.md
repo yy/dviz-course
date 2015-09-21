@@ -7,3 +7,4 @@
 
 # If you want to know more
 
+[Sparkline](https://en.wikipedia.org/wiki/Sparkline) is a nice, minimalistic visualization technique that fits perfectly with E. Tufte's minimalism. It is useful when you want to communicate general trends and shapes of many timeseries quickly, particularly within a text. For instance, FiveThirtyEight uses it to display [the historical primary endorsement trends in the text](The Endorsement Primary). 
