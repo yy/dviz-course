@@ -1,0 +1,2 @@
+# Before the class
+
