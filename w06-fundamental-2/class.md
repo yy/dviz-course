@@ -8,3 +8,4 @@
 
 # If you want to know more
 
+- [40 years of boxplots](http://vita.had.co.nz/papers/boxplots.pdf) by Hadley Wickham and Lisa Stryjewski
