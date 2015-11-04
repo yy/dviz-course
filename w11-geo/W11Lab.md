@@ -21,7 +21,7 @@ Then, open your favorite web browser and type `0.0.0.0:8000` or `localhost:8000`
 ## html
 
 1. Under the `W11Lab` folder, create a blank file with name `W11Lab.html`;
-2. Put the following code to `W11Lab.html`
+2. Put the following code in `W11Lab.html`
 
 ```html
 <!DOCTYPE html>
@@ -47,21 +47,21 @@ Then, open your favorite web browser and type `0.0.0.0:8000` or `localhost:8000`
 </html>
 ```
 
-Then, reload the web page localhost:8000 and open `W11Lab.html` or directly open it by typing `http://localhost:8000/W11Lab.html`
+Save the file, reload the web page `localhost:8000`, and open `W11Lab.html`; or directly open it by typing `http://localhost:8000/W11Lab.html`
 
-You can learn more from [here](http://www.w3schools.com/html/html_intro.asp).
+You can learn more about html from [here](http://www.w3schools.com/html/html_intro.asp).
 
 **TODO**:
 
-1. Center the h1 text [here](http://www.w3schools.com/tags/att_hn_align.asp);
-2. Change the font color of h1 text;
+1. Center the `h1` text; see [here](http://www.w3schools.com/tags/att_hn_align.asp);
+2. Change the font color of `h1` text;
 3. Create more paragraphs using `<p>` tag under each `h2` tag.
 
 ## SVG
 
-[SVG](http://www.w3schools.com/svg/) stands for Scalable Vector Graphics. Compared to [raster graphics](https://en.wikipedia.org/wiki/Raster_graphics), [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) won't lost quality when zooming in. 
+[SVG](http://www.w3schools.com/svg/) stands for Scalable Vector Graphics. Compared to [raster graphics](https://en.wikipedia.org/wiki/Raster_graphics), [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) won't lose quality when zooming in. 
 
-In html, we can use the `svg` tag to create a canvas for drawing. For example, under the `<h2>SVG</h2>` tag, put the following in your html file to draw a [circle](http://www.w3schools.com/svg/svg_inhtml.asp).
+In html, we can use the `svg` tag to create a canvas for drawing. For example, under the `<h2>SVG</h2>` tag in your html file, put the following code to draw a [circle](http://www.w3schools.com/svg/svg_inhtml.asp).
 
 ```javascript
 <svg width="300" height="300">
@@ -69,11 +69,11 @@ In html, we can use the `svg` tag to create a canvas for drawing. For example, u
 </svg>
 ```
 
-This will create an SVG image with width 300 and height 300 and draw circle centered at (40,40) with radius 30.
+This will create an SVG image with width 300 and height 300 and draw a circle centered at (40,40) with radius 30.
 
 **TODO**:
 
-- Draw two more circles and change the center of the two circles to (140,140) and (240,240)
+- Draw two more circles and change the centers of the two circles to (140,140) and (140,240)
 
 ```javascript
 <svg width="300" height="300">
@@ -83,7 +83,7 @@ This will create an SVG image with width 300 and height 300 and draw circle cent
 </svg>
 ```
 
-So what are the x and y axis and what are their directions?
+So what are the x and y axis and what are their orientations?
 
 - Change the stroke color and fill color as well as stroke width. [HTML Color Values](http://www.w3schools.com/html/html_colorvalues.asp)
 
@@ -105,7 +105,7 @@ We can also set the transparency:
 
 **TODO**: Can you change the stroke opacity of the circle?
 
-Beside circles, we can create many more shapes like [rectangle](http://www.w3schools.com/svg/svg_rect.asp):
+Besides circles, we can create many more shapes like [rectangle](http://www.w3schools.com/svg/svg_rect.asp):
 
 ```javascript
 <svg width="400" height="50">
@@ -117,7 +117,7 @@ More more shapes, check out [here](http://www.w3schools.com/svg/svg_ellipse.asp)
 
 ## JavaScript
 
-JavaScript is a programming language for the Web. You can learn the basics from [here](http://www.w3schools.com/js/). In HTML, we need to punt JavaScript code between <script> and </script> tags. And we can use it to change the html content. Put the following code under the `<h2>JavaScript</h2>` tag in your html file:
+JavaScript is a programming language for the Web. You can learn the basics from [here](http://www.w3schools.com/js/). In html, we need to put JavaScript code between `<script>` and `</script>` tags. And we can use JavaScript to change the html content. Put the following code under the `<h2>JavaScript</h2>` tag in your html file:
 
 ```javascript
 <script>
@@ -133,20 +133,20 @@ JavaScript is a programming language for the Web. You can learn the basics from 
 </script>
 ```
 
-What does this for? Here the `document` object means the html document itself. The lists of its methods are showed [here](http://www.w3schools.com/jsref/dom_obj_document.asp). [**`getElementsByTagName()`**](http://www.w3schools.com/jsref/met_document_getelementsbytagname.asp) means to get all elements with the given tag, in our case all `p` tags. The [`style`](http://www.w3schools.com/jsref/dom_obj_style.asp) object is for style statement. Some basics used here are:
+What is this for? Here the `document` object means the html document itself. The lists of its methods are showed [here](http://www.w3schools.com/jsref/dom_obj_document.asp). [**`getElementsByTagName()`**](http://www.w3schools.com/jsref/met_document_getelementsbytagname.asp) means to get all elements with the given tag, in our case, all `p` tags. The [`style`](http://www.w3schools.com/jsref/dom_obj_style.asp) object is for style statement. Some basics used here are:
 
 * [Variables](http://www.w3schools.com/js/js_variables.asp);
 * [Comparison](http://www.w3schools.com/js/js_comparisons.asp);
 * [for loop](http://www.w3schools.com/js/js_loop_for.asp)
 
-**TODO**: Let's make some changes to the style of h2:
+**TODO**: Let's make some style changes to all the `h2` tags in the your html file:
 
 1. Set the background color to grey;
 2. Change the font color.
 
 ## [D3](http://d3js.org/): Data-Driven Documents 
 
-D3 is built upon JavaScript. There are two ways to reference D3. One is to directly put the following in the head section of your html files.
+D3 is built upon JavaScript. There are two ways to reference D3. One is to directly put the following in the head section of your html file.
 
 ```javascript
 <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -196,10 +196,12 @@ Do it in a chain style:
 
 But I want to do data visualization!
 
-Let's create horizontal bars, manually, which are just many rectangles. Recall that we can draw rectangles using SVG. First, to separate the contents between different parts of the document, we can use a `<div>` tag:
+Let's create horizontal bars for the `data = [43, 27, 18, 9, 2]`, manually, which are just many rectangles. Recall that we can draw rectangles using SVG. First, to separate the contents between different parts of the document, we can use a `<div>` tag:
 
+```html
 <div id="bar">
 </div>
+```
 
 Now we can create an SVG canvas, draw the first bar, and place the value at the end of the bar:
 
