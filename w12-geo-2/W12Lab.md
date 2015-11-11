@@ -26,4 +26,38 @@ Now you can use the mapbox tiles with the [Leaflet, which is an open-source Java
 
 Here is an HTML template:
 
+```html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Wallmart Heatmap</title>
+
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+
+<style type="text/css" media="screen">
+#map { height: 800px; }  
+</style>
+
+</head>
+
+<body>
+
+<div id="map"></div>
+
+<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+<script src="http://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+<script src="data.js"></script>  <!-- put your data into data.js -->
+
+<script>
+
+//  put your code here. 
+
+</script>
+
+</body>
+</html>
+
+```
 
