@@ -34,7 +34,7 @@ Here is an HTML template:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>Wallmart Heatmap</title>
+<title>Walmart Heatmap</title>
 
 <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
 
