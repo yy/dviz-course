@@ -48,7 +48,7 @@ Here is an HTML template:
 
 <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
 <script src="http://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
-<script src="data.js"></script>  <!-- put your data into data.js -->
+<script src="walmart.js"></script>  <!-- put your data into data.js -->
 
 <script>
 
@@ -61,3 +61,6 @@ Here is an HTML template:
 
 ```
 
+You can get something like this: 
+
+https://photos-2.dropbox.com/t/2/AAC1Axwx4oUWOI0E-KV1Wmj8dayAKjosLF5fjHQCr_MtYA/12/58075/png/32x32/1/_/1/2/Screenshot%202015-11-11%2000.22.06.png/EOG5IxjH__nYBCABIAIoASgC/Wly2HQ28L9uAsYgzjzGk-bbda5O9Bf6cxmCrIxdiGN4?size=1024x768&size_mode=2
