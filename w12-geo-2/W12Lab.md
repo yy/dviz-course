@@ -1,8 +1,3 @@
-# Playing with an SVG map
-
-- [Flowing Data: How to Make a US County Thematic Map Using Free Tools](http://flowingdata.com/2009/11/12/how-to-make-a-us-county-thematic-map-using-free-tools/)
-
-
 # Using D3.js to create a choropleth map. 
 
 
@@ -66,3 +61,10 @@ Here is an HTML template:
 You can get something like this: 
 
 ![Walmart heatmap](https://raw.githubusercontent.com/yy/dviz-course/master/w12-geo-2/walmart.png)
+
+
+# Direct SVG manipulation
+
+It is possible to create choropleth by directly editing the SVG file of maps. 
+
+- [Flowing Data: How to Make a US County Thematic Map Using Free Tools](http://flowingdata.com/2009/11/12/how-to-make-a-us-county-thematic-map-using-free-tools/)
