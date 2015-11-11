@@ -1,5 +1,7 @@
 # Playing with an SVG map
 
+- [Flowing Data: How to Make a US County Thematic Map Using Free Tools](http://flowingdata.com/2009/11/12/how-to-make-a-us-county-thematic-map-using-free-tools/)
+
 
 # Using D3.js to create a choropleth map. 
 
