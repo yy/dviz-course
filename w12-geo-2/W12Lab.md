@@ -63,4 +63,4 @@ Here is an HTML template:
 
 You can get something like this: 
 
-![Walmart heatmap](https://photos-2.dropbox.com/t/2/AAC1Axwx4oUWOI0E-KV1Wmj8dayAKjosLF5fjHQCr_MtYA/12/58075/png/32x32/1/_/1/2/Screenshot%202015-11-11%2000.22.06.png/EOG5IxjH__nYBCABIAIoASgC/Wly2HQ28L9uAsYgzjzGk-bbda5O9Bf6cxmCrIxdiGN4?size=1024x768&size_mode=2)
+![Walmart heatmap](https://raw.githubusercontent.com/yy/dviz-course/master/w12-geo-2/walmart.png)
