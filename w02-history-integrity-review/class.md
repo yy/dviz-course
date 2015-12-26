@@ -26,7 +26,8 @@ There have been a lot of bad data visualizations from News media. They seem to d
 - [WTF Visualizations](http://viz.wtf/) 
 - [Unemployment rate under president Obama](http://flowingdata.com/2011/12/12/fox-news-still-makes-awesome-charts/)
 - [Flowing data: Ugly visualization](http://flowingdata.com/category/visualization/ugly-visualization/)
-
+- [The most misleading charts of 2015, fixed](http://qz.com/580859/the-most-misleading-charts-of-2015-fixed/)
+- 
 ## Correlation != causation
 
 ![xkcd: correlation](https://imgs.xkcd.com/comics/correlation.png)
