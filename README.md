@@ -6,6 +6,7 @@
 - **Location**: Info West 107 (M), 109 (W)
 - **Announcements**: All announcements will be sent via Canvas. Please check Canvas at least once a day. 
 - **Prerequisites**: This course is open to advanced undergraduate students (I422/H400) as well as graduate students (I590). Because programming (in Python and Javascript) is an integral part of the course, it is required to have good understanding and working knowledge of programming. The basic programming courses (Both I210/I211 or equivalent) are required prerequisites. In addition, *I308: Information Representation* and a basic statistics course is a recommended prerequisite. Basic understanding of design process and web (HTML, CSS, Javascript) is also highly recommended.
+- Syllabus: For more information, check out the [syllabus]()
 
 # Other information
 
