@@ -58,3 +58,19 @@ target/
 
 # Ipython 
 *.ipynb_checkpoints
+
+*.bcf
+
+*.fdb_latexmk
+
+*.fls
+
+*.out
+
+syllabus/syllabus.pdf
+
+*.xml
+
+w04-perception-design/sneakySnake.jpg
+
+w04-perception-design/sneakySnake.png

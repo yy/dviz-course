@@ -1,0 +1,275 @@
+\documentclass[11pt,article,oneside]{memoir}
+
+\usepackage{org-preamble-pdflatex} 
+
+\setlength{\parskip}{10pt}
+\setlength{\parindent}{0pt}
+
+% Definitions
+\def\myauthor{Author}
+\def\mytitle{Title}
+\def\mycopyright{\myauthor}
+\def\mykeywords{}
+\def\mybibliostyle{plain}
+\def\mybibliocommand{}
+\def\mysubtitle{}
+\def\myaffiliation{Indiana University}
+\def\myaddress{Info East Rm 316} 
+\def\myemail{yyahn@indiana.edu}
+\def\myweb{http://yongyeol.com}
+\def\myphone{856-2920}
+\def\myversion{}
+\def\myrevision{}
+
+\def\myaffiliation{\ \\Indiana University}
+\def\myauthor{Yong-Yeol (YY) Ahn}
+\def\mykeywords{Visualization, Data, Undergraduate, Informatics}
+\def\mysubtitle{Syllabus}
+\def\mytitle{{\normalsize \textsc{Info} 422 (H400/I590) \newline} \HUGE Data Visualization}
+
+\begin{document}
+
+%%\chapterstyle{article-3}
+%\pagestyle{kjh}
+
+\def\ind{\hangindent=1 true cm\hangafter=1 \noindent}
+\def\labelitemi{$\cdot$}
+
+\chapterstyle{article-4}  % alternative styles are defined in latex-custom-kjh/needs-memoir/
+
+\title{\LARGE \mytitle}     
+\author{\Large\myauthor \newline \footnotesize\texttt{\noindent\myemail}}
+\date{Fall 2015. Info West 107 (M) / 109 (W)\newline MW 4:00pm--5:15pm. \newline Office hours: T 9am-10:45am}
+
+%\published{\sffamily I590/H400/I400 / Fall 2014 / Mon \& Wed 4:00--5:15pm / Info West 107 (M) \& 109 (W)}
+\maketitle
+
+\vspace{-20pt}
+{\bfseries Assistant Instructor} \\ Qing Ke (\texttt{qke@indiana.edu}) \\ Office Hours: WF 10:10am-11am
+
+\section{Course Description}
+
+From dashboards in a car to cutting-edge scientific papers, we extensively use
+visual representation of data. As our world becomes increasingly connected and
+digitized, and as decisions are increasingly driven by data, data visualization
+is becoming a critical skill for every knowledge worker. This course is an
+introduction to basic data analysis and visualization. We will learn
+fundamentals of data visualization in terms of exploratory visualization
+(Python stack) and explanatory visualization (Javascript and D3.js).  
+
+
+\section{Course Objectives}
+
+By the end of the course, you will be able to understand various types of data,
+explore datasets using basic exploratory visualization techniques, and create
+simple explanatory web-based visualizations. You will also be able to evaluate
+the effectiveness of data visualizations based on the principles of human
+perception, design, and types of data. 
+ 
+
+%\begin{itemize}
+    %\item Exploratory data visualization and analysis
+
+%\begin{itemize}
+%\item Python data analysis stack
+%\item Data types 
+%\item Loading and manipulating data 
+%\item Fundamental data visualizations
+%\end{itemize}
+
+%\end{itemize}
+
+\section{Prerequisites}
+\label{sec:Prerequisites}
+
+This course is open to advanced undergraduate students (I422/H400) as well as
+graduate students (I590). Because this course uses programming languages
+(Python and Javascript) as the main tool, it is required to have good
+understanding and working knowledge of programming.  The basic programming
+courses (I210 \& I211, or equivalent) are required prerequisites. In addition,
+I308: ``Information Representation'' is a recommended prerequisite. Basic
+understanding of statistics and web (HTML, CSS, Javascript) will be very
+helpful. 
+
+%For self-assessment, visit the following link:
+%\begin{itemize}
+    %\item  \href{http://bit.ly/dviz\_selfassess}{http://bit.ly/dviz\_selfassess}
+%\end{itemize}
+
+%If you feel comportable with those questions, you will not have difficulties.
+Contact the instructor if you are uncertain about your background. 
+
+\section{Requirements}
+\label{sec:requirements}
+
+You should attend and participate in class. There will be reading materials
+that you are expected to read \emph{prior} to the class. At the beginning of
+each class, there will be an in-class quiz based on assigned readings and
+materials from previous classes.  
+
+There will be several class assignments. One missed assignment will not count
+against you, but no late assignments will be accepted. 
+
+The mid-term and final assessment will be project-based. For the mid-term
+project, you will perform exploratory data analyses on datasets of your choice
+(which will be set through discussion with the instructors). The final
+assessment will be about creating web-based explanatory visualization that
+communicate insights into datasets (ideally from the datasets that you analyzed
+at the mid-term). 
+
+\section{Books and key materials}
+
+There is no required textbook, but the following books and websites are recommended.
+
+\subsection{Python and data analysis}
+
+\begin{enumerate}
+
+\item \href{http://www.diveintopython3.net/index.html}{Dive Into Python} by Mark Pilgrim (available online): a good Python book. 
+
+\item \href{http://www.learnpython.org}{Learnpython.org}: A web-based interactive tutorial. 
+
+\item \href{http://work.thaslwanter.at/Stats/html/}{An introduction to statistics} (with Python) by Thomas Haslwanter (available online): this book uses Python to explain basic statistics. It also contains a succinct tutorial for Python and data visualization using Python. 
+
+\item \href{http://ipython.rossant.net}{Learning IPython for Interactive Computing and Data Visualization} by  Cyrille Rossant: Introduction to IPython as well as lots of advanced analysis 
+
+
+\end{enumerate}
+
+\subsection{Visualization and Design}
+
+\begin{enumerate}
+
+\item \href{http://www.amazon.com/gp/product/0961392142}{The Visual Display of Quantitative Information (2nd ed.)} by E.R. Tufte: one of the foundational book on visualization. It contains a rich set of historical visualization, thoughtful discussion on visualization principles. 
+
+\item \href{http://www.amazon.com/Atlas-Knowledge-Anyone-Can-Map/dp/0262028816}{Atlas of Knowledge: Anyone Can Map} by K. Börner: this book systematically analyzes vocabularies of visualization with a lot of great examples. 
+
+\item \href{http://www.amazon.com/Visualization-Analysis-Design-AK-Peters/dp/1466508914}{Visualization Analysis and Design} by T. Munzner: a nice textbook that covers important topics of visualization. 
+
+\item \href{http://www.amazon.com/Visual-Thinking-Kaufmann-Interactive-Technologies/dp/0123708966}{Visual Thinking for Design} by C. Ware: one of the best books on the role of perception in visualization. 
+
+\end{enumerate}
+
+\subsection{D3.js}
+
+\begin{enumerate}
+
+\item \href{http://www.amazon.com/Interactive-Data-Visualization-Scott-Murray/dp/1449339735}{Interactive Data Visualization for the Web} by Scott Murray
+
+\item \href{https://github.com/mbostock/d3/wiki}{D3 documentation}
+
+\end{enumerate}
+
+\section{Policies}
+
+\begin{enumerate}
+
+\item \emph{Disabilities.} Every attempt will be made to accommodate qualified
+students with disabilities (e.g. mental health, learning, chronic health,
+physical, hearing, vision, neurological, etc.). You must have established your
+eligibility for support services through Disability Services for Students. Note
+that services are confidential, may take time to put into place, and are not
+retroactive.  Captions and alternate media for print materials may take three
+or more weeks to get produced. Please contact Disability Services for Students
+at \url{http://disabilityservices.indiana.edu} or 812-855-7578 as soon as
+possible if accommodations are needed. The office is located on the third
+floor, west tower, of the Wells Library (Room W302). Walk-ins are welcome 8 AM
+to 5 PM, Monday through Friday. You can also locate a variety of campus
+resources for students and visitors who need assistance at
+\url{http://www.iu.edu/~ada/index.shtml}. 
+
+\item \emph{No electronics---laptops, tablets, and smartphones---may be used in
+class}, unless the usage is specifically requested by the instructors.
+\href{http://www.scientificamerican.com/article/a-learning-secret-don-t-take-notes-with-a-laptop/}{It
+has been shown} that using laptops in class is not a good idea, \emph{even if}
+you are using it to take notes.  If you must have electronics due to a
+disability or other special reasons, please contact the instructor. 
+
+\item \emph{Be honest.} Your assignments and papers should be your own work.
+First, if you find useful resources for your assignments, share them and cite
+them. If your friends helped you, acknolwedge them. Second, feel free to
+discuss both online and offline, but you should not show your code (papers) nor
+see other's. Any cases of academic misconduct (cheating, fabrication,
+plagiarism, etc) will be immediately reported to the School and the Dean of
+Students, following the standard procedure. 
+
+\item \emph{You have the responsibility of backing up all your data and code}.
+Always use at least Box, Dropbox, or Google Drive. Ideally, learn version
+control systems and use \url{https://github.iu.edu} or
+\url{https://github.com}. Loss of data, code, or papers is not an acceptable
+excuse for delayed or missing submission. 
+
+\item \emph{Inform your excused absences prior to class}. Please contact the
+instructor until the previous day for an excused absence.  
+
+\item If you have any issues, don't hesistate to contact me or
+\href{http://healthcenter.indiana.edu/counseling/index.shtml}{IU's Counseling
+and Psychological Services}.
+
+
+\end{enumerate}
+
+\section{Grading (Tentative)}
+\label{sec:grading_tentative_}
+
+\begin{itemize}
+
+\item Attendance, Quiz, and Participation (in-class and online): 30\%
+
+\item Assignments (class and lab): 30\%
+
+\item Mid-term and Final project: 40\%
+
+
+\end{itemize}
+
+\section{Course Schedule}
+
+\subsection{Week 1}
+
+\vspace{-5pt}
+\begin{itemize}
+\itemsep=-5pt
+\item 8/24: Introduction: why visualization?
+\item 8/26: Introduction to Visualization tools and Python stack 
+\end{itemize}
+
+\subsection{Week 2}
+\vspace{-5pt}
+\begin{itemize}
+\itemsep=-5pt
+\item 8/31: Historical perspectives
+\item 9/2: IPython environment and Python review
+\end{itemize}
+
+\subsection{Week 3}
+\vspace{-5pt}
+\begin{itemize}
+\itemsep=-5pt
+\item 9/7: \emph{Labor day}
+\item 9/9: Python data visualization tools \& historical visualizations
+\end{itemize}
+
+\subsection{Week 4 (9/14, 9/16) Perception and Design}
+\subsection{Week 5 (9/21, 9/23) Data Types and Fundamental Visualizations}
+\subsection{Week 6 (9/28, 9/30) Fundamental Visualizations II }
+\subsection{Week 7 (10/5, 10/7) Geospatial Data and Maps I}
+\subsection{Week 8 (10/12, 10/14) Geospatial Data and Maps II}
+
+\subsection{Week 9}
+\vspace{-5pt}
+\begin{itemize}
+\itemsep=-5pt
+\item 10/19: Midterm project presentation
+\item 10/21: Web review (HTML, CSS, Javascript)
+\end{itemize}
+
+\subsection{Week 10 (10/26, 10/28) SVG and Javascript }
+\subsection{Week 11 (11/2, 11/4) D3.js}
+\subsection{Week 12 (11/9, 11/11) Graphs and Trees}
+\subsection{Week 13 (11/16, 11/18) Texts and Maps}
+\subsection{Week 14 (11/23, 11/25) Thanksgiving}
+\subsection{Week 15 (11/30, 12/2) Interactions}
+\subsection{Week 16 (12/7, 12/9) Final project presentation}
+
+\end{document}
