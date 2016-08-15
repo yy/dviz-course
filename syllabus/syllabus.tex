@@ -1,4 +1,6 @@
 \documentclass[11pt,article,oneside]{memoir}
+% based on Kieran Healy's syllabus templates
+% https://github.com/kjhealy/latex-custom-kjh 
 
 \usepackage{org-preamble-pdflatex} 
 
@@ -15,7 +17,7 @@
 \def\mysubtitle{}
 \def\myaffiliation{Indiana University}
 \def\myaddress{Info East Rm 316} 
-\def\myemail{yyahn@indiana.edu}
+\def\myemail{yyahn@iu.edu}
 \def\myweb{http://yongyeol.com}
 \def\myphone{856-2920}
 \def\myversion{}
@@ -25,7 +27,7 @@
 \def\myauthor{Yong-Yeol (YY) Ahn}
 \def\mykeywords{Visualization, Data, Undergraduate, Informatics}
 \def\mysubtitle{Syllabus}
-\def\mytitle{{\normalsize \textsc{Info} 422 (H400/I590) \newline} \HUGE Data Visualization}
+\def\mytitle{{\normalsize \textsc{Info} 422/I590 \newline} \HUGE Data Visualization}
 
 \begin{document}
 
@@ -39,18 +41,24 @@
 
 \title{\LARGE \mytitle}     
 \author{\Large\myauthor \newline \footnotesize\texttt{\noindent\myemail}}
-\date{Fall 2015. Info West 107 (M) / 109 (W)\newline MW 4:00pm--5:15pm. \newline Office hours: T 9am-10:45am}
+\date{Fall 2015. Info West 107 (M) / 109 (W)\newline MW 4:00pm--5:15pm. \newline Office hours: W 9am-10am}
 
 %\published{\sffamily I590/H400/I400 / Fall 2014 / Mon \& Wed 4:00--5:15pm / Info West 107 (M) \& 109 (W)}
 \maketitle
 
 \vspace{-20pt}
-{\bfseries Assistant Instructor} \\ Qing Ke (\texttt{qke@indiana.edu}) \\ Office Hours: WF 10:10am-11am
+{\bfseries Assistant Instructor} \\ Yizhi (Elise) Jing (\texttt{jingy@indiana.edu}) \\ Office Hours: T 1:30pm-3:30pm 
+
+\section{Course Homepage}
+
+This syllabus may contain outdated information. For the most accurate and up-to-date information, 
+please check \url{https://yy.github.io/dviz-course/}. 
 
 \section{Course Description}
 
-From dashboards in a car to cutting-edge scientific papers, we extensively use
-visual representation of data. As our world becomes increasingly connected and
+From dashboards in a car to cutting-edge scientific papers, from a home office
+to the largest companies in the world, we extensively use data visualization to
+reveal patterns in data. As our world becomes increasingly connected and
 digitized, and as decisions are increasingly driven by data, data visualization
 is becoming a critical skill for every knowledge worker. This course is an
 introduction to basic data analysis and visualization. We will learn
@@ -60,11 +68,12 @@ fundamentals of data visualization in terms of exploratory visualization
 
 \section{Course Objectives}
 
-By the end of the course, you will be able to understand various types of data,
-explore datasets using basic exploratory visualization techniques, and create
-simple explanatory web-based visualizations. You will also be able to evaluate
-the effectiveness of data visualizations based on the principles of human
-perception, design, and types of data. 
+By the end of the course, you will be able to understand, explain, and handle
+numerous types of data, analyze datasets using basic exploratory visualization
+techniques, and create simple explanatory web-based visualizations. You will
+also be able to evaluate the effectiveness of data visualizations based on the
+principles of human perception, design, types of data, and visualization
+techniques. 
  
 
 %\begin{itemize}
@@ -82,14 +91,13 @@ perception, design, and types of data.
 \section{Prerequisites}
 \label{sec:Prerequisites}
 
-This course is open to advanced undergraduate students (I422/H400) as well as
-graduate students (I590). Because this course uses programming languages
-(Python and Javascript) as the main tool, it is required to have good
-understanding and working knowledge of programming.  The basic programming
-courses (I210 \& I211, or equivalent) are required prerequisites. In addition,
-I308: ``Information Representation'' is a recommended prerequisite. Basic
-understanding of statistics and web (HTML, CSS, Javascript) will be very
-helpful. 
+This course is open to advanced undergraduate students as well as graduate
+students (I590). Because this course extensively uses programming (Python and
+Javascript), it is required to have good understanding and working knowledge of
+programming. The basic programming courses (I210 \& I211, or equivalent) are
+required prerequisites. In addition, I308: ``Information Representation'' is a
+recommended prerequisite. It is also highly recommended to have working
+knowledge of statistics and web (HTML, CSS, Javascript). 
 
 %For self-assessment, visit the following link:
 %\begin{itemize}
@@ -102,24 +110,23 @@ Contact the instructor if you are uncertain about your background.
 \section{Requirements}
 \label{sec:requirements}
 
-You should attend and participate in class. There will be reading materials
+You should attend and engage in every class. There will be reading materials
 that you are expected to read \emph{prior} to the class. At the beginning of
-each class, there will be an in-class quiz based on assigned readings and
-materials from previous classes.  
+each class, there will be an \emph{in-class quiz} based on assigned readings
+and materials from previous classes.  
 
-There will be several class assignments. One missed assignment will not count
-against you, but no late assignments will be accepted. 
+Assignments from classes and labs are integral part of the class. You cannot
+pass the class without completing these assignments. 
 
-The mid-term and final assessment will be project-based. For the mid-term
-project, you will perform exploratory data analyses on datasets of your choice
-(which will be set through discussion with the instructors). The final
-assessment will be about creating web-based explanatory visualization that
-communicate insights into datasets (ideally from the datasets that you analyzed
-at the mid-term). 
+The mid-term and final assessment will be based on team projects. The choice of
+project topic will be guided by the instructors and you have freedom to choose
+projects ranging from visualization-driven heavy data analysis projects to
+web-based explanatory visualization ones. 
 
 \section{Books and key materials}
 
-There is no required textbook, but the following books and websites are recommended.
+There is no required textbook, but the following books and websites are
+recommended.
 
 \subsection{Python and data analysis}
 
@@ -191,20 +198,21 @@ them. If your friends helped you, acknolwedge them. Second, feel free to
 discuss both online and offline, but you should not show your code (papers) nor
 see other's. Any cases of academic misconduct (cheating, fabrication,
 plagiarism, etc) will be immediately reported to the School and the Dean of
-Students, following the standard procedure. 
+Students, following the standard procedure. Cheating is not cool. 
 
 \item \emph{You have the responsibility of backing up all your data and code}.
 Always use at least Box, Dropbox, or Google Drive. Ideally, learn version
 control systems and use \url{https://github.iu.edu} or
-\url{https://github.com}. Loss of data, code, or papers is not an acceptable
-excuse for delayed or missing submission. 
+\url{https://github.com}. Loss of data, code, or papers due to various reasons
+(e.g. malfunction of your laptop) is not an acceptable excuse for delayed or
+missing submission. 
 
 \item \emph{Inform your excused absences prior to class}. Please contact the
 instructor until the previous day for an excused absence.  
 
 \item If you have any issues, don't hesistate to contact me or
 \href{http://healthcenter.indiana.edu/counseling/index.shtml}{IU's Counseling
-and Psychological Services}.
+and Psychological Services}. 
 
 
 \end{enumerate}
@@ -214,9 +222,9 @@ and Psychological Services}.
 
 \begin{itemize}
 
-\item Attendance, Quiz, and Participation (in-class and online): 30\%
+\item Attendance, Quiz, and Participation (in-class and online): 20\%
 
-\item Assignments (class and lab): 30\%
+\item Assignments (class and lab): 40\%
 
 \item Mid-term and Final project: 40\%
 
@@ -225,51 +233,24 @@ and Psychological Services}.
 
 \section{Course Schedule}
 
-\subsection{Week 1}
+The schedule is subject to change. Find the most up-to-date schedule at 
+\url{https://github.com/yy/dviz-course/wiki/Schedule}
 
-\vspace{-5pt}
-\begin{itemize}
-\itemsep=-5pt
-\item 8/24: Introduction: why visualization?
-\item 8/26: Introduction to Visualization tools and Python stack 
-\end{itemize}
-
-\subsection{Week 2}
-\vspace{-5pt}
-\begin{itemize}
-\itemsep=-5pt
-\item 8/31: Historical perspectives
-\item 9/2: IPython environment and Python review
-\end{itemize}
-
-\subsection{Week 3}
-\vspace{-5pt}
-\begin{itemize}
-\itemsep=-5pt
-\item 9/7: \emph{Labor day}
-\item 9/9: Python data visualization tools \& historical visualizations
-\end{itemize}
-
-\subsection{Week 4 (9/14, 9/16) Perception and Design}
-\subsection{Week 5 (9/21, 9/23) Data Types and Fundamental Visualizations}
-\subsection{Week 6 (9/28, 9/30) Fundamental Visualizations II }
-\subsection{Week 7 (10/5, 10/7) Geospatial Data and Maps I}
-\subsection{Week 8 (10/12, 10/14) Geospatial Data and Maps II}
-
-\subsection{Week 9}
-\vspace{-5pt}
-\begin{itemize}
-\itemsep=-5pt
-\item 10/19: Midterm project presentation
-\item 10/21: Web review (HTML, CSS, Javascript)
-\end{itemize}
-
-\subsection{Week 10 (10/26, 10/28) SVG and Javascript }
-\subsection{Week 11 (11/2, 11/4) D3.js}
-\subsection{Week 12 (11/9, 11/11) Graphs and Trees}
-\subsection{Week 13 (11/16, 11/18) Texts and Maps}
-\subsection{Week 14 (11/23, 11/25) Thanksgiving}
-\subsection{Week 15 (11/30, 12/2) Interactions}
-\subsection{Week 16 (12/7, 12/9) Final project presentation}
+\subsection{Week 1: Why visualization? / Visualization tools}
+\subsection{Week 2: History and integrity / Jupyter notebook / HTML}
+\subsection{Week 3: Labor day / Python visualization tools / CSS}
+\subsection{Week 4: Perception and Design / Javascript I}
+\subsection{Week 5: Data Types and Fundamental Visualizations / Javascript II}
+\subsection{Week 6: Fundamental Visualizations II / D3.js I} 
+\subsection{Week 7: Fundamental Visualizations III / D3.js II}
+\subsection{Week 8: Fundamental Visualizations IV / Midterm Hack}
+\subsection{Week 9: Midterm presentation / KDE, Regression}
+\subsection{Week 10 High dimensional data}
+\subsection{Week 11 Geospatial data and maps I}
+\subsection{Week 12 Geospatial data and maps II}
+\subsection{Week 13 Texts and Graphs}
+\subsection{Week 14 Thanksgiving}
+\subsection{Week 15 Graphs II }
+\subsection{Week 16 Final project presentation}
 
 \end{document}
