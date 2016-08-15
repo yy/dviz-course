@@ -1,7 +1,7 @@
 # Basic Information
 
-- **Instructor**: [Yong-Yeol (YY) Ahn](http://yongyeol.com) (Office Hours: TBD)
-- **Assistant Instructor**: [Yizhi (Elise) Jing](http://yzjing.github.io/) (Office Hours: TBD)
+- **Instructor**: [Yong-Yeol (YY) Ahn](http://yongyeol.com) (Office Hours: Wed 9-10am)
+- **Assistant Instructor**: [Yizhi (Elise) Jing](http://yzjing.github.io/) (Office Hours: Thu 1:30-3:30pm)
 - **Time**: MW 4pm-5:15pm
 - **Location**: Info West 107 (M), 109 (W)
 - **Announcements**: All announcements will be sent via Canvas. Please check Canvas at least once a day. 
