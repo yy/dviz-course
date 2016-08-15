@@ -1,3 +1,5 @@
+- [Self assessment questions](https://github.com/yy/dviz-course/blob/master/w01-intro/I422%20Data%20Visualization%20self-assessment%20questions.ipynb)
+
 # If you want to know more
 
 **Why quizzes and exams (retrievals) are more critical than reading or lecture in learning?**

@@ -1,4 +1,5 @@
 - [Python setup](https://github.com/yy/dviz-course/blob/master/w01-intro/python-setup.md)
+- [Lab1](https://github.com/yy/dviz-course/blob/master/w01-intro/lab.ipynb)
 
 # If you want to know more
 
