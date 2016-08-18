@@ -3,6 +3,7 @@
 - Research "Stevens' power law". 
 - What is "Pre-attentive processing"?
 - [39 studies about human perception in 30 minutes](https://medium.com/@kennelliott/39-studies-about-human-perception-in-30-minutes-4728f9e31a73#.msiyfzvmr)
+- [Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design](http://idl.cs.washington.edu/papers/crowdsourcing-graphical-perception/)
 - Bang Wong, from "Points of View" (they are very short columns)
   - [Color coding](http://www.nature.com/nmeth/journal/v7/n8/full/nmeth0810-573.html)
   - [Design of data figures](http://www.nature.com/nmeth/journal/v7/n9/full/nmeth0910-665.html)
