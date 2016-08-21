@@ -4,7 +4,7 @@
 
 [Continuum Analytics][continuum], a data analysis company, provides a nice Python distribution for data analysis and visualization. It is called [Anaconda][conda] and you can freely download and use. It is usually the easiest solution to install and maintain necessary Python packages for data analysis, regardless of your platform. Here is the download link:
 
-- [Download Anaconda (Python3.4)](http://continuum.io/downloads#py34)
+- [Download Anaconda (Python3.5)](http://continuum.io/downloads)
 
 After installing it, you can keep it updated by executing `conda`. 
 
