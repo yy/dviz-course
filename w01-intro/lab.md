@@ -29,6 +29,10 @@
 - [Anaconda](http://continuum.io/downloads#py34)
 - [Wakari.io](https://wakari.io)
 
+**Other cloud notebook services**
+
+- https://cloud.sagemath.com
+
 **IPython notebook (Jupyter)**
 
 - http://ipython.org
