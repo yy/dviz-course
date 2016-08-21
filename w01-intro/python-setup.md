@@ -23,17 +23,13 @@ If you use Mac or Linux and does not want to use Anaconda, you can install packa
 
 to install most packages that you can use for data analysis and visualization.
 
-## IPython notebook (now called "Jupyter")
+## Jupyter notebook
 
-Once you have `IPython notebook` (`Anaconda` creates a shortcut), you can simply run 
+Once you have `Jupyter notebook` (`Anaconda` creates a shortcut), you can simply run 
 
-    ipython notebook 
+    jupyter notebook 
 
-or 
-
-    jupyter notebook
-
-in the shell or use the launcher to launch ipython notebook. A browser window will appear and show the `IPython notebook` interface. From here, you can create your notebooks and load other notebooks.  
+in the shell or use the launcher to launch ipython notebook. A browser window will appear and show the `Jupyter notebook` interface. From here, you can create your notebooks and load other notebooks.  
 
 ## Wakari.io
 
