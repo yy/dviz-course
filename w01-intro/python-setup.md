@@ -4,7 +4,7 @@
 
 [Continuum Analytics][continuum], a data analysis company, provides a nice Python distribution for data analysis and visualization. It is called [Anaconda][conda] and you can freely download and use. It is usually the easiest solution to install and maintain necessary Python packages for data analysis, regardless of your platform. Here is the download link:
 
-- [Download Anaconda (Python3.4)](http://continuum.io/downloads#py34)
+- [Download Anaconda (Python3.5)](http://continuum.io/downloads)
 
 After installing it, you can keep it updated by executing `conda`. 
 
@@ -23,17 +23,17 @@ If you use Mac or Linux and does not want to use Anaconda, you can install packa
 
 to install most packages that you can use for data analysis and visualization.
 
-## IPython notebook (now called "Jupyter")
+## Jupyter notebook
 
-Once you have `IPython notebook` (`Anaconda` creates a shortcut), you can simply run 
+Once you have `Jupyter notebook` (`Anaconda` creates a shortcut), you can simply run 
 
-    ipython notebook 
+    jupyter notebook 
 
-or 
+in the shell or use the launcher to launch ipython notebook. A browser window will appear and show the `Jupyter notebook` interface. From here, you can create your notebooks and load other notebooks.  
 
-    jupyter notebook
+## Sagemath cloud
 
-in the shell or use the launcher to launch ipython notebook. A browser window will appear and show the `IPython notebook` interface. From here, you can create your notebooks and load other notebooks.  
+[SageMath cloud](https://cloud.sagemath.com) allows you to run Jupyter notebooks on their servers. They provide free accounts. 
 
 ## Wakari.io
 
