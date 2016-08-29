@@ -5,7 +5,7 @@
 - [39 studies about human perception in 30 minutes](https://medium.com/@kennelliott/39-studies-about-human-perception-in-30-minutes-4728f9e31a73#.msiyfzvmr)
 - [Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design](http://idl.cs.washington.edu/papers/crowdsourcing-graphical-perception/)
 - [A Better Default Colormap for Matplotlib | SciPy 2015 | Nathaniel Smith and Stéfan van der Walt](https://www.youtube.com/watch?v=xAoljeRJ3lU)
-
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/xAoljeRJ3lU/0.jpg)](https://www.youtube.com/watch?v=xAoljeRJ3lU)
 
 # If you want to know more
 
