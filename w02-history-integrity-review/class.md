@@ -2,6 +2,15 @@
 
 - E. R. Tufte, VDQI Ch. 1 and 2 (see Canvas). 
 
+# Learning outcomes 
+
+- You will be able to explain the history of visualization in a broad sense and in doing so will be able to appreciate the leap from concrete to abstract thinking in visualization
+- You will be able to explain why it is very easy to fool with (or be fooled by) data visualizations and the common ways that visualizations deceive. 
+- You will be able to explain basic reasons why correlation does not mean causation. 
+- You will be able to explain the impact of the choice of scales. 
+- You will be able to explain the motivation behind Tufte's "lie factor"
+- You will be able to list several ways to create good visualizations (or not to create bad visualizations). 
+
 # If you want to know more
 
 ## Seeing is believing
