@@ -19,6 +19,9 @@ As our brain tries to integrate information from multiple sources and as our
 vision is a dominent sensory input, vision can interfere and dominate other
 sensory inputs. For instance, what you see can distort what you hear and it's
 called the [McGurk Effect](https://en.wikipedia.org/wiki/McGurk_effect).
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=G-lN8vWm3m0" target="_blank"><img src="http://img.youtube.com/vi/G-lN8vWm3m0/0.jpg" alt="Rubber hand illusion" width="240" height="180" border="10" /></a>
+
 Probably more striking example is so-called [rubber hand
 illusion](https://www.youtube.com/watch?v=sxwn1w7MJvk). 
 
