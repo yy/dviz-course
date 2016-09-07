@@ -51,7 +51,7 @@ you can find the developer tools here:
 ![where to put javascript code](https://github.com/yy/dviz-course/blob/master/w03-viztools/chrome_devtool.png)
 
 Then you can click "console". You'll see a prompt `>`. Here, you can run
-Javascript command. You can also interact with the Javascript objects that the
+Javascript commands. You can also interact with the Javascript objects that the
 page that you're looking loaded. 
 
 ### Declaring/initializing variables in JavaScript
