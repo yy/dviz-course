@@ -48,7 +48,11 @@ in a given webpage. Pretty much every browser has "developer tools" (or
 something similar) and "Javascript console". For instance, in Chrome browser,
 you can find the developer tools here: 
 
-![where to put javascript code](https://github.com/yy/dviz-course/blob/master/w03-viztools/js_where.png)
+![where to put javascript code](https://github.com/yy/dviz-course/blob/master/w03-viztools/chrome_devtool.png)
+
+Then you can click "console". You'll see a prompt `>`. Here, you can run
+Javascript command. You can also interact with the Javascript objects that the
+page that you're looking loaded. 
 
 ### Declaring/initializing variables in JavaScript
 
@@ -61,12 +65,21 @@ some basic variable types in JavaScript:
 1. Boolean/logical - `var passTheTest = true;`
 
 Variable typing is dynamic, i.e. you do not have to specify whether a variable
-is an integer, floating point number, string, etc. Be aware that Javascript is
-not particularly good at handling operations that are outside of "normal"
-operations: 
+is an integer, floating point number, string, etc. A benefit is that it is very
+flexible and your code can 'work' somehow in many cases. The drawback is of
+course your code may sometimes work in a totally unexpected way and you may
+have no idea what's happening. Alas, Javascript is not particularly good at
+handling operations that are outside of "normal" operations. For instance,
+check out the following examples. You can find numerous crazy examples about
+Javascript's weird behaviors on the web. An important point to remember is that
+you should pay close attention to the types of variables and that you should be
+aware about crazy behaviors of Javascript. 
 
 ![wtf javascript](https://pbs.twimg.com/media/CpZUexOVUAE1Ihb.jpg)
 
-
+Q1. Open up a browser console and try these crazy commands. Are they really
+true? Define a variety of variables (numbers, strings, float, ...) and try
+several "normal" operations as well as "abnormal" operations between them. Take
+a screenshot of the whole thing and submit to Canvas. 
 
 [atwood]: https://blog.codinghorror.com/the-principle-of-least-power/
