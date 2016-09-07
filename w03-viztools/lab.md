@@ -39,7 +39,7 @@ two ways to do this:
    that, in this case, the file extension will be `.js` instead of `.css`
 
 
-![where to put javascript code](https://github.com/yy/dviz-course/blob/master/w03-viztools/js_where.pngt)
+![where to put javascript code](https://github.com/yy/dviz-course/blob/master/w03-viztools/js_where.png)
 
 ### Declaring/initializing variables in JavaScript
 
