@@ -39,6 +39,26 @@ two ways to do this:
    that, in this case, the file extension will be `.js` instead of `.css`
 
 
-![where to put javascript code](https://github.com/yy/dviz-course/blob/master/w03-viztools/js_where.png)
+![where to put javascript code](https://github.com/yy/dviz-course/blob/master/w03-viztools/js_where.pngt)
+
+### Declaring/initializing variables in JavaScript
+
+A variable is a storage location for some value. Here is how you initialize
+some basic variable types in JavaScript:
+
+1. Declaring a variable - `var i;`
+1. Initializing a numeric variable - `var i = 20;`
+1. Initializing a string - `var word = "the word";`
+1. Boolean/logical - `var passTheTest = true;`
+
+Unlike other languages that you may have encountered, variable typing is
+dynamic, i.e. you do not have to specify whether a variable is an integer,
+floating point number, string, etc. Just the `var` type will suffice.
+
+Javascript has a lot of legacy and it is not the most consistent and beautiful
+languauge. For instance, it behaves in really strange ways if you try something
+that is outside of "normal" operations. 
+
+![wtf javascript](https://pbs.twimg.com/media/CpZUexOVUAE1Ihb.jpg)
 
 [atwood]: https://blog.codinghorror.com/the-principle-of-least-power/
