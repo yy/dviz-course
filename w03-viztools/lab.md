@@ -77,7 +77,9 @@ aware about crazy behaviors of Javascript.
 
 ![wtf javascript](https://pbs.twimg.com/media/CpZUexOVUAE1Ihb.jpg)
 
-Q1. Open up a browser console and try these crazy commands. Are they really
+### Q1 
+
+Open up a browser console and try these crazy commands. Are they really
 true? Define a variety of variables (numbers, strings, float, ...) and try
 several "normal" operations as well as "abnormal" operations between them. Take
 a screenshot of the whole thing and submit to Canvas. 
