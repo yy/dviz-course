@@ -19,13 +19,12 @@ In HTML, there is a simple ‘svg’ tag that can be used to create a ‘canvas�
 	</svg>
 
 
-This code creates a drawing space of width 500 pixels and height 500 pixels as seen in the red-colored line. Inside the ‘svg’ tags, is a line that specifies a yellow circle of radius 22 to be drawn centered at (100, 100), as below:
+This code creates a drawing space of width 200 pixels and height 200 pixels as seen in the red-colored line. Inside the ‘svg’ tags, is a line that specifies a yellow circle of radius 22 to be drawn centered at the coordinates (100, 100).
 
-<svg width="200" height="200">
-   <circle cx="100" cy="100" r="22" fill="yellow" stroke="orange" stroke-width="5"/>
-</svg>
+Try to place this code snippet to an html file. What do you see?
 
-There are two ways to style an ‘svg’ element’. The first way is in-line as in the code above, which is mostly self-explained. 
+
+There are two ways to style an svg element. The first way is in-line as in the code above, which is mostly self-explanatory. 
 
 
 The second way involves the use of CSS. You can place all these attributes in the ‘head’ section of your code as follows:
