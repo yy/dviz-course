@@ -8,7 +8,7 @@
 
 - https://github.com/yy/dviz-course/blob/master/w04-perception-design/w04_lab.ipynb
 
-#Part 2: Introducing SVG
+##Part 2: Introducing SVG
 
 [SVG](http://www.w3schools.com/svg/) stands for Scalable Vector Graphics. Compared to [raster graphics](https://en.wikipedia.org/wiki/Raster_graphics), [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) won't lose quality when zooming in. It is essentially an image file format and you can make and edit them in Adobe Illustrator, Inkscape, etc. In this course, we will mostly be using it for drawing/loading data with maps.
 
