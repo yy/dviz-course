@@ -47,7 +47,7 @@ The second way involves the use of CSS. You can place all these attributes in th
 There are other shapes in SVG, such as [ellipse](http://www.w3schools.com/graphics/svg_ellipse.asp), [line](http://www.w3schools.com/graphics/svg_line.asp), [polygon](http://www.w3schools.com/graphics/svg_polygon.asp) (this can be used to create triangles), and [path](http://www.w3schools.com/graphics/svg_path.asp) (for curved and other complex lines). You can even place text with advanced formatting inside an ‘svg’ element using text.
 
 ###Exercise: 
-Try to reproduce the symbol for the Deathly Hallows (as shown below) with SVG as closely as possible. What's the most efficient way of drawing this? Color it in the way you like.
+Try to reproduce the symbol for the Deathly Hallows (as shown below) with SVG as closely as possible. What's the most efficient way of drawing this? Color it in the way you like. Upload this file to canvas.
 
 ![The deathly hallows](http://vignette1.wikia.nocookie.net/harrypotter/images/2/23/Hallows.png/revision/latest/scale-to-width-down/160?cb=20090309113642)
 
