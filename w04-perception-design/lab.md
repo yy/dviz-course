@@ -15,7 +15,7 @@ Also download the following two images and put them in the same folder.
 
 ## Part 2: Introducing SVG
 
-First of all, think about ways to store an image, which can be a beautiful scenary or a geometric shape (a square). How can you efficiently store them in a computer? Discuss pros and cons of different approaches. Which methods would work best for a photograph of a scene? Which methods would work best for a blueprint of a building?
+**Discussion question**: First of all, think about ways to store an image, which can be a beautiful scenary or a geometric shape (a square). How can you efficiently store them in a computer? Discuss pros and cons of different approaches. Which methods would work best for a photograph of a scene? Which methods would work best for a blueprint of a building?
 
 [SVG](http://www.w3schools.com/svg/) stands for Scalable Vector Graphics. Compared to [raster graphics](https://en.wikipedia.org/wiki/Raster_graphics), [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) won't lose quality when zooming in. It is essentially an image file format and you can make and edit them in Adobe Illustrator, Inkscape, etc. In this course, we will mostly be using it for drawing/loading data with maps.
 
