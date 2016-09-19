@@ -4,11 +4,18 @@
 - [Choosing Colormaps](http://matplotlib.org/users/colormaps.html)
 
 # Lab assignment
-##Part 1: Experiments with Steven's power-law and color maps
+## Part 1: Experiments with Steven's power-law and color maps
 
 - https://github.com/yy/dviz-course/blob/master/w04-perception-design/w04_lab.ipynb
 
-##Part 2: Introducing SVG
+Also download the following two images and put them in the same folder.
+
+- https://github.com/yy/dviz-course/blob/master/w04-perception-design/sneakySnake.png
+- https://github.com/yy/dviz-course/blob/master/w04-perception-design/stevenspowerlaw_barh.png 
+
+## Part 2: Introducing SVG
+
+**Discussion question**: First of all, think about ways to store an image, which can be a beautiful scenary or a geometric shape (a square). How can you efficiently store them in a computer? Discuss pros and cons of different approaches. Which methods would work best for a photograph of a scene? Which methods would work best for a blueprint of a building?
 
 [SVG](http://www.w3schools.com/svg/) stands for Scalable Vector Graphics. Compared to [raster graphics](https://en.wikipedia.org/wiki/Raster_graphics), [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) won't lose quality when zooming in. It is essentially an image file format and you can make and edit them in Adobe Illustrator, Inkscape, etc. In this course, we will mostly be using it for drawing/loading data with maps.
 
