@@ -143,7 +143,7 @@ random numbers in values are. Can such numbers cause a noticeable change on the
 screen? Can you fix it? Put everything into the HTML and check whether you see
 something like this:
 
-![image](http://)
+![image](https://github.com/yy/dviz-course/blob/master/w07-fundamental-3/scatterplot.png)
 
 Add text to the plot: To label the points in the scatter plot, you will need to
 add text to your SVG. To do this, you will have to bind the data to text
@@ -161,7 +161,7 @@ by simply appending a text element to the SVG as in the previous lab.
 
 Create a plot similar to the one above, but put more dots, say 1000. Now you may want to make a jittered plot with varied transparency. Can you create a plot that looks like the following?
 
-![image](http://)
+![image](https://github.com/yy/dviz-course/blob/master/w07-fundamental-3/scatterplot_jittered.png)
 
 **Submit this file on Canvas.**
 
