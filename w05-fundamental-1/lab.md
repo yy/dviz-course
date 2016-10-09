@@ -54,7 +54,7 @@ Next, create a variable `total` that stores the sum of the two numbers.
 
 To view the output, we can have it printed to the console by the following:
 
-    console.log("num1 = " + num1 + );
+    console.log("num1 = " + num1);
 
 Do the same to print `num2` and `total`.
 
