@@ -123,7 +123,7 @@ Luckily, the d3.scale() function does this automatically for us. A scale is a tr
 
 It consists of two parts: a domain and a range. The domain is the input, i.e. the range of numbers in your dataset. The range is the output, i.e. the range of numbers that you want to squeeze the original numbers into (see the illustration below). In our case, the range would be related to the dimensions of our canvas.
 
-![image](http://)
+![image](https://github.com/yy/dviz-course/blob/master/w08-fundamental-4/d3_scale_illustration.png)
 
 In the web console, type the following:
 	
@@ -177,7 +177,7 @@ Also use yScale and rScale on the appropriate quantities to generate `cy` and `r
 
 At this point, you should have a plot that looks like the following:
 
-![image](http://)
+![image](https://github.com/yy/dviz-course/blob/master/w08-fundamental-4/plot_halfdone.png)
 
 The resulting plot looks a little weird, doesn’t it?
 
@@ -187,7 +187,7 @@ Second, the points at the edge seem to get cut off. To fix this, we create some 
 
 Now the plot will look like this:
 
-![image](http://)
+![image](https://github.com/yy/dviz-course/blob/master/w08-fundamental-4/plot_final.png)
 
 Next week, we will be adding axes to this plot. <b>Submit this file on Canvas. </b>
 
