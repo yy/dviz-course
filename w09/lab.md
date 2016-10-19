@@ -84,9 +84,9 @@ Any interactive system has three components: a trigger, a transition and an outc
 ### Set up a trigger for transition
 We need to first set up some kind of triggering mechanism to transition into the log scale - maybe a mouse hover, clicking on text or clicking on a button. To do this, first add this HTML code to the body (before the script and outside the `<script>` tags):
 
-    ```<p>                                                                                                                                                                                     
+    <p>                                                                                                                                                                                     
     Click on this text to change to log-scale.                                                                                                                                                
-    </p>```
+    </p>
 
 To try if the click is working, inside the script tags, at the very bottom, add the following:
 
