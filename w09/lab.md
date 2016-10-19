@@ -1,5 +1,7 @@
 # Before the class
-http://setosa.io/ev/principal-component-analysis/
+- http://setosa.io/ev/principal-component-analysis/
+- http://distill.pub/2016/misread-tsne/
+
 
 # Part 1
 See the ipython notebook.
