@@ -105,7 +105,7 @@ In the case of web pages like ours, think about what would happen if we had an e
 
 In the case of such asynchronous functions, put EVERYTHING else in this exercise within the d3.csv() function as follows:
 
-    d3.csv("lab9.csv", function(data) {
+    d3.csv("co2_income.csv", function(data) {
 		// THE CODE FOR THE VIZ GOES HERE
         });
         
