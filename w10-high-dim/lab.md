@@ -14,7 +14,7 @@ Line charts are good at visualizing time series, so we'll work with a time serie
 
 We start with creating an SVG canvas and set the x and y axis based on the data. Now that you're familiar with D3, it shouldn't be too difficult. By adjusting the code from last week, create a setup like this:
 
-![image](http://)
+![image](https://github.com/yy/dviz-course/blob/master/w10-high-dim/setup_axis.png)
 
 Note that the year data starts with not 0 but 1720, and the silver production data starts with not 0 but 7,369,815. This means when creating the `xScale` and `yScale`, in addition to the `xmax` and `ymax` that we calculated, we also need to calculate `xmin` and `ymin` in a similar way and use them to set `xScale` and `yScale`.
 
@@ -43,7 +43,7 @@ The attr `d` determines the shape of the `path` object. We call `line` (which wo
 
 Now we have a line chart:
 
-![image](http://)
+![image](https://github.com/yy/dviz-course/blob/master/w10-high-dim/line_chart.png)
 
 ## Animation
 We can add some animation effects to the line chart. For example, we can let the line "unroll" itself, imitating the drawing (see the method 2 [in this webpage](http://codepen.io/himmel/live/LpbpLb) for a demo). 
@@ -99,7 +99,7 @@ Hint: you can use `d3.select` to select the line. `.remove()` will delete it.
 ## Advanced (optional)
 An area chart is similar to a line chart, but fills the area underneath the line. Using the same data, can you change the code to create an area chart (no need to do the animation/interactions)? It should look like this:
 
-![image](http://)
+![image](https://github.com/yy/dviz-course/blob/master/w10-high-dim/area_chart.png)
 
 You can submit this as a seperate file if you choose to do it.
 
