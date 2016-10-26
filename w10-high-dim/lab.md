@@ -90,7 +90,7 @@ Then, we just need to create an `onclick` event and move the code for drawing th
     //Move the code for creating the path and the animation here
     });
     
-We can also create another button `reset` which removes the line onclick, allowing it to be drawn again. Can you implement this?
+We can also create another button `Reset` which removes the line onclick, allowing it to be drawn again. Can you implement this?
 
 Hint: you can use `d3.select` to select the line. `.remove()` will delete it.
 
