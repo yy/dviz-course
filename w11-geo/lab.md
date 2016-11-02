@@ -1,8 +1,10 @@
 # Before the class
 Understand more about SVG paths and how D3 utilizes them: [https://www.dashingd3js.com/svg-paths-and-d3js](https://www.dashingd3js.com/svg-paths-and-d3js)
 
+# Part 1
+[https://github.com/yy/dviz-course/blob/master/w11-geo/w11_lab.ipynb](https://github.com/yy/dviz-course/blob/master/w11-geo/w11_lab.ipynb)
 
-# Maps part I
+# Part 2: Maps I
 
 ## A basic map of the US
 ### topojson
