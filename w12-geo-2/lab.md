@@ -87,7 +87,6 @@ Recall that drawing a circle requires two parameters - the center (`cx`, `cy`) a
   	   .attr("cx", function(d) {return projection([d.longitude, d.latitude])[0];})
   	   .attr("cy", function(d) {return projection([d.longitude, d.latitude])[1];})
   	   .attr("r", 5)
- 	   .style("opacity", 0.5)
   	   .style("fill", "red");
 
 The main trick here is that we are applying the Albers projection to the longitudinal and latitudinal information in the CSV file. The output of this application serves as the center for each point.
