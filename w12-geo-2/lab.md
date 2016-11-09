@@ -84,8 +84,8 @@ Recall that drawing a circle requires two parameters - the center (`cx`, `cy`) a
   	   .data(data)
   	   .enter()
   	   .append("circle")
-  	   .attr("cx", function(d) {return projection([d.lon, d.lat])[0];})
-  	   .attr("cy", function(d) {return projection([d.lon, d.lat])[1];})
+  	   .attr("cx", function(d) {return projection([d.longitude, d.latitude])[0];})
+  	   .attr("cy", function(d) {return projection([d.longitude, d.latitude])[1];})
   	   .attr("r", 5)
  	   .style("opacity", 0.5)
   	   .style("fill", "red");
@@ -100,9 +100,9 @@ For the radius, we can use a hardcoded scaling function. Change the correspoding
   	   .data(data)
   	   .enter()
   	   .append("circle")
-  	   .attr("cx", function(d) {return projection([d.lon, d.lat])[0];})
-  	   .attr("cy", function(d) {return projection([d.lon, d.lat])[1];})
-  	   .attr("r", function(d) {return Math.sqrt(d.pop * 0.00004);})
+  	   .attr("cx", function(d) {return projection([d.longitude, d.latitude])[0];})
+  	   .attr("cy", function(d) {return projection([d.longitude, d.latitude])[1];})
+  	   .attr("r", function(d) {return Math.sqrt(d.population * 0.00004);})
   	   .style("fill", "red");
 
 For the opacity, we can just set a number between 0 and 1.
