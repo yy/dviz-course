@@ -126,9 +126,13 @@ cx + radius + some offset
 
 ### Mapbox
 
-[Mapbox](https://www.mapbox.com) is a mapping platform. You can use it for developing mobile or web apps, or use it to create geo-visualizations. Create an account, create a project, and play with it. You can display maps in different styles, in different locations, and in different zoom levels. When you click "save", it saves the current view (style, location, zoom level) as the default for your app. For heatmaps, black map works well. 
+[Mapbox](https://www.mapbox.com) is a mapping platform. You can use it for developing mobile or web apps, or use it to create geo-visualizations. To use it, you'll need to register for an account.
 
-In "Project" tap, you can see your `map ID`. Copy the code in the `Embed` section somewhere, you can see the following code:
+Our main purpose is to use it as a [tile](https://wiki.openstreetmap.org/wiki/Tiles) provider. For this we need to have a map ID. This is only available in their "classic" editor. So once you have an account, you can click the "Classic"tab to go to that mode.
+
+Next click the "New Mapbox Editor project" to create a new project. In the editor, choose the "dark" style (this works well for heatmaps). Give it a name and save it.
+
+Once saved, in the "Project" tap, you can see your `map ID`. We'll also need another thing: the `access token`. In the `Embed` box, you can see the following code:
 
     share.html?access_token=.....'></iframe>
 
@@ -136,13 +140,16 @@ Copy the .... part (the `access token`).
 
 ### Leaflet
 
-Now you can use the mapbox tiles with the [Leaflet, which is an open-source JavaScript library for mobile-friendly interactive maps](http://leafletjs.com). By using the following pages, draw a heatmap of Walmart stores. 
+Now you can use the mapbox tiles with [Leaflet, which is an open-source JavaScript library for mobile-friendly interactive maps](http://leafletjs.com). By using the following resource, we can draw a heatmap of Walmart stores.
 
-- [Wal-Mart Stores](https://www.google.com/fusiontables/DataSource?docid=1ag3Z3Uwp_hWiHeiBRqGrS_HzEtwUjeVh4d4ZAnI#rows:id=1): `File` -> `Download`
+- `walmart.js` (on Canvas)
+
+- [A tiny, simple and fast heatmap plugin for Leaflet.](https://github.com/Leaflet/Leaflet.heat) - This is a plugin for making heatmaps. Just include it as in the following template.
+
 - [Leaflet Quick start guide](http://leafletjs.com/examples/quick-start.html)
-- [A tiny, simple and fast heatmap plugin for Leaflet.](https://github.com/Leaflet/Leaflet.heat) - you don't need to download from the page. Use the following template. 
 
-Here is an HTML template:
+
+HTML template:
 
     <!DOCTYPE html>
     <html>
@@ -166,8 +173,8 @@ Here is an HTML template:
     <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
     <script src="http://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js">
     </script>
-    <script src="walmart.js"></script>  <!-- put your data into data.js -->
-
+    <script src="walmart.js"></script>  
+    
     <script>
 
     //  put your code here. 
@@ -181,3 +188,6 @@ Here is an HTML template:
 You can get something like this: 
 
 ![Walmart heatmap](https://raw.githubusercontent.com/yy/dviz-course/master/w12-geo-2/walmart.png)
+
+**TODO:** Make the heatmap. Submit this file on Canvas.
+
