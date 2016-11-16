@@ -84,7 +84,7 @@ Next create the nodes by reference our data, `tier_1`. D3 will make a rectangle 
 
 Open this page through a local server:
 
-![image](http://)
+![image](https://github.com/yy/dviz-course/blob/master/w13-text-graph/tree_map_halfdone.png)
 
 The rectangles are crammed together. What's going wrong?
 
@@ -128,4 +128,4 @@ Smilarly, we can also visualize the first two layers. But the tier 2 data is lar
 
 **TODO: make another plot visualizing tier 2. You can just add a `div` to the previous code, so the overall plot will look like the following. Submit this file to Canvas. **
 
-![image](http://)
+![image](https://github.com/yy/dviz-course/blob/master/w13-text-graph/tree_map_2.png)
