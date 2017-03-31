@@ -11,6 +11,16 @@ integrity, design, and statistics, as well as various types of data and
 visualization techniques. The hands-on exercises using Python stack and D3.js
 will be an integral part of the course. 
 
+# Course objectives
+
+By the end of the course, you are expected to understand, explain, and handle
+basic types of data, analyze them using basic exploratory visualization
+techniques, and create explanatory web-based visualizations. You will also be
+able to evaluate the effectiveness of data visualizations based on the
+principles of human perception, design, types of data, and visualization
+techniques. 
+
+
 
 # Basic Information
 
