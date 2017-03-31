@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Course overview
 
 From dashboards to cutting-edge scientific papers, from a home office to the
