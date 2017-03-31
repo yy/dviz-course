@@ -12,7 +12,6 @@ visualization techniques. The hands-on exercises using Python stack and D3.js
 will be an integral part of the course. 
 
 
-
 # Basic Information
 
 - **Homepage**: https://yy.github.io/dviz-course/
