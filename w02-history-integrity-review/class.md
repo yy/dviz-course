@@ -68,10 +68,10 @@ Although I believe that statistics is one of the best tools that we have to make
 
 ![](http://ecx.images-amazon.com/images/I/51FKg7ecS%2BL._SX334_BO1,204,203,200_.jpg)
 
-The book talks about how you can manipulate perception by showing certain range of values for the vertical axis (mainly by not starting at zero). But it should not be followed religiously. The following video explains this point nicely.
+The book talks about how you can manipulate perception by showing certain range of values for the vertical axis (mainly by not starting at zero). But it should not be followed religiously. The following video by Vox, titled [Shut up about the y-axis. It shouldn’t always start at zero.](https://youtu.be/14VYnFhBKcY) explains this point nicely.
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=14VYnFhBKcY
 " target="_blank"><img src="http://img.youtube.com/vi/14VYnFhBKcY/0.jpg" 
-alt="Rubber hand illusion" width="240" height="180" border="10" /></a>
+alt="Shut up about the y-axis. It shouldn’t always start at zero." width="240" height="180" border="10" /></a>
 
 
