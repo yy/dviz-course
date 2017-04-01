@@ -69,4 +69,8 @@ Although I believe that statistics is one of the best tools that we have to make
 ![](http://ecx.images-amazon.com/images/I/51FKg7ecS%2BL._SX334_BO1,204,203,200_.jpg)
 
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=14VYnFhBKcY
+" target="_blank"><img src="http://img.youtube.com/vi/14VYnFhBKcY/0.jpg" 
+alt="Rubber hand illusion" width="240" height="180" border="10" /></a>
+
 
