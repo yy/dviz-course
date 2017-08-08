@@ -1,6 +1,5 @@
 # Basic Information
 
-- **Homepage**: https://yy.github.io/dviz-course/
 - **Instructor**: [Yong-Yeol (YY) Ahn](http://yongyeol.com) (Office Hours: Wed 9-10am)
 - **Assistant Instructor**: TBD
 - **Time**: MW 4pm-5:15pm
