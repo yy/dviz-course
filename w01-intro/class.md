@@ -13,6 +13,7 @@
 
 **John Snow's Cholera map and Voronoi diagram**
 
+- [Wikipedia: Voronoi Diagram](https://en.wikipedia.org/wiki/Voronoi_diagram)
 - [The Ghost Map: The Story of London's Most Terrifying Epidemic--and How It Changed Science, Cities, and the Modern World](http://www.amazon.com/The-Ghost-Map-Terrifying-Epidemic/dp/1594482691) by Steven Johnson
 - [A simple IPython notebook that explores the map and Voronoi diagram](https://github.com/yy/dviz-course/blob/master/w01-intro/cholera_map/john-snow-cholera-map.ipynb)
 
