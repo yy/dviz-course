@@ -25,6 +25,7 @@
 **Power of visualization**
 
 - [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet)
+- [Same Stats, Different Graphs - CHI 2017](https://www.youtube.com/watch?v=DbJyPELmhJc)
 - [Pre-attentive processing](https://en.wikipedia.org/wiki/Pre-attentive_processing)
 
 **Visualizations**
