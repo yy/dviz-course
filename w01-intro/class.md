@@ -11,6 +11,10 @@
 - [RSA Animate - Drive: The surprising truth about what motivates us](https://www.youtube.com/watch?feature=player_detailpage&v=u6XAPnuFjJc)
 - Wrzesniewski, Amy, et al. "Multiple types of motives don't multiply the motivation of West Point cadets." [Proceedings of the National Academy of Sciences 111.30 (2014): 10990-10995.](http://www.pnas.org/content/111/30/10990.short)
 
+**Industrial revolution**
+
+- [Coal, Steam, and the Industrial Revolution: Crash Course World History #32](https://www.youtube.com/watch?v=zhL5DCizj5c)
+
 **John Snow's Cholera map and Voronoi diagram**
 
 - [Wikipedia: Voronoi Diagram](https://en.wikipedia.org/wiki/Voronoi_diagram)
