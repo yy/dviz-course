@@ -11,8 +11,13 @@
 - [RSA Animate - Drive: The surprising truth about what motivates us](https://www.youtube.com/watch?feature=player_detailpage&v=u6XAPnuFjJc)
 - Wrzesniewski, Amy, et al. "Multiple types of motives don't multiply the motivation of West Point cadets." [Proceedings of the National Academy of Sciences 111.30 (2014): 10990-10995.](http://www.pnas.org/content/111/30/10990.short)
 
+**Industrial revolution**
+
+- [Coal, Steam, and the Industrial Revolution: Crash Course World History #32](https://www.youtube.com/watch?v=zhL5DCizj5c)
+
 **John Snow's Cholera map and Voronoi diagram**
 
+- [Nightmen in London](http://www.victorianweb.org/history/work/19.html)
 - [Wikipedia: Voronoi Diagram](https://en.wikipedia.org/wiki/Voronoi_diagram)
 - [The Ghost Map: The Story of London's Most Terrifying Epidemic--and How It Changed Science, Cities, and the Modern World](http://www.amazon.com/The-Ghost-Map-Terrifying-Epidemic/dp/1594482691) by Steven Johnson
 - [A simple IPython notebook that explores the map and Voronoi diagram](https://github.com/yy/dviz-course/blob/master/w01-intro/cholera_map/john-snow-cholera-map.ipynb)
@@ -20,6 +25,7 @@
 **Power of visualization**
 
 - [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet)
+- [Same Stats, Different Graphs - CHI 2017](https://www.youtube.com/watch?v=DbJyPELmhJc)
 - [Pre-attentive processing](https://en.wikipedia.org/wiki/Pre-attentive_processing)
 
 **Visualizations**
