@@ -70,8 +70,7 @@ Here is a list of important tags and their descriptions.
 
 **Exercise: Use the top 5 voted movies found in the first part, try the following:
 
-- Create a table with the following columns: Movie Title, Year, Rating, Votes.
-Create a link with each movie title to its IMDB page.
+- Create an HTML page. Add a table with the following columns: Movie Title, Year, Rating, Votes. Fill in with the 5 movies' information. Create a link with each movie title to its IMDB page.
 
 - Add a title for the table. Can you change its font and set it to bold?
 
@@ -90,6 +89,7 @@ A CSS stylesheet consists of one or more selectors, properties and values. For e
   	  background-color: white;   
   	  color: steelblue;   
 	}
+	
 Selectors are the HTML elements to which the specific styles (combination of properties and values) will be applied. In the above example, all text within the `body` tags will be in steelblue.
 
 There are three ways to include CSS code in HTML. This is called "referencing".
@@ -97,14 +97,14 @@ There are three ways to include CSS code in HTML. This is called "referencing".
 Embed CSS in HTML - You can place the CSS code within `style` tags inside the `head` tags. This way you can keep everything within a single HTML file but does make the code lengthy.
 
     <head>  			
-    <style type="text/css" 	
-    .description {
-    font: 16px times-new-roman;
-    }
-    .viz {
-    font: 10px sans-serif;
-    } 
-    </style>
+        <style type="text/css" 	
+        .description {
+        font: 16px times-new-roman;
+        }
+        .viz {
+        font: 10px sans-serif;
+        } 
+        </style>
 	
 Reference an external stylesheet from HTML - This is a much cleaner way but results in the creation of another file. To do this, you can copy the CSS code into a text file and save it as a .css file in the same folder as the HTML file. In the document head in the HTML code, you can then do the following:
 
@@ -118,6 +118,6 @@ Attach inline styles - You can also directly attach the styles in-line along wit
     Inline styles can help when using D3.
     </p>
     
-**Exercise: make at least 3 more changes to make your webpage more attractive using CSS. Show your style!
+**Exercise: make at least 3 more changes to make your web page more attractive using CSS. Show your style!
 
 Test your code by visiting the web page on your local server. Name the .html file with file name "lab02_html_lastname_firstname"", and upload to Canvas.**
