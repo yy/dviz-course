@@ -68,7 +68,7 @@ Here is a list of important tags and their descriptions.
 
 - `div` - This will not visibly change anything on the webpage. But it is important while referencing in CSS or JavaScript. It stands for division and allocates a section of a page.
 
-Use the top 5 voted movies found in the first part, try the following:
+**Exercise: Use the top 5 voted movies found in the first part, try the following:
 
 - Create a table with the following columns: Movie Title, Year, Rating, Votes.
 Create a link with each movie title to its IMDB page.
@@ -77,39 +77,47 @@ Create a link with each movie title to its IMDB page.
 
 - Change the background color of the page.
 
-- Add an entry of your favorite movie to the table. Can you set the text to a different color to highlight it?
+- Add an entry of your favorite movie to the table. Can you set the text to a different color to highlight it?**
 
-**Test your code by visiting the web page on your local server. Name the .html file with file name 'lab02_html_lastname_firstname', and upload to Canvas.**
 
-<!--
-This part can be edited?
+### CSS review
 
-3. CSS review
 While HTML directly deals with the content and structure, CSS (Cascading Style Sheets) is the primary language that is used for the look and formatting of a web document.
+
 A CSS stylesheet consists of one or more selectors, properties and values. For example:
-body {   
-    background-color: white;   
-    color: steelblue;   
-}
-Selectors are the HTML elements to which the specific styles (combination of properties and values) will be applied. In the above example, all text within the ‘body’ tags will be in steelblue.
-There are three ways to include CSS code in HTML. This is called ‘referencing’.
-Embed CSS in HTML - You can place the CSS code within ‘style’ tags inside the ‘head’ tags. This way you can keep everything within a single HTML file but does make the code lengthy.
-<head>
-  <style type="text/css">
-      .description {
-      font: 16px times-new-roman;
-      }
-      .viz {
-      font: 10px sans-serif;
-      } 
+
+	body {   
+  	  background-color: white;   
+  	  color: steelblue;   
+	}
+Selectors are the HTML elements to which the specific styles (combination of properties and values) will be applied. In the above example, all text within the `body` tags will be in steelblue.
+
+There are three ways to include CSS code in HTML. This is called "referencing".
+
+Embed CSS in HTML - You can place the CSS code within `style` tags inside the `head` tags. This way you can keep everything within a single HTML file but does make the code lengthy.
+
+    <head>  			
+    <style type="text/css" 	
+    .description {
+    font: 16px times-new-roman;
+    }
+    .viz {
+    font: 10px sans-serif;
+    } 
     </style>
-</head>
-Reference an external stylesheet from HTML - This is a much cleaner way but results in the creation of another file. To do this, you can copy the CSS code into a text file and save it as a ‘.css’ file in the same folder as the HTML file. In the document head in the HTML code, you can then do the following:
-<head>
-  <link rel=”stylesheet” href=”stylesheet.css”>
-</head>
-Attach inline styles - You can also directly attach the styles in-line along with the main HTML code in the body. This makes it easy to customize specific elements but makes the code very messy - the design and content get mixed up.
-<p style=”color: green; font-size:36px; font-weight:bold;”>
-  Inline styles can help when using D3.
-</p>
-Can you redo questions 3-5 in the previous section with only css? Name the .ipynb file with file name 'lab02_css_lastname_firstname', and upload to Canvas.-->
+	
+Reference an external stylesheet from HTML - This is a much cleaner way but results in the creation of another file. To do this, you can copy the CSS code into a text file and save it as a .css file in the same folder as the HTML file. In the document head in the HTML code, you can then do the following:
+
+	<head>
+ 	 <link rel=”stylesheet” href=”stylesheet.css”>
+	</head>
+	
+Attach inline styles - You can also directly attach the styles in-line along with the main HTML code in the body. This makes it easy to customize specific elements but makes the code very messy, because the design and content get mixed up.
+
+	<p style=”color: green; font-size:36px; font-weight:bold;”>
+    Inline styles can help when using D3.
+    </p>
+    
+**Exercise: make at least 3 more changes to make your webpage more attractive using CSS. Show your style!
+
+Test your code by visiting the web page on your local server. Name the .html file with file name "lab02_html_lastname_firstname"", and upload to Canvas.**
