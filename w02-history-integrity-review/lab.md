@@ -109,12 +109,12 @@ Embed CSS in HTML - You can place the CSS code within `style` tags inside the `h
 Reference an external stylesheet from HTML - This is a much cleaner way but results in the creation of another file. To do this, you can copy the CSS code into a text file and save it as a .css file in the same folder as the HTML file. In the document head in the HTML code, you can then do the following:
 
 	<head>
- 	 <link rel=”stylesheet” href=”stylesheet.css”>
+ 	 <link rel="stylesheet" href="stylesheet.css">
 	</head>
 	
 Attach inline styles - You can also directly attach the styles in-line along with the main HTML code in the body. This makes it easy to customize specific elements but makes the code very messy, because the design and content get mixed up.
 
-	<p style=”color: green; font-size:36px; font-weight:bold;”>
+	<p style="color: green; font-size:36px; font-weight:bold;">
     Inline styles can help when using D3.
     </p>
     
