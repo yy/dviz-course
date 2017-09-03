@@ -68,7 +68,7 @@ Here is a list of important tags and their descriptions.
 
 - `div` - This will not visibly change anything on the webpage. But it is important while referencing in CSS or JavaScript. It stands for division and allocates a section of a page.
 
-**Exercise: Use the top 5 voted movies found in the first part, try the following:
+<b>Exercise: Use the top 5 voted movies found in the first part, try the following:
 
 - Create an HTML page. Add a table with the following columns: Movie Title, Year, Rating, Votes. Fill in with the 5 movies' information. Create a link with each movie title to its IMDB page.
 
@@ -76,7 +76,7 @@ Here is a list of important tags and their descriptions.
 
 - Change the background color of the page.
 
-- Add an entry of your favorite movie to the table. Can you set the text to a different color to highlight it?**
+- Add an entry of your favorite movie to the table. Can you set the text to a different color to highlight it?</b>
 
 
 ### CSS review
@@ -118,6 +118,6 @@ Attach inline styles - You can also directly attach the styles in-line along wit
     Inline styles can help when using D3.
     </p>
     
-**Exercise: make at least 3 more changes to make your web page more attractive using CSS. Show your style!
+<b>Exercise: make at least 3 more changes to make your web page more attractive using CSS. Show your style!
 
-Test your code by visiting the web page on your local server. Name the .html file with file name "lab02_html_lastname_firstname"", and upload to Canvas.**
+Test your code by visiting the web page on your local server. Name the .html file with file name "lab02_html_lastname_firstname"", and upload to Canvas.</b>
