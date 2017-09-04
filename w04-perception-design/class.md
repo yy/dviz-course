@@ -32,3 +32,4 @@
 ## Colors
 
 - [Blender Guru: Understanding Color](https://www.youtube.com/watch?v=Qj1FK8n7WgY)
+- [Beginning Graphic Design: color](https://www.youtube.com/watch?v=_2LLXnUdUIc)
