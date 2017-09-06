@@ -28,3 +28,8 @@
 - [Weber's law and thresholds](https://www.khanacademy.org/science/health-and-medicine/nervous-system-and-sensory-infor/sensory-perception-2014-03-27T18:45:20.451Z/v/webers-law-and-thresholds)
 - [Weber–Fechner law](https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law)
 - [Stevens's power law](https://en.wikipedia.org/wiki/Stevens%27s_power_law)
+
+## Colors
+
+- [Blender Guru: Understanding Color](https://www.youtube.com/watch?v=Qj1FK8n7WgY)
+- [Beginning Graphic Design: color](https://www.youtube.com/watch?v=_2LLXnUdUIc)
