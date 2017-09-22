@@ -42,7 +42,7 @@ Then, we need to make JavaScript ‘talk’ with this form such that the two inp
 
 Inside this function, add the following line:
 
-	var num1 = parseInt(document.getElementById("myform").elements[0].value);
+	var num1 = parseInt(document.getElementById("myform").elements["num1"].value);
 
 This line extracts the first number from ‘myform’ and stores it in ‘num1’. Note that the first number is the first element in the ‘elements’ array. Do the same for num2 by changing the index from 0 to 1.
 
