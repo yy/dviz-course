@@ -33,3 +33,8 @@
 
 - [Blender Guru: Understanding Color](https://www.youtube.com/watch?v=Qj1FK8n7WgY)
 - [Beginning Graphic Design: color](https://www.youtube.com/watch?v=_2LLXnUdUIc)
+
+## Pre-attentive processing
+
+- [Christopher Healey: Perception in Visualization](https://www.csc2.ncsu.edu/faculty/healey/PP)
+
