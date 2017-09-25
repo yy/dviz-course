@@ -7,7 +7,7 @@
 
 # Part 1:
 
-https://github.com/yy/dviz-course/blob/master/w06-fundamental-2/W06Lab.ipynb
+https://github.com/yy/dviz-course/blob/master/w06-fundamental-2/w06_lab.ipynb
 
 # Part 2: Introduction to D3
 
@@ -15,7 +15,7 @@ https://github.com/yy/dviz-course/blob/master/w06-fundamental-2/W06Lab.ipynb
 
 D3 stands for Data-Driven Documents. Loosely, this means instead of thinking of
 a webpage as a static and pre-constructed document, it can be conceptualized as
-a document constructed ‘on-the-fly’ from data. Think of D3 as a means of
+a document constructed "on-the-fly" from data. Think of D3 as a means of
 creating and modifying HTML elements without having to type them out by hand.
 
 Note that D3 is NOT a distinct language. It is a library written in JavaScript
@@ -66,15 +66,15 @@ Let us go over each line of this code:
 a variable. The input to this function is the name of the element. In this
 case, the selected element was `body` and the variable was `body`. 
 
-`selection.append()` appends an element into the element selected above. In
-this case, a `<p>` tag is created inside the `body` element. That is why in the
+`.append()` appends an element into the element selected above. In
+this case, a `p` tag is created inside the `body` element. That is why in the
 `Inspector` you now see `p` tags inside the body. Here, `p` is input to the
-function whose output is stored in a variable named `p`.  `selection.text()`
+function whose output is stored in a variable named `p`.  `.text()`
 adds some input text to the selected element.
 
 Thus, without typing any HTML code out, new content has been generated on your
 page by the functions pulled from d3.js. Note that functions such as
-`d3.select()`, `selection.append()` and `selection.text()` have already been
+`d3.select()`, `.append()` and `.text()` have already been
 written out for you in this JavaScript file. All you need to know is what
 functions are available and how to use them. For a full list of functions and
 their input/output parameters, you can always refer to the D3 API. 
@@ -104,7 +104,7 @@ out each chained statement in different lines, as follows:
       </script>
     </body>
 
-## Exercise: Creating a simple bar chart using D3
+## Exercise: simple bar chart using D3
 
 We have introduced how to use SVG elements to create a desired shape. Now we
 can create and manipulate SVG elements using D3.
@@ -122,7 +122,7 @@ Start with a simple skeleton HTML page as shown below and save it as
     </body>
     </html>
 
-Create five `div` elements with IDs `bar1`, `bar2`, `bar3`, `bar4` and `bar5`:
+Here we'll not use more sophiscated functions, but draw each bar manually. Create five `div` elements with IDs `bar1`, `bar2`, `bar3`, `bar4` and `bar5`:
 
     <body>
       <div id="bar1">
@@ -132,9 +132,8 @@ Create five `div` elements with IDs `bar1`, `bar2`, `bar3`, `bar4` and `bar5`:
       ...
     </body>
 
-Inside each `div` open `script` tags and write D3 code to select the `div`,
-append an SVG canvas of a particular size. Ensure that for all `divs`, the same
-dimensions are used:
+Inside each `div`, open `script` tags and write D3 code to select the `div`,
+append an SVG canvas of a particular size. This will create the spaces to draw the rectangles. Ensure that for all `divs`, the same dimensions are used:
 
     <div id="bar1">
     <script type="text/javascript">
@@ -163,7 +162,7 @@ rectangles:
 
     var bar1 = svg1.append("rect")
                    .attr("width", 250)
-                   .attr("height", 25);
+                   .attr("height", 30);
     </script>
     </div>
 
@@ -174,7 +173,7 @@ generated.
 
 Now, at the top of each bar, include the width of the bars as an indicator of
 the value that it represents. For example, a bar of width 250 will have the
-number 250 at the base. This can be done as follows:
+number 250 at the base. This can be done as following:
 
     <div id="bar1">
     <script type="text/javascript">
@@ -185,7 +184,7 @@ number 250 at the base. This can be done as follows:
 
     var bar1 = svg1.append("rect")
                    .attr("width", 250)
-                   .attr("height", 25);
+                   .attr("height", 30);
 
     svg1.append("text")
         .attr("x", 200)
