@@ -6,7 +6,7 @@
 
 # Part 1:
 
-See the Jupyter notebook.
+See the Jupyter [notebook](https://github.com/yy/dviz-course/blob/master/w07-fundamental-3/w07_lab.ipynb).
 
 # Part 2: Introduction to Javascript (including d3) III
 
