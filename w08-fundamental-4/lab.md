@@ -75,7 +75,7 @@ When we set, for example, the attributes of the svg, what are we calling?
 	    console.log(svg.attr)
 		< function (n,t){if(arguments.length<2){if("string"==typeof n)`{vare=this.node();return n=ao.ns.qualify(n),n.local?e.getAttributeNS(n.space,n.local):e.getAttribute(n)}for(t in n)this.each(z(t,n[t]));ret…
 
-It's a property that contains a function. These are Javascript methods: functions stored as object properties.
+It's a property that contains a function. These are Javascript methods: functions stored as object properties. D3 simplifies things for us by hiding all of these under the surface.
 
 ## 2-D scatter plot with D3
 
@@ -93,7 +93,7 @@ Recall from the last lab that binding data means linking elements of our visuali
     .attr("r", 5)
     .attr("cx", function(d) {return width * d;});
 
-Remember that .data() and .enter() bound the data to all circles (that were not drawn yet until the call to the .append() function).
+Remember that .data() and .enter() bound the data to all circles. However, the circles were not drawn yet until the call to the .append() function).
 
 This time we'll use some data from external files. To read data from a csv file, D3 provides a method:
 
@@ -103,7 +103,7 @@ This time we'll use some data from external files. To read data from a csv file,
 
 In the case of web pages like ours, think about what would happen if we had an extremely large CSV file? Would it not take a really long time to load and slow down the display of the rest of the page? To avoid this, D3 uses a 'callback' function that is executed asynchronously. This allows the rest of the page to be displayed while the data is being loaded, instead of waiting for it. 
 
-In the case of such asynchronous functions, put EVERYTHING else in this exercise within the d3.csv() function as follows:
+In the case of such asynchronous functions, put *everything else* in this exercise within the d3.csv() function as follows:
 
     d3.csv("co2_income.csv", function(data) {
 		// THE CODE FOR THE VIZ GOES HERE
@@ -113,15 +113,15 @@ In the case of such asynchronous functions, put EVERYTHING else in this exercise
 
 ### Scaling in D3
 
-First, make a skeleton HTML page like the ones in previous exercises. In the HTML, define two variables `w` and `h` with some numbers like width 1000 and height 500. Also create another variable called `padding` and set it to 30 (we will use this later).
+First, make a skeleton HTML page like the ones in previous exercises. In the HTML, define two variables `w` and `h` with, for example, width 1000 and height 500. Also create another variable called `padding` and set it to 30 (we will use this later).
 
 Create an SVG element with the width and height attributes set to `w` and `h` using `.attr()` and append it to the `body` using `.append()`.
 
-In Lab 7, when you set the center of each circle to be a value from your array of random numbers, they were placed on top of each other at the left border of the SVG element. Remember that in order to separate them out, you multiplied the values by the width to correctly "scale"" each center’s position along the x-axis. What if the math was more complicated than that?
+In Lab 7, when we set the center of each circle to be a value from our array of random numbers, they were placed on top of each other at the left border of the SVG element because they all lie within the range of (0,1). Remember that in order to separate them out, we multiplied the values by the width to correctly "scale"" each center’s position along the x-axis. What if the math was more complicated than that?
 
 Luckily, the d3.scale() function does this automatically for us. A scale is a transformation of some number (within a specific range) into the SVG coordinates. Then, the browser translates these numbers as a physical location on the browser screen.
 
-It consists of two parts: a domain and a range. The domain is the input, i.e. the range of numbers in your dataset. The range is the output, i.e. the range of numbers that you want to squeeze the original numbers into (see the illustration below). In our case, the range would be related to the dimensions of our canvas.
+It consists of two parts: a domain and a range. The domain is the input, i.e. the range of numbers in our dataset. The range is the output, i.e. the range of numbers that we want to squeeze the original numbers into (see the illustration below). In our case, the range would be related to the dimensions of our canvas.
 
 ![image](https://github.com/yy/dviz-course/blob/master/w08-fundamental-4/d3_scale_illustration.png)
 
