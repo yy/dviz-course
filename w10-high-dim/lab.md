@@ -10,7 +10,7 @@ See the ipython notebook.
 
 Let's make a line chart and play with some interactive features. 
 
-Line charts are good at visualizing time series, so we'll work with a time series of Spanish silver production in the 18th century. The file can be found on Canvas (`spanish-silver.csv`), we'll only use the columns `year` and `silver_minted`.
+Line charts are good at visualizing time series, so we'll work with a time series of Spanish silver production in the 18th century. The file can be found on Canvas -> Files -> Lab(`spanish-silver.csv`). we'll only use the columns `year` and `silver_minted`.
 
 We start with creating an SVG canvas and set the x and y axis based on the data. Now that you're familiar with D3, it shouldn't be too difficult. By adjusting the code from last week, create a setup like this:
 
@@ -75,7 +75,7 @@ Then we'll add some new attributes to the `path` object.
 
 The first two `.attr`s moves the line away by setting an "offset". The actual distance that it is moved equals to the total lenth of the line. Recall the `transition` method that we used in the last lab. Here when the transition happens, we gradually reduce the offset to 0, so the line comes back. `.duration(5000)` controls how fast this effect should happen. `.ease("linear") ` customizes how the effect looks like.
 
-Refresh your page, now you should be able to see the animation.
+Refresh your page, and you should be able to see the animation.
 
 ## Interaction
 Interactive plots can be more attractive because they give users more control. For example, instead of drawing the line on page load, we can create a button `Start Animation`, so that the line is drawn when the user clicks on it. This is very simple.

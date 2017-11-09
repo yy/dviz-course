@@ -1,6 +1,6 @@
 # Before the class
 
-- E. R. Tufte, VDQI Ch. 1 and 2 (see Canvas). 
+- Read E. R. Tufte, Visual Display of Quantitative Information, Ch. 1 and 2 (see Canvas). 
 
 # Learning outcomes 
 
