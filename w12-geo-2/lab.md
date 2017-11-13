@@ -69,7 +69,7 @@ We can make it a little more nice-looking.
 
 **TODO**: Change the color of the map from black to #fcfa86 and color the state and county boundaries in orange.
 
-The data we'll use is `city_growth.csv` (on Canvas). To read in the data:
+The data we'll use is `city_growth.csv` (on Canvas). You'll also need `us.json`. To read in the data:
 
     d3.csv("growth.csv", function(error, data) {
 		// Drawing of map already done before
@@ -106,7 +106,7 @@ For the radius, we can use a hardcoded scaling function. Change the correspoding
 
 For the opacity, we can just set a number between 0 and 1.
 
-**TODO**: Set the transparency of the circles.
+**TODO**: Set the transparency of the circles by setting the `opacity`.
 
 ### Adding text labels
 
@@ -120,74 +120,6 @@ cx + radius + some offset
 
 **TODO**: Add the labels. Update the CSS style in the header to make all the labels colored red, with font-family sans-serif and font-size 10px. 
 
-**Submit this file on Canvas.**
+**Submit this file on Canvas.** An example of what the map would look like:
 
-## Using Leaflet to draw geographical heatmaps
-
-### Mapbox
-
-[Mapbox](https://www.mapbox.com) is a mapping platform. You can use it for developing mobile or web apps, or use it to create geo-visualizations. To use it, you'll need to register for an account.
-
-Our main purpose is to use it as a [tile](https://wiki.openstreetmap.org/wiki/Tiles) provider. For this we need to have a map ID. This is only available in their "classic" editor. So once you have an account, you can click the "Classic"tab to go to that mode.
-
-Next click the "New Mapbox Editor project" to create a new project. In the editor, choose the "dark" style (this works well for heatmaps). Give it a name and save it.
-
-Once saved, in the "Project" tap, you can see your `map ID`. We'll also need another thing: the `access token`. In the `Embed` box, you can see the following code:
-
-    share.html?access_token=.....'></iframe>
-
-Copy the .... part (the `access token`). 
-
-### Leaflet
-
-Now you can use the mapbox tiles with [Leaflet, which is an open-source JavaScript library for mobile-friendly interactive maps](http://leafletjs.com). By using the following resource, we can draw a heatmap of Walmart stores.
-
-- `walmart.js` (on Canvas)
-
-- [A tiny, simple and fast heatmap plugin for Leaflet.](https://github.com/Leaflet/Leaflet.heat) - This is a plugin for making heatmaps. Just include it as in the following template.
-
-- [Leaflet Quick start guide](http://leafletjs.com/examples/quick-start.html)
-
-
-HTML template:
-
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Walmart Heatmap</title>
-
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
-
-    <style type="text/css" media="screen">
-    #map { height: 800px; }  
-    </style>
-
-    </head>
-
-    <body>
-
-    <div id="map"></div>
-
-    <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
-    <script src="http://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js">
-    </script>
-    <script src="walmart.js"></script>  
-    
-    <script>
-
-    //  put your code here. 
-
-    </script>
-
-    </body>
-    </html>
-
-
-You can get something like this: 
-
-![Walmart heatmap](https://raw.githubusercontent.com/yy/dviz-course/master/w12-geo-2/walmart.png)
-
-**TODO:** Make the heatmap. Submit this file on Canvas.
-
+![image](http://)
