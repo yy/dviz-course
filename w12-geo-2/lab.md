@@ -122,4 +122,4 @@ cx + radius + some offset
 
 **Submit this file on Canvas.** An example of what the map would look like:
 
-![image](http://)
+![image](https://github.com/yy/dviz-course/blob/master/w12-geo-2/map_example.png)
