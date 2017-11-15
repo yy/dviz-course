@@ -10,6 +10,14 @@
 https://github.com/yy/dviz-course/blob/master/w06-fundamental-2/w06_lab.ipynb
 
 # Part 2: Introduction to D3
+**Note:** We haven’t updated to D3.v4 yet, and all following class materials are using D3.v3. I you choose to use v4, a few changes would need to be made depending on your code. 
+
+Here is a list of changes that you’re likely to encounter: [Upgrading d3 from v3 to v4](https://keithpblog.org/post/upgrading-d3-from-v3-to-v4/)
+
+And this is the full list of changes: [https://github.com/d3/d3/blob/master/CHANGES.md](https://github.com/d3/d3/blob/master/CHANGES.md)
+
+Just keep in mind that if you see errors, you may want to check if they're relevant to version difference.
+
 
 ## What is D3?
 
