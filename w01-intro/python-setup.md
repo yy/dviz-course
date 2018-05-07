@@ -23,7 +23,7 @@ If you use Mac or Linux and does not want to use Anaconda, you can install packa
 
 to install most packages that you can use for data analysis and visualization.
 
-## Jupyter notebook
+## Jupyter notebook (or Jupyterlab)
 
 Once you have `Jupyter notebook` (`Anaconda` creates a shortcut), you can simply run 
 
@@ -31,17 +31,22 @@ Once you have `Jupyter notebook` (`Anaconda` creates a shortcut), you can simply
 
 in the shell or use the launcher to launch ipython notebook. A browser window will appear and show the `Jupyter notebook` interface. From here, you can create your notebooks and load other notebooks.  
 
-## Sagemath cloud
+Or, you can use `JupyterLab`, which is the most recent (next-generation) Jupyter platform. See the [installation page](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html). 
 
-[SageMath cloud](https://cloud.sagemath.com) allows you to run Jupyter notebooks on their servers. They provide free accounts. 
+## Cloud 
 
-## Wakari.io
+There are many options that you can run Jupyter notebook on the cloud. 
 
-Another very convenient way to use the Python stack is using a web-based Python data analysis platform, such as [Wakari.io][wakari]. This is a service provided by [Continuum Analytics][continuum]. You can set up your environment by installing necessary packages and uploading your datasets. Then you can use IPython notebook (Jupyter) online. 
+- https://anaconda.org/
+- https://cloud.sagemath.com
+- https://www.kaggle.com/kernels
+- https://colab.research.google.com/
+- https://notebooks.azure.com/
+
+You may find them nicer than local solutions. 
 
 
 [conda]: http://continuum.io/downloads
 [python-download]: https://www.python.org/downloads/
 [brew]: http://brew.sh/
 [continuum]: http://continuum.io/about-continuum
-[wakari]: https://wakari.io
