@@ -43,18 +43,24 @@
 
 \title{\LARGE \mytitle} %{{{
 \author{\Large\myauthor \newline \footnotesize\texttt{\noindent\myemail}}
-\date{Fall 2017. Info West 107 (M) / 109 (W)\newline MW 4:00pm--5:15pm. \newline Office hours: W 9am-10am}
+%\date{Fall 2017. Info West 107 (M) / 109 (W)\newline MW 4:00pm--5:15pm. \newline Office hours: W 9am-10am}
 
 %\published{\sffamily I590/H400/I400 / Fall 2014 / Mon \& Wed 4:00--5:15pm / Info West 107 (M) \& 109 (W)}
 \maketitle 
 
-\vspace{-20pt}{\bfseries Assistant Instructor} \\ TBD (\texttt{TBD@iu.edu}) \\ Office Hours: TBD 
+\vspace{-20pt}{\bfseries Assistant Instructors} \\ Silvia Karim (\texttt{sikarim@iu.edu})  \\ &
+Abu Saleh Md Noman (\texttt{amdnoman@indiana.edu}) 
 %}}}
-\section{Course Information and communication} %{{{
+\section{Communication} %{{{
 
-This syllabus and other information can be found at \url{https://yy.github.io/dviz-course/}. 
+Announcements and other communication will be through Slack: 
 
-Announcements and other communication will be through Canvas (\url{https://canvas.iu.edu}) and Slack (\url{https://iu-dviz-course.slack.com}).
+\url{https://iu-dviz-course.slack.com}
+
+Therefore, you should join as soon as possible. You can join with your IU email adddress by visiting the following link. 
+
+\url{https://join.slack.com/t/iu-dviz-course/signup}
+
 %}}}
 \section{Course Description}%{{{
 
@@ -67,13 +73,13 @@ essential skill for every knowledge worker.  This course is an introduction to
 basic statistical data analysis and visualization.  We will learn fundamentals
 of data visualization in the context of perception, integrity, design,
 statistics, types of data, and visualization techniques.  The hands-on
-exercises using Python stack and D3.js will be an integral part of the course. 
+exercises using the Python stack will be an integral part of the course. 
 
 \paragraph{Relationships with S637 Information Visualization (IVMOOC):}
-Compared with S637, this course is more geared towards fundamental statistical
-visualizations and exploratory data analysis, using Python stack and D3.js.
-Therefore, this course may be suitable for students who pursue their careers in
-research, developement, data analysis, and so on.
+Compared with S637, this course is geared more towards fundamental statistical
+visualizations and exploratory data analysis, using the Python data science and
+visualization stack.  Therefore, this course may be more suitable for students who
+pursue their careers in research, developement, and data analysis. 
 
 %}}}
 \section{Course Objectives}%{{{
@@ -97,9 +103,11 @@ data, and visualization techniques.
 
 This course's residential version is open to advanced undergraduate students as
 well as graduate students; online version of this course is open to graduate
-students. Because creating visualizations using programming languages (Python
-and Javascript) is an integral part of the course, it is required to have good
-understanding and working knowledge of programming. The prerequisites are:
+students. Because creating visualizations using programming languages (Python)
+is an integral part of the course, it is required to have good understanding
+and working knowledge of programming. 
+
+For the undergraduate students, the prerequisites are:
 %
 \begin{itemize}\vspace{-10pt}
 %
@@ -113,10 +121,8 @@ course:
 %
 \begin{itemize}\vspace{-10pt}
 %
-\item I123: Data Fluency
-\item I300: HCI/Interaction Design
-\item I308: Information Representation
-\item I360: Web Design
+\item I123: Data Fluency \item I300: HCI/Interaction Design \item I308:
+Information Representation \item I360: Web Design
 %
 \end{itemize}\vspace{-10pt}
 
@@ -126,20 +132,23 @@ Contact the instructor if you are uncertain about your background.
 \section{Expectations and Requirements}%{{{
 \label{sec:requirements}
 
-You are expected to attend every class and engage in discussions. You are not
-allowed to use your phone or computer during the class unless asked to do so.
-You are expected to read reading materials \emph{prior} to the class. At the
-beginning of most class meetings, there will be an \emph{in-class quiz} based
-on the assigned readings and previous materials. Near the end of the semester,
-there will be a more extensive quiz based on all previous course content. You
-are expected to complete all weekly assignments. 
-
-The final assessment will be largely based on team projects. The choice of
+\paragraph{(All sections)} The final assessment will be mainly based on the exam and course project. The choice of
 project topic can be guided by the instructors but you will have freedom to
 choose projects topics. You are required to submit a final paper that contains
 detailed explanation of the visualization process and results as well as the
 visualization artifact itself (e.g. a visualization tool or a webpage)
 depending on the nature of your project. 
+
+\paragraph{(Residential course)} You are expected to attend every class and engage in discussions. You are not
+allowed to use your phone or computer during the class unless explicitly asked to do so.
+You are expected to read reading materials \emph{prior} to the class. At the
+beginning of most class meetings, there will be an \emph{in-class quiz} based
+on the assigned readings and previous materials. You
+are expected to complete all weekly assignments. 
+
+\paragraph{(Online)} You are expected to complete all course modules and assignments. You are also expected to 
+actively engage in discussions on Slack. 
+
 %}}}
 \section{Books and key materials}%{{{
 
@@ -149,6 +158,8 @@ recommended.
 \subsection{Python and data analysis}%{{{
 
 \begin{enumerate}%{{{
+
+\item \href{https://docs.python.org/3/}{Python 3 Official Documentation}
 
 \item \href{http://www.diveintopython3.net/index.html}{Dive Into Python} by Mark Pilgrim (available online) 
 
@@ -163,26 +174,28 @@ recommended.
 %}}}
 \subsection{Visualization and Design}%{{{
 
-\begin{enumerate}%{{{
+See \href{http://yyahnwiki.appspot.com/Information_visualization#h_6225eb5bf8a031f750a1b03f810ccc6a}{Visualization books} on my wiki. 
 
-\item \href{http://www.amazon.com/gp/product/0961392142}{The Visual Display of Quantitative Information (2nd ed.)} by E.R. Tufte: one of the foundational book on visualization. It contains a rich set of historical visualization, thoughtful discussion on visualization principles. 
+%\begin{enumerate}%{{{
 
-\item \href{http://www.amazon.com/Atlas-Knowledge-Anyone-Can-Map/dp/0262028816}{Atlas of Knowledge: Anyone Can Map} by K. Börner: this book systematically analyzes vocabularies of visualization with a lot of great examples. 
+%\item \href{http://www.amazon.com/gp/product/0961392142}{The Visual Display of Quantitative Information (2nd ed.)} by E.R. Tufte: one of the foundational book on visualization. It contains a rich set of historical visualization, thoughtful discussion on visualization principles. 
 
-\item \href{http://www.amazon.com/Visualization-Analysis-Design-AK-Peters/dp/1466508914}{Visualization Analysis and Design} by T. Munzner: a nice textbook that covers important topics of visualization. 
+%\item \href{http://www.amazon.com/Atlas-Knowledge-Anyone-Can-Map/dp/0262028816}{Atlas of Knowledge: Anyone Can Map} by K. Börner: this book systematically analyzes vocabularies of visualization with a lot of great examples. 
 
-\item \href{http://www.amazon.com/Visual-Thinking-Kaufmann-Interactive-Technologies/dp/0123708966}{Visual Thinking for Design} by C. Ware: one of the best books on the role of perception in visualization. 
+%\item \href{http://www.amazon.com/Visualization-Analysis-Design-AK-Peters/dp/1466508914}{Visualization Analysis and Design} by T. Munzner: a nice textbook that covers important topics of visualization. 
 
-\end{enumerate}%}}}
-\subsection{D3.js}%{{{
+%\item \href{http://www.amazon.com/Visual-Thinking-Kaufmann-Interactive-Technologies/dp/0123708966}{Visual Thinking for Design} by C. Ware: one of the best books on the role of perception in visualization. 
 
-\begin{enumerate}%{{{
+%\end{enumerate}%}}}
+%\subsection{D3.js}%{{{
 
-\item \href{http://www.amazon.com/Interactive-Data-Visualization-Scott-Murray/dp/1449339735}{Interactive Data Visualization for the Web} by Scott Murray
+%\begin{enumerate}%{{{
 
-\item \href{https://github.com/d3/d3/wiki/Gallery}{D3 Gallery}, \href{https://github.com/d3/d3/wiki/tutorials}{D3 Tutorials}, and \href{https://bl.ocks.org/mbostock}{mbostock's Blocks}. 
+%\item \href{http://www.amazon.com/Interactive-Data-Visualization-Scott-Murray/dp/1449339735}{Interactive Data Visualization for the Web} by Scott Murray
 
-\end{enumerate}%}}}
+%\item \href{https://github.com/d3/d3/wiki/Gallery}{D3 Gallery}, \href{https://github.com/d3/d3/wiki/tutorials}{D3 Tutorials}, and \href{https://bl.ocks.org/mbostock}{mbostock's Blocks}. 
+
+%\end{enumerate}%}}}
 %}}}
 %}}}
 
@@ -269,35 +282,37 @@ and Psychological Services}.
 
 \begin{itemize}%{{{
 
-\item Attendance, Quiz, and Participation: 20\%
+\item Attendance, Quiz, and Participation: 30\%
 
-\item Assignments: 40\%
+\item Assignments: 30\%
 
-\item Mid-term and Final project: 40\%
+\item Final project: 40\%
 
 \end{itemize}%}}}
 %}}}
 \section{Course Schedule}%{{{
 
-The schedule is subject to change. Find the most up-to-date schedule as well as
-detailed notes at \url{https://github.com/yy/dviz-course/wiki/Schedule}.
+The schedule is subject to change. 
 
-\subsection{Week 1: Why do we need visualization? / Overview of visualization tools}
-\subsection{Week 2: History and integrity / Jupyter notebook / HTML}
-\subsection{Week 3: Labor day / Python visualization tools / CSS}
-\subsection{Week 4: Perception and Design / Psychophysics experiments with Python / Javascript}
-\subsection{Week 5: Data Types and Fundamental Visualizations / 1-D data / Javascript II}
-\subsection{Week 6: Fundamental Visualizations II / Histogram and Boxplot /  D3.js I} 
-\subsection{Week 7: Fundamental Visualizations III / Cumulative plots and sampling / D3.js II}
-\subsection{Week 8: Fundamental Visualizations IV / Scale and density estimation / D3 scatter plot}
-\subsection{Week 9: Midterm presentation / Regression / Axes and interactivity}
-\subsection{Week 10 High dimensional data}
-\subsection{Week 11 Geospatial data and maps I}
-\subsection{Week 12 Geospatial data and maps II}
-\subsection{Week 13 Texts and Graphs}
-\subsection{Week 14 Thanksgiving}
-\subsection{Week 15 Graphs II }
-\subsection{Week 16 Final project presentation}
+%Find the most up-to-date schedule as well as
+%detailed notes at \url{https://github.com/yy/dviz-course/wiki/Schedule}.
+
+\subsection{Week 1 (5/7-): Why visualization? }
+\subsection{Week 2 (5/14-): History and integrity  }
+\subsection{Week 3 (5/21-): Perception }
+\subsection{Week 4 (5/28-): Design }
+\subsection{Week 5 (6/4-): Data Types and 1-D data }
+\subsection{Week 6 (6/11-): Histogram and Boxplot } 
+\subsection{Week 7 (6/18-): Estimation }
+\subsection{Week 8 (6/25-): Logscale and Beyond 1-D }
+\subsection{Week 9 (7/2-): High-dimensional data }
+\subsection{Week 10 (7/9-): Maps }
+\subsection{Week 11 (7/16-): Text and Networks}
+\subsection{Week 12 (7/23-): Project hack \& presentation }
+%\subsection{Week 13 Texts and Graphs}
+%\subsection{Week 14 Thanksgiving}
+%\subsection{Week 15 Graphs II }
+%\subsection{Week 16 Final project presentation}
 %}}}
 
 \end{document} %}}}
