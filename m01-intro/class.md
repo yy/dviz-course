@@ -1,4 +1,4 @@
-- [Self assessment questions](https://github.com/yy/dviz-course/blob/master/w01-intro/I422%20Data%20Visualization%20self-assessment%20questions.ipynb)
+- [Self assessment questions](https://github.com/yy/dviz-course/blob/master/m01-intro/I422%20Data%20Visualization%20self-assessment%20questions.ipynb)
 
 # If you want to know more
 
