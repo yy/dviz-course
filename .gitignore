@@ -1,3 +1,12 @@
+# Vim
+
+*un~
+
+# TeX
+*.aux
+*.bbl
+*.blg
+
 # Jekyll
 _site
 
