@@ -7,9 +7,10 @@
 
 # If you want to know more
 
-## Sparkline
+## More on colors
 
-[Sparkline](https://en.wikipedia.org/wiki/Sparkline) is a nice, minimalistic visualization technique that fits perfectly with E. Tufte's minimalism. It is useful when you want to communicate general trends and shapes of many timeseries quickly, particularly within a text. For instance, FiveThirtyEight uses it to display [the historical primary endorsement trends in the text](The Endorsement Primary). 
+- [Beginning Graphic Design: Color](https://www.youtube.com/watch?v=_2LLXnUdUIc)
+- [Your Friendly Guide to Colors in Data Visualisation](https://lisacharlotterost.github.io/2016/04/22/Colors-for-DataVis/)
 
 ## Chartjunk
 
@@ -22,11 +23,12 @@
 - [The Non-Designer's Design Book](http://www.amazon.com/Non-Designers-Design-Book-3rd/dp/0321534042) by Robin Williams concisely and easily explains some of the most fundamental design principles. 
 - [99% invisible](http://99percentinvisible.org) is a podcast about "invisible" designs that surround us. It is one of the most fascinating podcast. 
 
-## More colors
-
-- [Beginning Graphic Design: Color](https://www.youtube.com/watch?v=_2LLXnUdUIc)
-
 ## Data visualization zoo
 
 - [A tour through the visualization zoo](http://queue.acm.org/detail.cfm?id=1743567)
 - [The Grammar of Graphics](http://www.amazon.com/The-Grammar-Graphics-Statistics-Computing/dp/0387245448)
+
+## Sparkline
+
+[Sparkline](https://en.wikipedia.org/wiki/Sparkline) is a nice, minimalistic visualization technique that fits perfectly with E. Tufte's minimalism. It is useful when you want to communicate general trends and shapes of many timeseries quickly, particularly within a text. For instance, FiveThirtyEight uses it to display [the historical primary endorsement trends in the text](The Endorsement Primary). 
+
