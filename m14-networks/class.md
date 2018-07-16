@@ -1,3 +1,3 @@
-# Before the class
+# Tree
 
-- Can you understand how to draw a Bezier curve? https://www.jasondavies.com/animated-bezier/
+- [treevis.net - A Visual Bibliography of Tree Visualization 2.0 by Hans-Jörg Schulz](http://treevis.net/)

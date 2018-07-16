@@ -6,6 +6,3 @@
 - [The Origin of Species: The Preservation of Favoured Traces](https://fathom.info/traces/)
 - [Text visualization - by Jeff Clark](https://www.slideshare.net/CindyXiao/text-visualization-by-jeff-clark)
 
-# Tree
-
-- [treevis.net - A Visual Bibliography of Tree Visualization 2.0 by Hans-Jörg Schulz](http://treevis.net/)
