@@ -3,6 +3,7 @@
 % https://github.com/kjhealy/latex-custom-kjh 
 
 \usepackage{org-preamble-pdflatex} 
+\usepackage[margin=1.2in]{geometry}
 
 \setlength{\parskip}{10pt}
 \setlength{\parindent}{0pt}
@@ -28,7 +29,7 @@
 \def\myauthor{Yong-Yeol (YY) Ahn}
 \def\mykeywords{Visualization, Data, Undergraduate, Informatics}
 \def\mysubtitle{Syllabus}
-\def\mytitle{{\normalsize \textsc{Info} 422/I590} \\ \HUGE Data Visualization}
+\def\mytitle{{\normalsize \textsc{Info} 422/I590 (Fall 2018)} \\ \HUGE Data Visualization}
 
 %%\chapterstyle{article-3}
 %\pagestyle{kjh}
@@ -42,14 +43,16 @@
 \begin{document} %{{{
 
 \title{\LARGE \mytitle} %{{{
-\author{\Large\myauthor \newline \footnotesize\texttt{\noindent\myemail}}
-\date{Fall 2018} %. Info West 107 (M) / 109 (W)\newline MW 4:00pm--5:15pm. \newline Office hours: W 9am-10am}
+\author{\Large\myauthor\newline \footnotesize\texttt{\noindent\myemail}}
+\date{Info East 130 (M) / 109 (W)\newline MW 4:00pm--5:15pm. \newline Office hours: W 9:15am-10am}
 
 %\published{\sffamily I590/H400/I400 / Fall 2014 / Mon \& Wed 4:00--5:15pm / Info West 107 (M) \& 109 (W)}
 \maketitle 
 
-\vspace{-20pt}{\bfseries Assistant Instructors} \\ TBD %\&
-%Abu Saleh Md Noman (\texttt{amdnoman@indiana.edu}) 
+\vspace{-20pt}{\bfseries Assistant Instructors} \\ 
+Elise Jing (\texttt{jingy@iu.edu}) \\
+Jaehyuk Park (\texttt{jp70@iu.edu}) \\
+Harika Putti (\texttt{haputti@iu.edu})
 %}}}
 \section{Communication} %{{{
 
@@ -57,39 +60,31 @@ Announcements and other communication will be through Slack:
 
 \url{https://iu-dviz-course.slack.com}
 
-Therefore, you should join as soon as possible. You can join with your IU email adddress by visiting the following link. 
+Slack allows both private (group) communications and public fora. The number one recommendation from the previous students for the new students was to learn to use Slack and get used to it as soon as possible.  
+
+Please join as soon as possible. You can join with your IU email adddress by visiting the following link. 
 
 \url{https://join.slack.com/t/iu-dviz-course/signup}
 
 %}}}
 \section{Course Description}%{{{
 
-From TV news to cutting-edge scientific papers, from a home office to the
-largest companies in the world, data visualization is extensively used to
-reveal patterns in data and to tell stories. More and more data is collected
-through devices and services, and more and more decisions are made through
-data. Data visualization is indispensible for data analysis, and thus is an
-essential skill for every knowledge worker.  This course is an introduction to
-basic statistical data analysis and visualization.  We will learn fundamentals
-of data visualization in the context of perception, integrity, design,
-statistics, types of data, and visualization techniques.  The hands-on
-exercises using the Python stack will be an integral part of the course. 
+From TV news to cutting-edge scientific papers, from a home office to the largest companies in the world, data visualization is extensively used to reveal patterns in data and to tell stories. 
+More and more data is collected, and more and more decisions are made through data analysis. 
+Data visualization is indispensible for understanding data, and thus is an essential skill for every knowledge worker.  
+This course is an introduction to basic statistical data analysis and visualization.  
+We will learn fundamentals of data visualization in the context of perception, integrity, design, statistics, types of data, and visualization techniques.  
+The hands-on exercises using the Python stack aim to equip you with practical data visualization skills and they will be an integral part of the course. 
 
 \paragraph{Relationships with S637 Information Visualization (IVMOOC):}
-Compared with S637, this course is geared more towards fundamental statistical
-visualizations and exploratory data analysis, using the Python data science and
-visualization stack.  Therefore, this course may be more suitable for students who
-pursue their careers in research, developement, and data analysis. 
+Compared with S637, this course is geared more towards producing fundamental statistical visualizations and exploratory data analysis, using the Python data science and visualization stack.  
+Therefore, this course may be more suitable for students who pursue their careers in research, developement, and data analysis, and those who will directly analyze complex datasets. 
 
 %}}}
 \section{Course Objectives}%{{{
 
-By the end of the course, you are expected to be able to understand, explain,
-and manipulate basic types of data, analyze them by applying basic exploratory
-visualization techniques, and create basic explanatory web-based
-visualizations. You will also be able to evaluate the effectiveness of data
-visualizations based on the principles of human perception, design, types of
-data, and visualization techniques. 
+By the end of the course, you are expected to be able to understand, explain, and manipulate basic types of data, analyze them by applying basic exploratory visualization techniques, and create explanatory visualizations. 
+You will also be able to evaluate the effectiveness of data visualizations based on the principles of human perception, design, types of data, and visualization techniques. 
  
 %\begin{itemize} \item Exploratory data visualization and analysis
 
@@ -101,23 +96,19 @@ data, and visualization techniques.
 \section{Prerequisites}%{{{
 \label{sec:Prerequisites}
 
-This course's residential version is open to advanced undergraduate students as
-well as graduate students; online version of this course is open to graduate
-students. Because creating visualizations using programming languages (Python)
-is an integral part of the course, it is required to have good understanding
-and working knowledge of programming. 
+This course's residential version is open to advanced undergraduate students as well as graduate students; online version of this course is open to graduate students. 
+Because producing visualizations using Python data \& visualization stack is an integral part of the course, it is required to have good understanding and working knowledge of programming, as well as working knowledge of using open-source libraries. 
+It is also recommended to have basic understanding of mathematics, statistics, and Web (HTML, CSS, Javascript, and JSON). 
 
 For the undergraduate students, the prerequisites are:
 %
 \begin{itemize}\vspace{-10pt}
 %
-    \item Programming foundations (I210 \& I211, or equivalent courses). 
+\item Programming foundations (I210 \& I211, or equivalent). 
 %
 \end{itemize}\vspace{-10pt}
 %
-It is strongly recommended to have basic understanding of mathematics,
-statistics, and Web. The following courses are recommended before taking this
-course: 
+The following courses are recommended: 
 %
 \begin{itemize}\vspace{-10pt}
 %
@@ -126,59 +117,63 @@ Information Representation \item I360: Web Design
 %
 \end{itemize}\vspace{-10pt}
 
-For self-assessment, visit the following link: \href{http://bit.ly/dviz\_self}{http://bit.ly/dviz\_self}. 
+For self-assessment, visit the following link: \href{http://bit.ly/dvizselfassess}{http://bit.ly/dvizselfassess}. 
 Contact the instructor if you are uncertain about your background. 
+
 %}}}
 \section{Expectations and Requirements}%{{{
 \label{sec:requirements}
 
-\paragraph{(All sections)} The final assessment will be mainly based on the exam and course project. The choice of
-project topic can be guided by the instructors but you will have freedom to
-choose projects topics. You are required to submit a final paper that contains
-detailed explanation of the visualization process and results as well as the
-visualization artifact itself (e.g. a visualization tool or a webpage)
-depending on the nature of your project. 
+\paragraph{(All sections)} The final assessment will be mainly based on a mid-term exam and a final course project. 
+The choice of your project topic can be guided by the instructors but you have freedom to choose.
+You are required to submit a final paper that contains detailed explanation of the visualization process and results as well as the visualization artifact itself (e.g.~a visualization tool or a webpage) depending on the nature of your project. 
 
-\paragraph{(Residential course)} You are expected to attend every class and engage in discussions. You are not
-allowed to use your phone or computer during the class unless explicitly asked to do so.
-You are expected to read reading materials \emph{prior} to the class. At the
-beginning of most class meetings, there will be an \emph{in-class quiz} based
-on the assigned readings and previous materials. You
-are expected to complete all weekly assignments. 
+\paragraph{(Residential course)} You are expected to attend every class and engage in class discussions. 
+You are not allowed to use your phone or computer during the class unless explicitly asked to do so.  
+You are expected to read assigned reading materials prior to the class meetings if there is any.
+At the beginning of most class meetings, there will be an \emph{in-class quiz} based on the assigned readings and materials from the previous classes. 
+You are expected to complete all weekly assignments. 
 
-\paragraph{(Online)} You are expected to complete all course modules and assignments. You are also expected to 
-actively engage in discussions on Slack. 
+\paragraph{(Online)} You are expected to complete all course modules and assignments. 
+You are also expected to engage in discussions on Canvas and Slack. 
 
 %}}}
 \section{Books and key materials}%{{{
 
-There is no required textbook, but the following books and websites are
-recommended.
+There is no required textbook, but we will mainly use materials from the following books:
+
+\begin{enumerate}
+    
+\item \href{https://serialmentor.com/dataviz/}{Fundamentals of Data Visualization} by Claus O. Wilke (book preview available online at \url{https://serialmentor.com/dataviz/})
+
+\item \href{http://www.amazon.com/gp/product/0961392142}{The Visual Display of Quantitative Information (2nd ed.)} by E.R. Tufte: one of the foundational book on visualization. It contains a rich set of historical visualization, thoughtful discussion on visualization principles. 
+
+\end{enumerate}
+
+See also \href{http://yyahnwiki.appspot.com/Information_visualization#h_6225eb5bf8a031f750a1b03f810ccc6a}{Visualization books} on my wiki (\url{http://yyahnwiki.appspot.com/Information_visualization}). 
+
+
+If you are still in the process of learning Python basics, the following books and websites may be helpful for you:
 
 \subsection{Python and data analysis}%{{{
 
 \begin{enumerate}%{{{
 
-\item \href{https://docs.python.org/3/}{Python 3 Official Documentation}
+\item \url{https://docs.python.org/3/}: Python 3 Official Documentation
 
-\item \href{http://www.diveintopython3.net/index.html}{Dive Into Python} by Mark Pilgrim (available online) 
+\item \url{http://www.diveintopython3.net/index.html}: Dive Into Python by Mark Pilgrim 
 
-\item \href{http://work.thaslwanter.at/Stats/html/}{An introduction to statistics} (with Python) by Thomas Haslwanter (available online): this book uses Python to explain basic statistics. It also contains a succinct tutorial for Python and data visualization using Python. 
+\item \url{http://work.thaslwanter.at/Stats/html/}: An introduction to statistics (with Python) by Thomas Haslwanter (available online): this book uses Python to explain basic statistics. It also contains a succinct tutorial for Python and data visualization using Python. 
 
-\item \href{http://www.learnpython.org}{Learnpython.org}: A web-based interactive tutorial 
+\item \url{http://www.learnpython.org}: A web-based interactive tutorial 
 
-\item \href{http://ipython.rossant.net}{Learning IPython for Interactive Computing and Data Visualization} by  Cyrille Rossant: Introduction to IPython as well as lots of advanced analysis 
-
+\item \url{http://ipython.rossant.net}: Learning IPython for Interactive Computing and Data Visualization by Cyrille Rossant: Introduction to IPython as well as lots of advanced analysis 
 
 \end{enumerate}%}}}
 %}}}
-\subsection{Visualization and Design}%{{{
-
-See \href{http://yyahnwiki.appspot.com/Information_visualization#h_6225eb5bf8a031f750a1b03f810ccc6a}{Visualization books} on my wiki. 
+%\subsection{Visualization and Design}%{{{
 
 %\begin{enumerate}%{{{
-
-%\item \href{http://www.amazon.com/gp/product/0961392142}{The Visual Display of Quantitative Information (2nd ed.)} by E.R. Tufte: one of the foundational book on visualization. It contains a rich set of historical visualization, thoughtful discussion on visualization principles. 
 
 %\item \href{http://www.amazon.com/Atlas-Knowledge-Anyone-Can-Map/dp/0262028816}{Atlas of Knowledge: Anyone Can Map} by K. Börner: this book systematically analyzes vocabularies of visualization with a lot of great examples. 
 
@@ -234,31 +229,21 @@ speak to someone confidentially, you can make an appointment with:
 
 \end{enumerate}
 
-It is also important that you know that Title IX and University policy require
-me to share any information brought to my attention about potential sexual
-misconduct, with the campus Deputy Title IX Coordinator or IU's Title IX
-Coordinator. In that event, those individuals will work to ensure that
-appropriate measures are taken and resources are made available. Protecting
-student privacy is of utmost concern, and information will only be shared with
-those that need to know to ensure the University can respond and assist. I
-encourage you to visit \emph{stopsexualviolence.iu.edu} to learn more. 
+It is also important that you know that Title IX and University policy require me to share any information brought to my attention about potential sexual misconduct, with the campus Deputy Title IX Coordinator or IU's Title IX Coordinator. 
+In that event, those individuals will work to ensure that appropriate measures are taken and resources are made available. 
+Protecting student privacy is of utmost concern, and information will only be shared with those that need to know to ensure the University can respond and assist. 
+I encourage you to visit \emph{stopsexualviolence.iu.edu} to learn more. 
 
+\item \emph{No electronics---laptops, tablets, and smartphones---may be used in class}, unless the usage is specifically requested by the instructors (e.g.~Top Hat).  
+It has been shown that \href{http://www.scientificamerican.com/article/a-learning-secret-don-t-take-notes-with-a-laptop/}{using laptops in class hurts learning, \emph{even if} you are using it to take notes}.  
+If you must have electronics due to a special reason, please obtain permission beforehand. 
 
-\item \emph{No electronics---laptops, tablets, and smartphones---may be used in
-class}, unless the usage is specifically requested by the instructors.  It has
-been shown that
-\href{http://www.scientificamerican.com/article/a-learning-secret-don-t-take-notes-with-a-laptop/}{using
-laptops in class hurts learning, \emph{even if} you are using it to take
-notes}.  If you must have electronics due to a special reason, please obtain
-permission beforehand. 
-
-\item \emph{Be honest.} Your assignments and papers should be your own work.
-If you find useful resources for your assignments, share them and cite them. If
-your friends helped you, acknolwedge them. You should feel free to discuss both
-online and offline, but do not show your code directly.  Any cases of academic
-misconduct (cheating, fabrication, plagiarism, etc) will be reported to the
-School and the Dean of Students, following the standard procedure. Cheating is
-not cool. 
+\item \emph{Be honest.} Your assignments and papers should be your own work.  
+If you find useful resources for your assignments, share them and cite them. 
+If your friends helped you, acknolwedge them. 
+You should feel free to discuss both online and offline, but do not show your code directly.  
+Any cases of academic misconduct (cheating, fabrication, plagiarism, etc) will be reported to the School and the Dean of Students, following the standard procedure. 
+\emph{Cheating is not cool}. 
 
 \item \emph{You have the responsibility of backing up all your data and code}.
 Always use at least Box, Dropbox, or Google Drive. Ideally, learn version
@@ -270,9 +255,11 @@ missing submission.
 \item \emph{Inform your excused absences prior to class}. Please contact the
 instructor until the previous day for an excused absence.  
 
-\item If you have any issues, don't hesistate to contact me or
+\item \emph{Late assignments}. There will be 10\% late penalty for the late assignments. 
+
+\item If you have any mental issues, don't hesistate to contact me or
 \href{http://healthcenter.indiana.edu/counseling/index.shtml}{IU's Counseling
-and Psychological Services}. 
+and Psychological Services}, which provides free counseling sessions. 
 
 
 \end{enumerate}%}}}
