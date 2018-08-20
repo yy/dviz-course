@@ -1,6 +1,8 @@
-- [Self assessment questions](http://bit.ly/dvizselfassess)
+# Why Visualizations?
 
-# If you want to know more
+# Further readings
+
+- [Self assessment questions](http://bit.ly/dvizselfassess)
 
 **Why quizzes and exams (retrievals) are more critical than reading or lecture in learning?**
 
