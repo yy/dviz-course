@@ -73,12 +73,49 @@ pipenv shell
 
 If you want to deactivate the virtual env, you can simply type `exit`. 
 
+#### Using pipenv with system Jupyter
+
+To use pipenv-installed packages in your system Jupyter notebook or lab, you need to install `ipykernel` package first. 
+
+```
+pipenv install ipykernel
+```
+
+Then you can install a custom Python kernel (for your virtual env) for Jupyter by running the following (replace `dviz` with any name you want). 
+
+```
+pipenv shell
+python -m ipykernel install --user --name=dviz
+```
+
+After doing this, you will be able to choose the kernel you created from Jupyter environment. When you click "New", it allows you to choose a kernel from a list. You'll see your kernel (e.g. "dviz...") in this list. 
+
+
 ## Cloud setup
 
-- Anaconda cloud: https://anaconda.org/
-- CoCalc: https://cocalc.com/
-- Kaggle Kernels: https://www.kaggle.com/kernels
-- Google Colaboratory: https://colab.research.google.com/
+These are good cloud Jupyter notebook options. They are not necessarily supporting every package that we use but they may be an excellent option especially if you have a hard time installing packages. They also allow you to work on your code anywhere with internet access. 
+
+### Google colaboratory
+
+[Google Colaboratory](https://colab.research.google.com/) is Google's collaborative Jupyter notebook service. You can install packages by running 
+
+```
+!pip install packagename
+``` 
+I could install every package that we are using on colaboratory. 
+
+### Azure notebooks
+
+Microsoft also has a cloud notebook service called [Azure notebooks](https://notebooks.azure.com/). This service also allows installing new packages through `!pip install ...`. 
+
+
+### CoCalc
+
+CoCalc (https://cocalc.com/) is a service by [SageMath](http://www.sagemath.org/). You can use it freely but the free version is slow and can be turned off without warning. Most of the packages that we use are pre-installed. We may be able to provide a subscription through the school. 
+
+### Kaggle Kernels
+
+The famous machine learning / data science competition service Kaggle offers cloud-based notebooks called [Kaggle kernels](https://www.kaggle.com/kernels). Because you can directly use all the Kaggle datasets, it is an excellent option to do your project if you use one of the Kaggle datasets. It allows uploading your own dataset and install some packages, but not all packages are supported. 
 
 ## Other visualization tools
 
