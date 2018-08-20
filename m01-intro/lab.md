@@ -1,4 +1,11 @@
-# Setup instructions
+# Overview of Python visualization tools
+
+These two talks provide pretty good overview of the Python visualization landscape. 
+
+- Jake VanderPlas at PyCon 2017: [The Python Visualization Landscape](https://www.youtube.com/watch?v=FytuB8nFHPQ). 
+- James Bednar at AnacondaCon 2018: [PyViz: Dashboards for Visualizing 1 Billion Datapoints in 30 Lines of Python](https://www.youtube.com/watch?v=k27MJJLJNT4). 
+
+# Python environment setup instruction
 
 ## Local setup
 
@@ -108,7 +115,6 @@ I could install every package that we are using on colaboratory.
 
 Microsoft also has a cloud notebook service called [Azure notebooks](https://notebooks.azure.com/). This service also allows installing new packages through `!pip install ...`. 
 
-
 ### CoCalc
 
 CoCalc (https://cocalc.com/) is a service by [SageMath](http://www.sagemath.org/). You can use it freely but the free version is slow and can be turned off without warning. Most of the packages that we use are pre-installed. We may be able to provide a subscription through the school. 
@@ -117,7 +123,7 @@ CoCalc (https://cocalc.com/) is a service by [SageMath](http://www.sagemath.org/
 
 The famous machine learning / data science competition service Kaggle offers cloud-based notebooks called [Kaggle kernels](https://www.kaggle.com/kernels). Because you can directly use all the Kaggle datasets, it is an excellent option to do your project if you use one of the Kaggle datasets. It allows uploading your own dataset and install some packages, but not all packages are supported. 
 
-## Other visualization tools
+# Other visualization tools
 
 - R: https://www.r-project.org
     - [ggplot2](http://ggplot2.org)
