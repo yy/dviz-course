@@ -9,6 +9,5 @@
 ----
 
 - [Course Wiki](https://github.com/yy/dviz-course/wiki)
-- [Course schedule](https://github.com/yy/dviz-course/wiki/Schedule)
 - [Projects](https://github.com/yy/dviz-course/wiki/Projects)
 - [Resources](https://github.com/yy/dviz-course/wiki/Resources)
