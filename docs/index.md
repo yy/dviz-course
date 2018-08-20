@@ -28,7 +28,8 @@ techniques.
 
 # Basic Information
 
-- **Homepage**: https://yy.github.io/dviz-course/
+- **Homepage**: [https://yy.github.io/dviz-course/](https://yy.github.io/dviz-course/)
+- **GitHub**: [https://github.com/yy/dviz-course](https://github.com/yy/dviz-course)
 - **Instructor**: [Yong-Yeol (YY) Ahn](http://yongyeol.com) (Office Hours: Wed 9-10am)
 - **Assistant Instructor**: TBD
 - **Time**: MW 4pm-5:15pm
@@ -36,7 +37,7 @@ techniques.
 - **Relationships with S637 Information Visualization (IVMOOC)**: Compared with S637, this course is more geared towards fundamental statistical visualizations and exploratory data analysis, using Python stack and D3.js. Therefore, this course may be suitable for students who pursue their careers in research, developement, data analysis, and so on. 
 - **Announcements**: All announcements will be sent via Canvas and Slack. 
 - **Prerequisites**: This course is open to advanced undergraduate students (I422/H400) as well as graduate students (I590). Because programming (in Python and Javascript) is an integral part of the course, it is required to have good understanding and working knowledge of programming. The basic programming courses (Both I210/I211 or equivalent) are required prerequisites. In addition, *I308: Information Representation* and a basic statistics course is a recommended prerequisite. Basic understanding of design process and web (HTML, CSS, Javascript) is also highly recommended.
-- **Syllabus**: You can download the syllabus [here](http://yongyeol.com/courses/2016F-dviz/syllabus.pdf), but you should check this homepage for up-to-date information. 
+- **Syllabus**: You can download the syllabus [here](http://yongyeol.com/teaching/2018FA_dviz_syllabus.pdf), but you should check this homepage for up-to-date information. 
 
 ----
 
