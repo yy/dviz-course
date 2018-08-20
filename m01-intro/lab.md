@@ -123,17 +123,52 @@ CoCalc (https://cocalc.com/) is a service by [SageMath](http://www.sagemath.org/
 
 The famous machine learning / data science competition service Kaggle offers cloud-based notebooks called [Kaggle kernels](https://www.kaggle.com/kernels). Because you can directly use all the Kaggle datasets, it is an excellent option to do your project if you use one of the Kaggle datasets. It allows uploading your own dataset and install some packages, but not all packages are supported. 
 
-# Other visualization tools
+## Jupyter
 
-- R: https://www.r-project.org
-    - [ggplot2](http://ggplot2.org)
-    - [Rstudio](https://www.rstudio.com) 
-- Processing: https://processing.org
-    - http://processingjs.org - Javscript-based processing
-    - [p5.js](https://p5js.org/)
-- Tableau: http://www.tableau.com
-- D3.js: http://d3js.org 
-    - http://yyahnwiki.appspot.com/D3.js
-    - [NVd3](http://nvd3.org/index.html)
-    - [D3plus](http://d3plus.org)
+Once you have setup your local environment, you can run 
+
+```
+jupyter notebook
+```
+
+or [Install Jupyter lab](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html) and run:
+
+```
+jupyter lab
+```
+
+Jupyter lab is the "next generation" interface for the Jupyter project and it has more powerful features. Some packages that we use work more nicely with Jupyter lab too (although there is one lab assignment that requires jupyter notebook). 
+
+
+# Lab assignment
+
+1. Set up your local Python environment following the instructions. You should be using a virtual environment on your local machine. 
+1. Install Jupyter notebook and Jupyter lab. 
+1. Launch jupyter notebook (lab) 
+1. Create a new notebook and play with it. Print "Hello world!". 
+1. Submit your notebook. 
+
+If you want to use a cloud environment, 
+
+1. Try out cloud environments. 
+
+Finally, these are the packages that we plan to use. So check out their homepages and figure out what they are about. 
+
+- Jupyter Notebook and Lab: https://jupyter.org/
+- numpy: http://www.numpy.org/
+- scipy: http://www.scipy.org/
+- matplotlib: http://matplotlib.org/
+- seaborn: http://seaborn.pydata.org/
+- pandas: http://pandas.pydata.org/
+- scikit-learn: http://scikit-learn.org/stable/
+- altair: https://github.com/altair-viz/altair
+- vega_datasets: https://github.com/altair-viz/vega_datasets
+- bokeh: http://bokeh.pydata.org/en/latest/
+- datashader: http://datashader.org/
+- holoviews: http://holoviews.org/
+- wordcloud: https://github.com/amueller/word_cloud
+- spacy: https://spacy.io/
+
+Install them using your package manager (conda or pip).
+
 
