@@ -150,7 +150,8 @@ Jupyter lab is the "next generation" interface for the Jupyter project and it ha
 
 If you want to use a cloud environment, 
 
-1. Try out cloud environments. 
+1. Try out the cloud environments listed above. (Google colaboratory is recommended)
+1. Try installing the following packages. 
 
 Finally, these are the packages that we plan to use. So check out their homepages and figure out what they are about. 
 
@@ -171,4 +172,4 @@ Finally, these are the packages that we plan to use. So check out their homepage
 
 Install them using your package manager (conda or pip).
 
-
+Once you have installed the Jupyter locally or succeeded with a cloud environment, create a notebook and print "Hello world!" using the `print` command. Save (download) the notebook and submit it on the canvas. 
