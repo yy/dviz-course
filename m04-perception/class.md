@@ -29,6 +29,11 @@
 - [Weber–Fechner law](https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law)
 - [Stevens's power law](https://en.wikipedia.org/wiki/Stevens%27s_power_law)
 
+### Appearance compensation
+
+- [Perceptual Scaling of Map Symbols](https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/)
+
+
 ## Colors
 
 - [Blender Guru: Understanding Color](https://www.youtube.com/watch?v=Qj1FK8n7WgY)
