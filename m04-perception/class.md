@@ -37,9 +37,11 @@
 - [Blender Guru: Understanding Color](https://www.youtube.com/watch?v=Qj1FK8n7WgY)
 - [Beginning Graphic Design: color](https://www.youtube.com/watch?v=_2LLXnUdUIc)
 
-[This study](https://medium.com/@uwdata/value-suppressing-uncertainty-palettes-426130122ce9) called "Value-Suppressing Uncertainty Palettes" from UW Interactive Data Lab is an interesting example of exploiting the human color perception. 
+- [This study](https://medium.com/@uwdata/value-suppressing-uncertainty-palettes-426130122ce9) called "Value-Suppressing Uncertainty Palettes" from UW Interactive Data Lab is an interesting example of exploiting the human color perception. 
 
 - [Physics Girl: Does this look white to you?](https://www.youtube.com/watch?v=uNOKWoDtbSk)
+
+- [Introducing makeitpop, a tool to perceptually warp your data!](https://predictablynoisy.com/makeitpop-intro)
 
 # Pre-attentive processing
 
