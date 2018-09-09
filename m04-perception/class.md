@@ -39,6 +39,8 @@
 
 [This study](https://medium.com/@uwdata/value-suppressing-uncertainty-palettes-426130122ce9) called "Value-Suppressing Uncertainty Palettes" from UW Interactive Data Lab is an interesting example of exploiting the human color perception. 
 
+- [Physics Girl: Does this look white to you?](https://www.youtube.com/watch?v=uNOKWoDtbSk)
+
 # Pre-attentive processing
 
 - [Christopher Healey: Perception in Visualization](https://www.csc2.ncsu.edu/faculty/healey/PP)
