@@ -7,9 +7,7 @@
 - [A Better Default Colormap for Matplotlib | SciPy 2015 | Nathaniel Smith and Stéfan van der Walt](https://www.youtube.com/watch?v=xAoljeRJ3lU)
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/xAoljeRJ3lU/0.jpg)](https://www.youtube.com/watch?v=xAoljeRJ3lU)
 
-# If you want to know more
-
-## General readings for perception and visualization
+# General readings for perception and visualization
 
 - Colin Ware, [Visual Thinking: for Design](http://www.amazon.com/Visual-Thinking-Kaufmann-Interactive-Technologies/dp/0123708966)
 - M. Agrawala, W. Li, and F. Berthouzoz, [Design principles for visual communication](http://vis.berkeley.edu/papers/designprinciples/p60-agrawala.pdf)
@@ -21,7 +19,7 @@
   - [Gestalt principles (Part 1)](http://www.nature.com/nmeth/journal/v7/n11/full/nmeth1110-863.html)
   - [Avoiding color](http://www.nature.com/nmeth/journal/v8/n7/full/nmeth.1642.html)
 
-## Psychophysics
+# Psychophysics
 
 - [Just-noticeable difference](https://en.wikipedia.org/wiki/Just-noticeable_difference)
   - http://www.jnd.org/
@@ -29,17 +27,19 @@
 - [Weber–Fechner law](https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law)
 - [Stevens's power law](https://en.wikipedia.org/wiki/Stevens%27s_power_law)
 
-### Appearance compensation
+## Appearance compensation
 
 - [Perceptual Scaling of Map Symbols](https://makingmaps.net/2007/08/28/perceptual-scaling-of-map-symbols/)
 
 
-## Colors
+# Colors
 
 - [Blender Guru: Understanding Color](https://www.youtube.com/watch?v=Qj1FK8n7WgY)
 - [Beginning Graphic Design: color](https://www.youtube.com/watch?v=_2LLXnUdUIc)
 
-## Pre-attentive processing
+[This study](https://medium.com/@uwdata/value-suppressing-uncertainty-palettes-426130122ce9) called "Value-Suppressing Uncertainty Palettes" from UW Interactive Data Lab is an interesting example of exploiting the human color perception. 
+
+# Pre-attentive processing
 
 - [Christopher Healey: Perception in Visualization](https://www.csc2.ncsu.edu/faculty/healey/PP)
 
