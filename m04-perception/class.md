@@ -43,6 +43,8 @@
 
 - [Introducing makeitpop, a tool to perceptually warp your data!](https://predictablynoisy.com/makeitpop-intro)
 
+- [Value-Suppressing Uncertainty Palettes](https://medium.com/@uwdata/value-suppressing-uncertainty-palettes-426130122ce9)
+
 # Pre-attentive processing
 
 - [Christopher Healey: Perception in Visualization](https://www.csc2.ncsu.edu/faculty/healey/PP)
