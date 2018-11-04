@@ -3,3 +3,10 @@
 - Play with http://thetruesize.com/
 - [Mercator puzzle](https://bramus.github.io/mercator-puzzle-redux/)
 - [How the World Map Looks Wildly Different Than You Think](https://www.youtube.com/watch?v=lPNrtjboISg)
+- [What's the best map projection?](http://usersguidetotheuniverse.com/index.php/2011/03/03/whats-the-best-map-projection/)
+- [After the Map: Cartography, Navigation, and the Transformation of Territory in the Twentieth Century](http://www.afterthemap.info/about.html) by William Rankin
+- [Radical cartography](http://www.radicalcartography.net)
+- [Introduction to Mapping Sciences](http://www.geo.hunter.cuny.edu/~jochen/gtech201/)
+  - [Choosing a projection](http://www.geo.hunter.cuny.edu/~jochen/gtech201/lectures/lec6concepts/map%20coordinate%20systems/how%20to%20choose%20a%20projection.htm)
+- [R. Knippers: Map projections](http://kartoweb.itc.nl/geometrics/map%20projections/mappro.html)
+
