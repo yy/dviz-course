@@ -74,7 +74,7 @@ This is the idea!
 
 Assignment: add radio buttons to allow changing the color of the points. Your result should look like this:
 
-![example]("m14_example.png")
+![example](https://github.com/yy/dviz-course/raw/master/m14-networks-and-interactive/m14_example.png)
     
     
     
