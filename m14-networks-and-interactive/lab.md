@@ -6,7 +6,7 @@ Cytoscape (http://www.cytoscape.org/) is another tool that you may want to play 
 
 
 
-[gephi tutorial.mp4 (by Nathaniel Rodriguez)](https://iu.instructure.com/courses/1690047/files/76285177/)
+[gephi tutorial (by Nathaniel Rodriguez)](https://youtu.be/PAoRKtUfUkA)
 
 
 
