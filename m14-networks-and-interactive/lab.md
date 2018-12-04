@@ -1,27 +1,34 @@
-# Gephi
+# Gephi and Cytospace
 
-The first part will be introducing you to Gephi, a network visualization software. Go ahead and download and install Gephi (For Windows users who have trouble installing, see the end of this assignment for directions): https://gephi.org/
+We will introduce two network visualization tools. The first one is Gephi. It is able to perform a variety of network analysis, as well as generating very beautiful visualizations. The downside is that it's currently not well maintained and becomes problematic in some newer systems, including Windows 10 and MacOS 10.12+. 
 
-Cytoscape (http://www.cytoscape.org/) is another tool that you may want to play with if you're interested in network visualization. It's developed by biologists & bioinformaticians and thus geared towards biological networks. However, it is more stable and sensible in many ways than Gephi. 
-
-
+You can download and install Gephi (For Windows users who have trouble installing, see the end of this assignment for one possible solution): [https://gephi.org/](https://gephi.org/). The following is a tutorial made by a previous AI, Nathaniel.
 
 [gephi tutorial (by Nathaniel Rodriguez)](https://youtu.be/PAoRKtUfUkA)
 
-
-
 Depending upon what version of Gephi you use the location of some buttons and tabs may vary, but the general functionality is roughly the same. If you want to know more about Gephi or what file formats it can read/write you can visit their documentation page. You can also check out some other tutorials online.
 
-Now that you have a basic understanding of some of the things Gephi can do, let's draw a network. You can download the Les Miserables graph. (feel free to play with other networks too: [https://github.com/gephi/gephi/wiki/Datasets](https://github.com/gephi/gephi/wiki/Datasets)) 
+Another tool is the Cytoscape. It's developed by biologists & bioinformaticians and thus geared towards biological networks. Additionally, it does not have many network analysis functionalities. However, it is more stable and sensible in many ways than Gephi. You can download it at [http://www.cytoscape.org/](http://www.cytoscape.org/) and check out the tutorials at: [https://github.com/cytoscape/cytoscape-tutorials/wiki](https://github.com/cytoscape/cytoscape-tutorials/wiki).
+
+For this assignment, you can choose one from these two, and experiment with a small network. We'll use the Les Miserables graph, which can be downloaded from: [http://www-personal.umich.edu/~mejn/netdata/](http://www-personal.umich.edu/~mejn/netdata/). (Feel free to play with other networks too: [https://github.com/gephi/gephi/wiki/Datasets](https://github.com/gephi/gephi/wiki/Datasets)) 
 
 Once you have the Les Miserables graph,
 
+For Gephi users:
 * Load the network into Gephi as an undirected graph
 * Use a force-directed layout to obtain a good layout
 * Find communities (modules) and color nodes based on the communities
 * Tweak various visual encodings to obtain a good visualization
 * Export to a PDF or a PNG file
 * and upload the image file. 
+
+For Cytospace users:
+* Load the network into Cytospace
+* Apply the edge-weighted spring embedded layout
+* Color the notes and tweak various visual encodings to obtain a good visualization
+* Export to a PDF or a PNG file
+* and upload the image file. 
+
 
 
 ----
@@ -31,27 +38,22 @@ Once you have the Les Miserables graph,
 Gephi can't find java by default on Windows with JDK 9. 
 I don't know whether others have encountered the same problem. So I am writing it down. Hope it is helpful for somebody.
 
-**First**, you need to download and install Oracle Java. Latest is Java 9. 
-
+**First**, you need to download and install Oracle Java. We'll use Java 9. (We don't have support for Java 10.)
 http://www.oracle.com/technetwork/java/javase/downloads/index.html
-
-Note; You can install JRE or JDK. JRE needs 110MB space and JDK needs 610MB space.
+Note: You can install JRE or JDK. JRE needs 110MB space and JDK needs 610MB space.
 
 **Second**, follow the link on homework page to download and install Gephi.
 
 **Third**: Configure Gephi. Gephi by default can't find your JRE 9. 
-
-You need to edit "C:\Program Files\Gephi-0.9.2\etc\gephi.conf", add this line
-
-jdkhome="C:\Program Files\Java\jre-9.0.4"
-
+You need to edit `C:\Program Files\Gephi-0.9.2\etc\gephi.conf`, add this line
+`jdkhome="C:\Program Files\Java\jre-9.0.4`
 Change the path to your java installation path. You are good to go.
 
-Java 9 by default will add "C:\ProgramData\Oracle\Java\javapath\" to PATH and write Windows Registry for JRE. CLASS_PATH is obsoleted in Java 9 and JAVA_HOME is not neccesary for most applications since it is reserved for private JRE. Anyway, Gephi simply doesn't buy it. It doesn't recognize JRE 9's javapath folder. 
+Java 9 by default will add `C:\ProgramData\Oracle\Java\javapath\` to `PATH` and write Windows Registry for JRE. CLASS_PATH is obsoleted in Java 9 and JAVA_HOME is not neccesary for most applications since it is reserved for private JRE. Anyway, Gephi simply doesn't buy it. It doesn't recognize JRE 9's javapath folder. 
 
 You may try to set JAVA_HOME, it might work too.
 
-Well, Oracle has changed the directory structure for JRE on Windows. That is why they use javapath instead. If you are using conf files or JRE_HOME/JAVA_HOME, whenever you upgrade your JRE, the path will change and you have to set it all over again. If Gephi could use the new javapath, upgrdaing java would have no impact on setting.
+Well, Oracle has changed the directory structure for JRE on Windows. That is why they use javapath instead. If you are using `conf` files or `JRE_HOME/JAVA_HOME`, whenever you upgrade your JRE, the path will change and you have to set it all over again. If Gephi could use the new javapath, upgrdaing java would have no impact on setting.
 
 
 # Interactive visualizations
@@ -130,7 +132,8 @@ However, here we use the input from the `xField` signal:
 "x": {"scale": "xscale", "field": {"signal": "xField"}}
 ```
 
-This is the idea! 
+That's it!
+
 
 Assignment: add radio buttons to allow changing the color of the points. Your result should look like this:
 
