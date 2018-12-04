@@ -1,10 +1,10 @@
 # Gephi and Cytospace
 
-We will introduce two network visualization tools. The first one is Gephi. It is able to perform a variety of network analysis, as well as generating very beautiful visualizations. The downside is that it's currently not well maintained and becomes problematic in some newer systems, including Windows 10 and MacOS 10.12+. 
+We will introduce two network visualization tools. The first one is Gephi. It can perform a variety of network analysis and can produce pretty visualizations quickly. The downside is that it's currently not well maintained and as a result the installation has become problematic, particularly in the recent systems including Windows 10 and MacOS 10.12+. 
 
 You can download and install Gephi (For Windows users who have trouble installing, see the end of this assignment for one possible solution): [https://gephi.org/](https://gephi.org/). The following is a tutorial made by a previous AI, Nathaniel.
 
-[gephi tutorial (by Nathaniel Rodriguez)](https://youtu.be/PAoRKtUfUkA)
+- [gephi tutorial (by Nathaniel Rodriguez)](https://youtu.be/PAoRKtUfUkA)
 
 Depending upon what version of Gephi you use the location of some buttons and tabs may vary, but the general functionality is roughly the same. If you want to know more about Gephi or what file formats it can read/write you can visit their documentation page. You can also check out some other tutorials online.
 
