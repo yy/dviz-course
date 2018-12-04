@@ -16,7 +16,7 @@ Once you have the Les Miserables graph,
 
 For Gephi users:
 * Load the network into Gephi as an undirected graph
-* Use a force-directed layout to obtain a good layout
+* Use a force-directed layout to obtain a good layout (also play with other layouts)
 * Find communities (modules) and color nodes based on the communities
 * Tweak various visual encodings to obtain a good visualization
 * Export to a PDF or a PNG file
@@ -24,8 +24,8 @@ For Gephi users:
 
 For Cytospace users:
 * Load the network into Cytospace
-* Apply the edge-weighted spring embedded layout
-* Color the notes and tweak various visual encodings to obtain a good visualization
+* Apply the edge-weighted spring embedded layout (also play with other layouts such as "organic")
+* Color the nodes and tweak various visual encodings to obtain a good visualization
 * Export to a PDF or a PNG file
 * and upload the image file. 
 
