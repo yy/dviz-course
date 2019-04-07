@@ -5,6 +5,9 @@
 \usepackage{org-preamble-pdflatex} 
 \usepackage[margin=1.2in]{geometry}
 
+\usepackage{enumitem}
+\setlist{nolistsep}
+
 \setlength{\parskip}{10pt}
 \setlength{\parindent}{0pt}
 
@@ -283,28 +286,39 @@ Loss of data, code, or papers due to various reasons (e.g. malfunction of your l
 
 \end{enumerate}%}}}
 %}}}
-\section{Course Schedule and Readings}%{{{
+\section{Course Schedule}%{{{
 
 The schedule may change due to unexpected circumstances. See also \href{https://registrar.indiana.edu/official-calendar/official-calendar-summer.shtml}{IU Official Calendar}. 
 
-\subsection{Week 1 (5/7-): Why visualization? | Overview of Python visualization libraries} %{{{
+\subsection{Key dates}\label{sub:key_dates} %{{{
+
+\begin{itemize} %{{{
+\item Project proposal: The end of Week 3 (Due: 5/27)
+\item Project presentation: The end of the final week (Due: 7/25)
+\item Project paper: The end of the final week (Due: 7/25)
+\end{itemize} %}}}
+
+%}}}
+\subsection{Schedule and Readings}\label{sub:schedule}%{{{
+
+\subsubsection{Week 1 (5/7-): Why visualization? | Overview of Python visualization libraries} %{{{
 
 \begin{itemize}\itemsep0em 
 \item J. Heer et al. A Tour through the Visualization Zoo. \url{https://queue.acm.org/detail.cfm?id=1805128}
 \item J. VanderPlas, The Python Visualization Landscape. \url{https://youtu.be/FytuB8nFHPQ}
 \end{itemize}	
 %}}}
-\subsection{Week 2 (5/13-): History and integrity | Plotting basics with the Snow's map }%{{{
+\subsubsection{Week 2 (5/13-): History and integrity | Plotting basics with the Snow's map }%{{{
 
 \begin{itemize}\itemsep0em 
 \item E.R. Tufte, The Visual Display of Quantitative Information, Ch.~1--2.
 \item C.O. Wilke, Fundamentals of Data Visualization Ch.~1 (\url{https://serialmentor.com/dataviz/introduction.html}). 
 \end{itemize}	
 
-%\subsection{Week 3 (5/20-): Labor day | Web, Declarative vs. Procedural visualization }
+%\subsubsection{Week 3 (5/20-): Labor day | Web, Declarative vs. Procedural visualization }
 
 %}}}
-\subsection{Week 3 (5/20-): Perception | Perception experiments }%{{{
+\subsubsection{Week 3 (5/20-): Perception | Perception experiments }%{{{
 
 \begin{itemize}\itemsep0em 
 \item C.G. Healey, Perception in Visualization, \url{https://www.csc2.ncsu.edu/faculty/healey/PP/index.html}
@@ -314,7 +328,7 @@ The schedule may change due to unexpected circumstances. See also \href{https://
 \item C.O. Wilke, Fundamentals of Data Visualization Ch.~15 Common pitfalls of color use (\url{https://serialmentor.com/dataviz/color-pitfalls.html}).
 \end{itemize}	
 %}}}
-\subsection{Week 4 (5/27-): Design | Colors, Vector, and Bitmaps }%{{{
+\subsubsection{Week 4 (5/27-): Design | Colors, Vector, and Bitmaps }%{{{
 
 \begin{itemize}\itemsep0em 
 \item B. Wong, Gestalt Principles I \& II, Nature Methods (2010). 
@@ -323,32 +337,32 @@ The schedule may change due to unexpected circumstances. See also \href{https://
 \item C.O. Wilke, Fundamentals of Data Visualization Ch.~18--21 (\url{https://serialmentor.com/dataviz/optimize-data-signal.html}). 
 \end{itemize}	
 %}}}
-\subsection{Week 5 (6/3-): Data Types and 1-D data | Tidy data and 1D data } %{{{
+\subsubsection{Week 5 (6/3-): Data Types and 1-D data | Tidy data and 1D data } %{{{
 
 \begin{itemize}\itemsep0em 
 \item H. Wickham, Tidy Data, Journal of Statistical Software, \url{https://vita.had.co.nz/papers/tidy-data.pdf}
 \item C.O. Wilke, Fundamentals of Data Visualization Ch.~14 (\url{https://serialmentor.com/dataviz/overlapping-points.html}). 
 \end{itemize}	
 %}}}
-\subsection{Week 6 (6/10-): Histogram and Boxplot | Histogram and CDF }%{{{
+\subsubsection{Week 6 (6/10-): Histogram and Boxplot | Histogram and CDF }%{{{
 
 \begin{itemize}\itemsep0em 
 \item C.O. Wilke, Fundamentals of Data Visualization Ch.~6--7 (\url{https://serialmentor.com/dataviz/overlapping-points.html}). 
 \end{itemize}	
 %}}}
-\subsection{Week 7 (6/17-): Estimation | Estimation }%{{{
+\subsubsection{Week 7 (6/17-): Estimation | Estimation }%{{{
 
 \begin{itemize}\itemsep0em 
 \item C.O. Wilke, Fundamentals of Data Visualization Ch.~8--9 (\url{https://serialmentor.com/dataviz/overlapping-points.html}). 
 \end{itemize}	
 %}}}
-\subsection{Week 8 (6/24-): Logscale and Beyond 1-D | Logscale and CCDF}%{{{
+\subsubsection{Week 8 (6/24-): Logscale and Beyond 1-D | Logscale and CCDF}%{{{
 
 \begin{itemize}\itemsep0em 
 \item Khan Academy: Logarithmic scale with Vi Hart (\url{https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions/logarithmic-scale}). 
 \end{itemize}	
 %}}}
-\subsection{Week 9 (7/1-): High-dimensional data | High-dimensional data }%{{{
+\subsubsection{Week 9 (7/1-): High-dimensional data | High-dimensional data }%{{{
 
 \begin{itemize}\itemsep0em 
 \item C.O. Wilke, Fundamentals of Data Visualization Ch.~11 (\url{https://serialmentor.com/dataviz/visualizing-associations.html}). 
@@ -357,26 +371,29 @@ The schedule may change due to unexpected circumstances. See also \href{https://
 \item L. van der Maaten \& G. Hinton, Visualizing data using t-SNE, JMLR 2008 \url{http://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf}.
 \end{itemize}	
 
-%\subsection{Week 10 (7/8-): Mid-term}
+%\subsubsection{Week 10 (7/8-): Mid-term}
 %}}}
-\subsection{Week 10 (7/8-): Maps | Maps }%{{{
+\subsubsection{Week 10 (7/8-): Maps | Maps }%{{{
 
 \begin{itemize}\itemsep0em 
 \item Vsauce, What does earth look like? \url{https://youtu.be/2lR7s1Y6Zig}
 \item Vox, Why all world maps are wrong \url{https://youtu.be/kIID5FDi2JQ}
 \end{itemize}	
 %}}}
-\subsection{Week 11 (7/15-): Text and Networks | Text and networks} %{{{
+\subsubsection{Week 11 (7/15-): Text and Networks | Text and networks} %{{{
 
 \begin{itemize}\itemsep0em 
 \item J. Harris, Word clouds considered harmful, \url{http://www.niemanlab.org/2011/10/word-clouds-considered-harmful/}. 
 \item The Observatory of Economic Complexity, \url{https://atlas.media.mit.edu/en/profile/country/usa/}.
 \end{itemize}	
-%\subsection{Week 14 (11/19-): Thanksgiving break}
-%\subsection{Week 15 (11/26-): Project Hacks}
+%\subsubsection{Week 14 (11/19-): Thanksgiving break}
+%\subsubsection{Week 15 (11/26-): Project Hacks}
 %}}}
-\subsection{Week 12 (7/22-): Final project week}%{{{
+\subsubsection{Week 12 (7/22-): Final project week}%{{{
 %}}}
+
+%}}}
+
 %}}}
 
 \end{document} %}}}
