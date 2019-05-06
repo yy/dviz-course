@@ -11,7 +11,7 @@ These two talks provide pretty good overview of the Python visualization landsca
 
 ### Anaconda environment
 
-First download Anaconda for your system (Python 3.6) from [here](https://www.anaconda.com/download). The `miniconda` is a minimal version on which you need to install necessary packages. If you don't have much space or prefer to install only necessary packages, `miniconda` will suit you. Anaconda comes with a package manager called `conda`. 
+First download Anaconda for your system (Python 3) from [here](https://www.anaconda.com/download). The `miniconda` is a minimal version on which you need to install necessary packages. If you don't have much space or prefer to install only necessary packages, `miniconda` will suit you. Anaconda comes with a package manager called `conda`. 
 
 If you haven't, you may want to install the core Python data packages. 
 
@@ -19,24 +19,26 @@ If you haven't, you may want to install the core Python data packages.
 conda install numpy scipy pandas scikit-learn matplotlib seaborn jupyter
 ```
 
-Although it is not strictly necessary, it is a good practice to use virtual environment for each project. By doing so, you can isolate each environment from each other and maintain packages separately. In this case, you would want to have a virtual environment for the course. `conda` has a built-in support for virtual environments. 
+Although it is not strictly required, it is a really good practice to use virtual environment for each project. Try to use it for every project! 
+
+By using virtual environments, you can isolate each environment from the others and maintain separate sets (versions) of packages. `conda` has a built-in support for virtual environments. 
 
 ```
-conda create -n dviz python=3.6 
+conda create -n dviz python=3.7
 ```
 
 This command creates a virtual environment named `dviz` with Python 3.6 and Anaconda. 
 
-You can activate the environment by running
+You can activate the environment (whenever you begins to work on this course) by running
 
 ```
-source activate dviz
+conda activate dviz
 ```
 
-and deactivate by running
+and deactivate (when you're done) by running
 
 ```
-source deactivate dviz
+conda deactivate 
 ```
 
 For the full documentation, see https://conda.io/docs/user-guide/tasks/manage-environments.html
@@ -49,12 +51,6 @@ You can install it by running
 
 ```
 pip install --user pipenv
-```
-
-On a mac, you can also install through [homebrew](https://brew.sh/):
-
-```
-brew install pipenv
 ```
 
 Check out the full documentation about installation: https://pipenv.readthedocs.io/en/latest/install
@@ -100,7 +96,7 @@ After doing this, you will be able to choose the kernel you created from Jupyter
 
 ## Cloud setup
 
-These are good cloud Jupyter notebook options. They are not necessarily supporting every package that we use but they may be an excellent option especially if you have a hard time installing packages. They also allow you to work on your code anywhere with internet access. 
+These are good cloud Jupyter notebook options. They are not necessarily supporting every package that we use but they may be an excellent option especially if you have a hard time installing packages. They also allow you to work on your code anywhere with internet access. The best option is Google colaboratory. It allows installation of many packages. It even lets you use GPUs! (although we don't really need to use any). 
 
 ### Google colaboratory
 
@@ -137,7 +133,7 @@ or [Install Jupyter lab](https://jupyterlab.readthedocs.io/en/stable/getting_sta
 jupyter lab
 ```
 
-Jupyter lab is the "next generation" interface for the Jupyter project and it has more powerful features. Some packages that we use work more nicely with Jupyter lab too (although there is one lab assignment that requires jupyter notebook). 
+Jupyter lab is the "next generation" interface for the Jupyter project and it has more powerful features. Some packages that we use work more nicely with Jupyter lab too (although for some lab assignments you may need to use jupyter notebook instead of the lab). 
 
 
 # Lab assignment
@@ -146,7 +142,6 @@ Jupyter lab is the "next generation" interface for the Jupyter project and it ha
 1. Install Jupyter notebook and Jupyter lab. 
 1. Launch jupyter notebook (lab) 
 1. Create a new notebook and play with it. Print "Hello world!". 
-1. Submit your notebook. 
 
 If you want to use a cloud environment, 
 
@@ -172,4 +167,6 @@ Finally, these are the packages that we plan to use. So check out their homepage
 
 Install them using your package manager (conda or pip).
 
-Once you have installed the Jupyter locally or succeeded with a cloud environment, create a notebook and print "Hello world!" using the `print` command. Save (download) the notebook and submit it on the canvas. 
+Once you have installed the Jupyter locally or succeeded with a cloud environment, create a notebook and print "Hello world!" using the `print` command. Try to install some of the packages that you installed. I'd strongly recommend you to make sure that you can install and import these packages. 
+
+Save (download) the notebook and submit it on the canvas. 
