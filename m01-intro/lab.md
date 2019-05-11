@@ -55,20 +55,13 @@ pip install --user pipenv
 
 Check out the full documentation about installation: https://pipenv.readthedocs.io/en/latest/install
 
-
-Once you have installed it, you can download the `pipfile` for the course from [here](https://github.com/yy/dviz-course/blob/master/Pipfile) and put it in your work directory (or you can simply clone the repo and work on it), then run 
-
-```
-pipenv install
-```
-
-This command performs several actions. First it reads necessary packages from `pipfile`, then it creates a new virtual environment, and then install these packages into the newly created virtual environment. If you want to install a new package, you run 
+If you want to install a new package (and create a new virtual environment), you run 
 
 ```
 pipenv install package-name
 ```
 
-If you want to use the virtual environment, run
+If you want to use this virtual environment, run
 
 ```
 pipenv shell
@@ -76,18 +69,25 @@ pipenv shell
 
 If you want to deactivate the virtual env, you can simply type `exit`. 
 
-#### Using pipenv with system Jupyter
+### Using conda/pipenv with Jupyter
 
-To use pipenv-installed packages in your system Jupyter notebook or lab, you need to install `ipykernel` package first. 
+In Jupyter notebook/lab, you can choose the python kernel. Say if you have both python3.5 and python3.7, Jupyter lets you use the version of your choice. Furthermore, by choosing a kernel, you also use the packages installed with that kernel. So if you use `dviz` virtual environment that you set up with Anaconda, you can also use the python kernel and the packages installed in this virtual environment in Jupyter. 
+
+in your system Jupyter notebook or lab, you need to install `ipykernel` package first. 
+
+```
+conda install ipykernel
+```
+
+or 
 
 ```
 pipenv install ipykernel
 ```
 
-Then you can install a custom Python kernel (for your virtual env) for Jupyter by running the following (replace `dviz` with any name you want). 
+Then you can install a custom Python kernel (for your virtual env) for Jupyter by running the following (replace `dviz` with any name you want). First activate your environment, and then:
 
 ```
-pipenv shell
 python -m ipykernel install --user --name=dviz
 ```
 
