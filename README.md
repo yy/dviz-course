@@ -4,7 +4,7 @@
 - **Instructor**: [Yong-Yeol (YY) Ahn](http://yongyeol.com) 
 - **Relationships with Information Visualization course (IVMOOC)**: Compared with the IVMOOC, this course is more geared towards fundamental statistical visualizations and exploratory data analysis, using Python stack. Therefore, this course may be suitable for students who pursue their careers in research, developement, data analysis, and so on. 
 - **Announcements**: All announcements will be sent via Slack. 
-- **Syllabus**: You can download the syllabus [here](http://yongyeol.com/teaching/2019SU_dviz_syllabus.pdf). 
+- **Syllabus**: You can download the syllabus [here](http://yongyeol.com/teaching/dviz_syllabus.pdf). 
 
 ----
 
