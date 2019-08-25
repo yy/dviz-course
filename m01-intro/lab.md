@@ -16,18 +16,16 @@ First download Anaconda for your system (Python 3) from [here](https://www.anaco
 If you haven't, you may want to install the core Python data packages. 
 
 ```
-conda install numpy scipy pandas scikit-learn matplotlib seaborn jupyter
+conda install numpy scipy pandas scikit-learn matplotlib seaborn jupyter jupyterlab
 ```
 
-Although it is not strictly required, it is a really good practice to use virtual environment for each project. Try to use it for every project! 
-
-By using virtual environments, you can isolate each environment from the others and maintain separate sets (versions) of packages. `conda` has a built-in support for virtual environments. 
+You always want to use a virtual environment for each of your project. By using virtual environments, you can isolate each environment from the others and maintain separate sets (versions) of packages. `conda` has a built-in support for virtual environments. 
 
 ```
 conda create -n dviz python=3.7
 ```
 
-This command creates a virtual environment named `dviz` with Python 3.6 and Anaconda. 
+This command creates a virtual environment named `dviz` with Python 3.7 and Anaconda. 
 
 You can activate the environment (whenever you begins to work on this course) by running
 
