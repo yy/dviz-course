@@ -1,6 +1,6 @@
 # Module 3 assignment
 
-## 1. Fix it or break it!
+## Fix it or break it!
 
 In this assignment, you choose to be either a good 😇 or a bad 😈 person. Follow the instruction below and submit your paper to Canvas. 
 
