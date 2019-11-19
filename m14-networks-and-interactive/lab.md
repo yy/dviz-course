@@ -68,7 +68,7 @@ Notice that the drop-down list allows us to choose what to plot in the `x` and `
 
 From the Vega documentation:
 
->>>"Signals are dynamic variables that parameterize a visualization and can drive interactive behaviors." 
+> "Signals are dynamic variables that parameterize a visualization and can drive interactive behaviors." 
 
 Let's look at the code:
 

@@ -5,6 +5,9 @@
 \usepackage{org-preamble-pdflatex} 
 \usepackage[margin=1.2in]{geometry}
 
+\usepackage{enumitem}
+\setlist{nolistsep}
+
 \setlength{\parskip}{10pt}
 \setlength{\parindent}{0pt}
 
@@ -21,15 +24,16 @@
 \def\myaddress{Info East Rm 316} 
 \def\myemail{yyahn@iu.edu}
 \def\myweb{http://yongyeol.com}
-\def\myphone{856-2920}
+\def\myphone{}
 \def\myversion{}
 \def\myrevision{}
 
-\def\myaffiliation{\ \\Indiana University}
+\def\myaffiliation{Indiana University}
 \def\myauthor{Yong-Yeol (YY) Ahn}
 \def\mykeywords{Visualization, Data, Undergraduate, Informatics}
 \def\mysubtitle{Syllabus}
-\def\mytitle{{\normalsize \textsc{Info} 422/I590 (Fall 2018)} \\ \HUGE Data Visualization}
+%\def\mytitle{{\normalsize \textsc{Info} 422/I590 (Fall 2018)} \\ \HUGE{} Data Visualization}
+\def\mytitle{{\normalsize \textsc{Info} I422/I590 (Fall 2019)} \\ \HUGE{} Data Visualization}
 
 %%\chapterstyle{article-3}
 %\pagestyle{kjh}
@@ -44,60 +48,64 @@
 
 \title{\LARGE \mytitle} %{{{
 \author{\Large\myauthor\newline \footnotesize\texttt{\noindent\myemail}}
-\date{Info East 130 (M) / 109 (W)\newline MW 4:00pm--5:15pm. \newline Office hours: W 9:15am-10am}
+%\date{Info East 130 (M) / 109 (W)\newline MW 4:00pm--5:15pm. \newline Office hours: W 9:15am-10am}
 
 %\published{\sffamily I590/H400/I400 / Fall 2014 / Mon \& Wed 4:00--5:15pm / Info West 107 (M) \& 109 (W)}
 \maketitle 
 
-\vspace{-20pt}{\bfseries Assistant Instructors} \\ 
-Elise Jing (\texttt{jingy@iu.edu}) \\
-Jaehyuk Park (\texttt{jp70@iu.edu}) \\
-Harika Putti (\texttt{haputti@iu.edu})
-%}}}
-\section{Communication} %{{{
+\vspace{-20pt}{\bfseries Assistant Instructors} \\ %: TBD} \\ 
+Offline section: Elise Jing (\texttt{jingy@iu.edu}) \\
+Online section: Jaehyuk Park (\texttt{jp70@iu.edu}) \\
+%Harika Putti (\texttt{haputti@iu.edu})
 
-Announcements and other communication will be through Slack: 
-
-\url{https://iu-dviz-course.slack.com}
-
-Slack allows both private (group) communications and public fora. The number one recommendation from the previous students for the new students was to learn to use Slack and get used to it as soon as possible.  
-
-Please join as soon as possible. You can join with your IU email adddress by visiting the following link. 
-
-\url{https://join.slack.com/t/iu-dviz-course/signup}
-
+\date{Office hours: See Slack}
 %}}}
 \section{Course Description}%{{{
 
-From TV news to cutting-edge scientific papers, from a home office to the largest companies in the world, data visualization is extensively used to reveal patterns in data and to tell stories. 
-More and more data is collected, and more and more decisions are made through data analysis. 
-Data visualization is indispensible for understanding data, and thus is an essential skill for every knowledge worker.  
+From news to cutting-edge scientific papers, from a home office to the largest companies in the world, data visualization is a critical method for revealing patterns in data and telling stories. 
+Because data visualization is indispensable in understanding data, and because more and more decisions are driven by data, data visualization has become an essential skill for every knowledge worker.  
 This course is an introduction to basic statistical data analysis and visualization.  
 We will learn fundamentals of data visualization in the context of perception, integrity, design, statistics, types of data, and visualization techniques.  
 The hands-on exercises using the Python stack aim to equip you with practical data visualization skills and they will be an integral part of the course. 
 
-\paragraph{Relationships with S637 Information Visualization (IVMOOC):}
-Compared with S637, this course is geared more towards producing fundamental statistical visualizations and exploratory data analysis, using the Python data science and visualization stack.  
-Therefore, this course may be more suitable for students who pursue their careers in research, developement, and data analysis, and those who will directly analyze complex datasets. 
+\paragraph{Relationships with E583/Z637 Information Visualization (IVMOOC):}
+Compared with E583/Z637, this course is geared more towards producing fundamental statistical visualizations and exploratory data analysis using the Python data science and visualization stack.  
+Therefore, this course may be more suitable for students who pursue their careers in research, development, engineering, and data analysis, and those who will directly process and analyze complex datasets. 
 
 %}}}
 \section{Course Objectives}%{{{
 
-By the end of the course, you are expected to be able to understand, explain, and manipulate basic types of data, analyze them by applying basic exploratory visualization techniques, and create explanatory visualizations. 
-You will also be able to evaluate the effectiveness of data visualizations based on the principles of human perception, design, types of data, and visualization techniques. 
+By the end of the course, you are expected to be able to understand, explain, and manipulate basic types of data, analyze them by applying exploratory visualization techniques, and create explanatory visualizations. 
+You are also expected to be able to evaluate and improve the effectiveness of data visualizations based on the principles of human perception, design, types of data, and visualization techniques. 
  
-%\begin{itemize} \item Exploratory data visualization and analysis
 
-%\begin{itemize} \item Python data analysis stack \item Data types \item
-%Loading and manipulating data \item Fundamental data visualizations
-%\end{itemize}
+%}}}
+\section{Communication} %{{{
 
-%\end{itemize} }}}
+Announcements, Q\&As, and other communication will be through Slack, which allows quick messaging between individuals and groups (it is very similar to \texttt{discord}). The address of the course slack is: 
+
+\url{https://iu-dviz-course.slack.com}
+
+\emph{The first thing you need to do} when you enroll this course is to join the course slack. You can create an account by using one of the following IU email addresses: \texttt{indiana.edu}, \texttt{umail.iu.edu}, \texttt{iu.edu}, and \texttt{iupui.edu}. Visit \url{https://join.slack.com/t/iu-dviz-course/signup} to signup.
+
+Email and Canvas will be much slower because the instructors are under a constant bombardment of emails about all kinds of things that you don't even want to know. Please expect the following response time:
+
+\begin{itemize}
+\item \textbf{Email or Canvas}: the instructors will respond within \emph{one week} (likely within several days).
+\item \textbf{Slack}: the instructors will respond within \emph{one day} (likely within several hours).
+
+\end{itemize}
+
+Whenever you are not happy about the course or have a suggestion for improving the course, please share your thoughts! You can simply send a message on slack, or anonymously share your opinion:
+
+\url{https://forms.gle/MzzNSV6Y8deJWGC77} 
+
+%}}}
 \section{Prerequisites}%{{{
 \label{sec:Prerequisites}
 
-This course's residential version is open to advanced undergraduate students as well as graduate students; online version of this course is open to graduate students. 
-Because producing visualizations using Python data \& visualization stack is an integral part of the course, it is required to have good understanding and working knowledge of programming, as well as working knowledge of using open-source libraries. 
+%This course's residential version is open to advanced undergraduate students as well as graduate students; online version of this course is open to graduate students. 
+Because producing visualizations using Python data \& visualization stack is an integral part of the course, it is required to have good understanding and working knowledge of programming (esp. Python), as well as working knowledge of using open-source libraries. 
 It is also recommended to have basic understanding of mathematics, statistics, and Web (HTML, CSS, Javascript, and JSON). 
 
 For the undergraduate students, the prerequisites are:
@@ -106,16 +114,16 @@ For the undergraduate students, the prerequisites are:
 %
 \item Programming foundations (I210 \& I211, or equivalent). 
 %
-\end{itemize}\vspace{-10pt}
+\end{itemize}
 %
-The following courses are recommended: 
+The following courses are recommended before taking this course: 
 %
 \begin{itemize}\vspace{-10pt}
 %
 \item I123: Data Fluency \item I300: HCI/Interaction Design \item I308:
 Information Representation \item I360: Web Design
 %
-\end{itemize}\vspace{-10pt}
+\end{itemize}
 
 For self-assessment, visit the following link: \href{http://bit.ly/dvizselfassess}{http://bit.ly/dvizselfassess}. 
 Contact the instructor if you are uncertain about your background. 
@@ -124,19 +132,43 @@ Contact the instructor if you are uncertain about your background.
 \section{Expectations and Requirements}%{{{
 \label{sec:requirements}
 
-\paragraph{(All sections)} The final assessment will be mainly based on a mid-term exam and a final course project. 
-The choice of your project topic can be guided by the instructors but you have freedom to choose.
-You are required to submit a final paper that contains detailed explanation of the visualization process and results as well as the visualization artifact itself (e.g.~a visualization tool or a webpage) depending on the nature of your project. 
+%\paragraph{(All sections)} 
+%The final assessment will be mainly based on a mid-term exam and a final course project. 
+The main assessment will be through the exam and the final course project. 
+I strongly encourage everyone to consult with the instructors regarding your project topic, but you still have the freedom to choose your topic.
+You are required to submit a final paper that contains detailed explanation of the visualization \emph{process} and results as well as the visualization artifact itself (e.g.~a visualization tool or a webpage), depending on the nature of your project. 
 
-\paragraph{(Residential course)} You are expected to attend every class and engage in class discussions. 
-You are not allowed to use your phone or computer during the class unless explicitly asked to do so.  
-You are expected to read assigned reading materials prior to the class meetings if there is any.
-At the beginning of most class meetings, there will be an \emph{in-class quiz} based on the assigned readings and materials from the previous classes. 
-You are expected to complete all weekly assignments. 
+You are expected to complete all course modules (quizzes and discussions) and assignments. You are also expected to engage in discussion on Canvas and Slack. 
 
-\paragraph{(Online)} You are expected to complete all course modules and assignments. 
-You are also expected to engage in discussions on Canvas and Slack. 
+%\paragraph{(Residential course)} You are expected to attend every class and engage in class discussions. 
+%You are not allowed to use your phone or computer during the class unless explicitly asked to do so.  
+%You are expected to read assigned reading materials prior to the class meetings if there is any.
+%At the beginning of most class meetings, there will be an \emph{in-class quiz} based on the assigned readings and materials from the previous classes. 
+%You are expected to complete all weekly assignments. 
 
+%\paragraph{(Online)} You are expected to complete all course modules and assignments. 
+%You are also expected to engage in discussions on Canvas and Slack. 
+
+%}}}
+\section{Grading}\label{sec:grading_tentative_}%{{{
+
+The grade may be curved at the end of the course. Therefore, the grade that you can see on Canvas may not be the grade you receive finally. 
+
+There will be extra credits based on your strong engagement in the course, in terms of sharing useful resources \& interesting visualization related articles, participating in discussions, and helping other students.
+
+\begin{itemize}%{{{
+
+\item Attendance, Quiz, and Participation: 20\%
+%\item Attendance, Quiz, and Participation: 30\% 
+
+\item Assignments: 20\% 
+
+\item Exam: 30\%
+
+\item Final project: 30\%
+%\item Final project: 40\%
+
+\end{itemize}%}}}
 %}}}
 \section{Books and key materials}%{{{
 
@@ -153,9 +185,9 @@ There is no required textbook, but we will mainly use materials from the followi
 See also \href{http://yyahnwiki.appspot.com/Information_visualization#h_6225eb5bf8a031f750a1b03f810ccc6a}{Visualization books} on my wiki (\url{http://yyahnwiki.appspot.com/Information_visualization}). 
 
 
-If you are still in the process of learning Python basics, the following books and websites may be helpful for you:
+If you are still in the process of learning the basics of Python, the following books and websites may be helpful for you:
 
-\subsection{Python and data analysis}%{{{
+%\subsection{Python and data analysis}%{{{
 
 \begin{enumerate}%{{{
 
@@ -198,8 +230,20 @@ If you are still in the process of learning Python basics, the following books a
 \section{Policies}%{{{
 \begin{enumerate}%{{{
 
+\item \emph{Be honest.} Your assignments and papers should be your own work.  
+If you find useful resources for your assignments, share them and cite them. 
+If your friends helped you, acknolwedge them. 
+You should feel free to discuss both online and offline, but do not show your code directly.  
+Any cases of academic misconduct (cheating, fabrication, plagiarism, etc) will be reported to the School and the Dean of Students, following the standard procedure. 
+\emph{Cheating is not cool}. 
+
+\item \emph{You have the responsibility of backing up all your data and code}.
+Always back up your code and data. You should at least use Box, Dropbox, or Google Drive at the minimum.
+Ideally, learn version control systems and use \url{https://github.iu.edu} or \url{https://github.com}. 
+Loss of data, code, or papers (e.g.~due to malfunction of your laptop) is not an acceptable excuse for delayed or missing submission. 
+
 \item \emph{Disabilities.} Every attempt will be made to accommodate qualified
-students with disabilities (e.g. mental health, learning, chronic health,
+students with disabilities (e.g.~mental health, learning, chronic health,
 physical, hearing, vision, neurological, etc.). You must have established your
 eligibility for support services through Disability Services for Students. Note
 that services are confidential, may take time to put into place, and are not
@@ -211,6 +255,10 @@ floor, west tower, of the Wells Library (Room W302). Walk-ins are welcome 8 AM
 to 5 PM, Monday through Friday. You can also locate a variety of campus
 resources for students and visitors who need assistance at
 \url{http://www.iu.edu/~ada/index.shtml}. 
+
+\item \emph{Bias-based incidents.} Any act of discrimination or harassment based on 
+race, ethinicity, religious affiliation, gender, gender identity, sexual orientation, or
+disability can be reported to \texttt{biasincident@indiana.edu} or to the Dean of Students Office at (812) 855-8188. 
 
 \item \emph{Sexual misconduct and Title IX.} As your instructor, one of my
 responsibilities is to create a positive learning environment for all students.
@@ -233,75 +281,60 @@ In that event, those individuals will work to ensure that appropriate measures a
 Protecting student privacy is of utmost concern, and information will only be shared with those that need to know to ensure the University can respond and assist. 
 I encourage you to visit \emph{stopsexualviolence.iu.edu} to learn more. 
 
-\item \emph{No electronics---laptops, tablets, and smartphones---may be used in class}, unless the usage is specifically requested by the instructors (e.g.~Top Hat).  
+\item \emph{Bring your laptop on Wednesdays}. However, \emph{no electronics---laptops, tablets, and smartphones---may be used in the class}, unless the usage is specifically requested by the instructors. 
 It has been shown that \href{http://www.scientificamerican.com/article/a-learning-secret-don-t-take-notes-with-a-laptop/}{using laptops in class hurts learning, \emph{even if} you are using it to take notes}.  
-If you must have electronics due to a special reason, please obtain permission beforehand. 
+If you must have electronics due to a special reason, please obtain a permission beforehand. 
 
-\item \emph{Be honest.} Your assignments and papers should be your own work.  
-If you find useful resources for your assignments, share them and cite them. 
-If your friends helped you, acknolwedge them. 
-You should feel free to discuss both online and offline, but do not show your code directly.  
-Any cases of academic misconduct (cheating, fabrication, plagiarism, etc) will be reported to the School and the Dean of Students, following the standard procedure. 
-\emph{Cheating is not cool}. 
+\item \emph{Inform your excused absences prior to class}. Please contact the instructor prior to the class that you cannot attend. 
 
-\item \emph{You have the responsibility of backing up all your data and code}.
-Always use at least Box, Dropbox, or Google Drive. Ideally, learn version
-control systems and use \url{https://github.iu.edu} or
-\url{https://github.com}. Loss of data, code, or papers due to various reasons
-(e.g. malfunction of your laptop) is not an acceptable excuse for delayed or
-missing submission. 
+\item \emph{Late assignments}. There will be 10\% late penalty for the late assignments unless excused. 
 
-\item \emph{Inform your excused absences prior to class}. Please contact the
-instructor until the previous day for an excused absence.  
-
-\item \emph{Late assignments}. There will be 10\% late penalty for the late assignments. 
-
-\item If you have any mental issues, don't hesistate to contact me or
-\href{http://healthcenter.indiana.edu/counseling/index.shtml}{IU's Counseling
-and Psychological Services}, which provides free counseling sessions. 
+\item If you have any mental issues, don't hesistate to contact \href{http://healthcenter.indiana.edu/counseling/index.shtml}{IU's Counseling and Psychological Services}, which provides free counseling sessions. 
 
 
 \end{enumerate}%}}}
 %}}}
-\section{Grading}%{{{
-\label{sec:grading_tentative_}
+\clearpage\section{Course Schedule}%{{{
+
+The schedule may change due to unexpected circumstances. See also \href{https://registrar.indiana.edu/official-calendar/index.shtml}{IU Official Calendar}. 
+
+\subsection{Key dates}\label{sub:key_dates} %{{{
+
+Mark your calendar and plan ahead!
 
 \begin{itemize}%{{{
+\item Exam: \textbf{11/18}
+\item Project proposal due: \textbf{9/27}
+\item Project presentations: \textbf{12/9} and \textbf{12/11}
+\item Project paper due: \textbf{12/16}
+\end{itemize} %}}}
 
-\item Attendance, Quiz, and Participation: 20\%
-
-\item Assignments: 30\%
-
-\item Mid-term: 20\%
-
-\item Final project: 30\%
-
-\end{itemize}%}}}
 %}}}
-\section{Course Schedule}%{{{
+\subsection{Schedule and Readings}\label{sub:schedule}%{{{
 
-%The schedule is subject to change. 
-
-%Find the most up-to-date schedule as well as
-%detailed notes at \url{https://github.com/yy/dviz-course/wiki/Schedule}.
-
-\subsection{Week 1 (8/20-): Why visualization? | Overview of Python visualization libraries}
+\subsubsection{Week 1 (8/26-): Why visualization? | Overview of Python visualization libraries} %{{{
 
 \begin{itemize}\itemsep0em 
-\item J. Heer et al. A Tour through the Visualization Zoo. \url{https://queue.acm.org/detail.cfm?id=1805128}
+\item J. Heer \emph{et al}. A Tour through the Visualization Zoo. \url{https://queue.acm.org/detail.cfm?id=1805128}
 \item J. VanderPlas, The Python Visualization Landscape. \url{https://youtu.be/FytuB8nFHPQ}
 \end{itemize}	
 
-\subsection{Week 2 (8/27-): History and integrity | Plotting basics with the Snow's map }
+Further readings: \url{https://github.com/yy/dviz-course/blob/master/m01-intro/class.md}
+%}}}
+\subsubsection{Week 2 (9/2-): Labor day | Plotting and pandas basics with the Snow's map | HTML/CSS | Project }%{{{
+
+%}}}
+\subsubsection{Week 3 (9/9-): History and integrity | Let's fix a visualization | JSON }%{{{
 
 \begin{itemize}\itemsep0em 
 \item E.R. Tufte, The Visual Display of Quantitative Information, Ch.~1--2.
 \item C.O. Wilke, Fundamentals of Data Visualization Ch.~1 (\url{https://serialmentor.com/dataviz/introduction.html}). 
 \end{itemize}	
 
-\subsection{Week 3 (9/3-): Labor day | Web, Declarative vs. Procedural visualization }
+%\subsubsection{Week 3 (5/20-): Labor day | Web, Declarative vs. Procedural visualization }
 
-\subsection{Week 4 (9/10-): Perception | Perception experiments }
+%}}}
+\subsubsection{Week 4 (9/16-): Perception | Perception experiments }%{{{
 
 \begin{itemize}\itemsep0em 
 \item C.G. Healey, Perception in Visualization, \url{https://www.csc2.ncsu.edu/faculty/healey/PP/index.html}
@@ -310,8 +343,8 @@ and Psychological Services}, which provides free counseling sessions.
 \item C.O. Wilke, Fundamentals of Data Visualization Ch.~4 Color scales (\url{https://serialmentor.com/dataviz/color-basics.html}). 
 \item C.O. Wilke, Fundamentals of Data Visualization Ch.~15 Common pitfalls of color use (\url{https://serialmentor.com/dataviz/color-pitfalls.html}).
 \end{itemize}	
-
-\subsection{Week 5 (9/17-): Design | Colors, Vector, and Bitmaps }
+%}}}
+\subsubsection{Week 5 (9/23-): Design | Colors, Vector, and Bitmaps }%{{{
 
 \begin{itemize}\itemsep0em 
 \item B. Wong, Gestalt Principles I \& II, Nature Methods (2010). 
@@ -319,33 +352,33 @@ and Psychological Services}, which provides free counseling sessions.
 \item S. Bateman et al., Useful Junk? The Effects of Visual Embellishment on Comprehension and Memorability of Charts, CHI'10.
 \item C.O. Wilke, Fundamentals of Data Visualization Ch.~18--21 (\url{https://serialmentor.com/dataviz/optimize-data-signal.html}). 
 \end{itemize}	
-
-\subsection{Week 6 (9/24-): Data Types and 1-D data | Tidy data and 1D data } 
+%}}}
+\subsubsection{Week 6 (9/30-): Data Types and 1-D data | Tidy data and 1D data } %{{{
 
 \begin{itemize}\itemsep0em 
 \item H. Wickham, Tidy Data, Journal of Statistical Software, \url{https://vita.had.co.nz/papers/tidy-data.pdf}
 \item C.O. Wilke, Fundamentals of Data Visualization Ch.~14 (\url{https://serialmentor.com/dataviz/overlapping-points.html}). 
 \end{itemize}	
-
-\subsection{Week 7 (10/1-): Histogram and Boxplot | Histogram and CDF }
+%}}}
+\subsubsection{Week 7 (10/7-): Histogram and Boxplot | Histogram and CDF }%{{{
 
 \begin{itemize}\itemsep0em 
 \item C.O. Wilke, Fundamentals of Data Visualization Ch.~6--7 (\url{https://serialmentor.com/dataviz/overlapping-points.html}). 
 \end{itemize}	
-
-\subsection{Week 8 (10/8-): Estimation | Estimation }
+%}}}
+\subsubsection{Week 8 (10/14-): Estimation | Estimation }%{{{
 
 \begin{itemize}\itemsep0em 
 \item C.O. Wilke, Fundamentals of Data Visualization Ch.~8--9 (\url{https://serialmentor.com/dataviz/overlapping-points.html}). 
 \end{itemize}	
-
-\subsection{Week 9 (10/15-): Logscale and Beyond 1-D | Logscale and CCDF}
+%}}}
+\subsubsection{Week 9 (10/21-): Logscale and Beyond 1-D | Logscale and CCDF}%{{{
 
 \begin{itemize}\itemsep0em 
 \item Khan Academy: Logarithmic scale with Vi Hart (\url{https://www.khanacademy.org/math/algebra2/exponential-and-logarithmic-functions/logarithmic-scale}). 
 \end{itemize}	
-
-\subsection{Week 10 (10/22-): High-dimensional data | High-dimensional data }
+%}}}
+\subsubsection{Week 10 (10/28-): High-dimensional data | High-dimensional data }%{{{
 
 \begin{itemize}\itemsep0em 
 \item C.O. Wilke, Fundamentals of Data Visualization Ch.~11 (\url{https://serialmentor.com/dataviz/visualizing-associations.html}). 
@@ -354,26 +387,35 @@ and Psychological Services}, which provides free counseling sessions.
 \item L. van der Maaten \& G. Hinton, Visualizing data using t-SNE, JMLR 2008 \url{http://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf}.
 \end{itemize}	
 
-\subsection{Week 11 (10/29-): Mid-term}
-\subsection{Week 12 (11/5-): Maps | Maps }
+%\subsubsection{Week 10 (7/8-): Mid-term}
+%}}}
+\subsubsection{Week 11 (11/4-): Maps | Maps }%{{{
 
 \begin{itemize}\itemsep0em 
 \item Vsauce, What does earth look like? \url{https://youtu.be/2lR7s1Y6Zig}
 \item Vox, Why all world maps are wrong \url{https://youtu.be/kIID5FDi2JQ}
 \end{itemize}	
-
-\subsection{Week 13 (11/12-): Text and Networks | Text and networks} 
+%}}}
+\subsubsection{Week 12 (11/11-): Text and Networks | Text and networks} %{{{
 
 \begin{itemize}\itemsep0em 
 \item J. Harris, Word clouds considered harmful, \url{http://www.niemanlab.org/2011/10/word-clouds-considered-harmful/}. 
 \item The Observatory of Economic Complexity, \url{https://atlas.media.mit.edu/en/profile/country/usa/}.
 \end{itemize}	
+%\subsubsection{Week 14 (11/19-): Thanksgiving break}
+%\subsubsection{Week 15 (11/26-): Project Hacks}
+%}}}
+\subsubsection{Week 13 (11/18-): Exam | Exam review} %{{{
+%}}}
+\subsubsection{Week 14 (11/25-): Thanksgiving break} %{{{
+%}}}
+\subsubsection{Week 15 (12/2-): Project Hack week}%{{{
+%}}}
+\subsubsection{Week 16 (12/9-): Final project presentations}%{{{
+%}}}
 
-\subsection{Week 14 (11/19-): Thanksgiving break}
+%}}}
 
-\subsection{Week 15 (11/26-): Project Hacks}
-
-\subsection{Week 16 (12/3-): Final project presentation}
 %}}}
 
 \end{document} %}}}

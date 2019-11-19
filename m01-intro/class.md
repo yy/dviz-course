@@ -20,14 +20,18 @@
 **John Snow's Cholera map and Voronoi diagram**
 
 - [Nightmen in London](http://www.victorianweb.org/history/work/19.html)
-- [Wikipedia: Voronoi Diagram](https://en.wikipedia.org/wiki/Voronoi_diagram)
 - [The Ghost Map: The Story of London's Most Terrifying Epidemic--and How It Changed Science, Cities, and the Modern World](http://www.amazon.com/The-Ghost-Map-Terrifying-Epidemic/dp/1594482691) by Steven Johnson
+- [The John Snow archive and research companion](https://johnsnow.matrix.msu.edu/book_images12.php)
+
+- [Wikipedia: Voronoi Diagram](https://en.wikipedia.org/wiki/Voronoi_diagram)
 - [A simple IPython notebook that explores the map and Voronoi diagram](https://github.com/yy/dviz-course/blob/master/w01-intro/cholera_map/john-snow-cholera-map.ipynb)
+- http://yyahnwiki.appspot.com/Voronoi_diagram
 
 **Power of visualization**
 
 - [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet)
 - [Same Stats, Different Graphs - CHI 2017](https://www.youtube.com/watch?v=DbJyPELmhJc)
+- [What data patterns can lie behind a correlation coefficient?](https://figshare.com/articles/What_data_patterns_can_lie_behind_a_correlation_coefficient_blog_post_/6945335/1)
 - [Pre-attentive processing](https://en.wikipedia.org/wiki/Pre-attentive_processing)
 
 **Visualizations**

@@ -1,0 +1,13 @@
+ipykernel
+numpy
+scipy
+matplotlib
+pandas
+altair
+seaborn
+scikit-learn
+datashader
+bokeh
+holoviews
+wordcloud
+spacy
