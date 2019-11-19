@@ -138,6 +138,8 @@ That's it!
 Assignment: add radio buttons to allow changing the color of the points. Your result should look like this:
 
 ![example](https://github.com/yy/dviz-course/raw/master/m14-networks-and-interactive/m14_example.png)
+
+Submit the URL of your work (can be obtained using the webpage's "share" feature).
     
     
     
