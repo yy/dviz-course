@@ -9,7 +9,7 @@ In this assignment, you choose to be either a good 😇 or a bad 😈 person. Fo
 Find a couple of highly misleading visualizations. Write a short paper (also feel free to publish in your blog or something) that 
 
 - dissects and explains why the visualizations are misleading. 
-- explains how can the visualization can be fixed. 
+- explains how can the visualization be fixed. 
 - provides a fixed visualization (either hand-drawn or plotted with any tool)
 
 ### 😈 
