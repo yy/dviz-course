@@ -1,3 +1,4 @@
+
 # Gephi and Cytospace
 
 We will introduce two network visualization tools. The first one is Gephi. It can perform a variety of network analysis and can produce pretty visualizations quickly. The downside is that it's currently not well maintained and as a result the installation has become problematic, particularly in the recent systems including Windows 10 and MacOS 10.12+. 
@@ -10,24 +11,24 @@ Depending upon what version of Gephi you use the location of some buttons and ta
 
 Another tool is the Cytoscape. It's developed by biologists & bioinformaticians and thus geared towards biological networks. Additionally, it does not have many network analysis functionalities. However, it is more stable and sensible in many ways than Gephi. You can download it at [http://www.cytoscape.org/](http://www.cytoscape.org/) and check out the tutorials at: [https://github.com/cytoscape/cytoscape-tutorials/wiki](https://github.com/cytoscape/cytoscape-tutorials/wiki).
 
-For this assignment, you can choose one from these two, and experiment with a small network. We'll use the Les Miserables graph, which can be downloaded from: [http://www-personal.umich.edu/~mejn/netdata/](http://www-personal.umich.edu/~mejn/netdata/). (Feel free to play with other networks too: [https://github.com/gephi/gephi/wiki/Datasets](https://github.com/gephi/gephi/wiki/Datasets)) 
+For this assignment, you can choose one from these two, and experiment with a small network. We'll use the Les Miserables graph, which can be downloaded from: [http://www-personal.umich.edu/~mejn/netdata/](http://www-personal.umich.edu/~mejn/netdata/). (Feel free to play with other networks too: [https://github.com/gephi/gephi/wiki/Datasets](https://github.com/gephi/gephi/wiki/Datasets)) 
 
-Once you have the Les Miserables graph,
+Once you have the Les Miserables graph,
 
 For Gephi users:
 * Load the network into Gephi as an undirected graph
 * Use a force-directed layout to obtain a good layout (also play with other layouts)
 * Find communities (modules) and color nodes based on the communities
-* Tweak various visual encodings to obtain a good visualization
+* Tweak various visual encodings to obtain a good visualization. For example - node size, node labels, edge weights etc
 * Export to a PDF or a PNG file
-* and upload the image file. 
+* and upload the image file. 
 
 For Cytospace users:
 * Load the network into Cytospace
 * Apply the edge-weighted spring embedded layout (also play with other layouts such as "organic")
 * Color the nodes and tweak various visual encodings to obtain a good visualization
 * Export to a PDF or a PNG file
-* and upload the image file. 
+* and upload the image file. 
 
 
 
@@ -139,7 +140,7 @@ Assignment: add radio buttons to allow changing the color of the points. Your re
 
 ![example](https://github.com/yy/dviz-course/raw/master/m14-networks-and-interactive/m14_example.png)
 
-Submit the URL of your work (can be obtained using the webpage's "share" feature).
+**Submit the URL of your work (can be obtained using the webpage's "share" feature).**
     
     
     
