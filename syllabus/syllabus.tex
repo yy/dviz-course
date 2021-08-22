@@ -1,6 +1,7 @@
 \documentclass[11pt,article,oneside]{memoir} %{{{
 % based on Kieran Healy's syllabus templates
 % https://github.com/kjhealy/latex-custom-kjh 
+\usepackage{booktabs}
 
 \usepackage{org-preamble-pdflatex} 
 \usepackage[margin=1.2in]{geometry}
@@ -32,7 +33,7 @@
 \def\myauthor{Yong-Yeol (YY) Ahn}
 \def\mykeywords{Visualization, Data, Undergraduate, Informatics}
 \def\mysubtitle{Syllabus}
-\def\mytitle{{\normalsize DSCI 590 (Summer 2021)} \\ \HUGE{} Data Visualization}
+\def\mytitle{{\normalsize INFO 422 / INFO 590 / DSCI 590 (Fall 2021)} \\ \HUGE{} Data Visualization}
 
 %%\chapterstyle{article-3}
 %\pagestyle{kjh}
@@ -46,26 +47,29 @@
 \begin{document} %{{{
 
 \title{\LARGE \mytitle} %{{{
-\author{\Large\myauthor\newline \footnotesize\texttt{\noindent\myemail} }
+\author{\Large\myauthor\newline \footnotesize\texttt{\noindent\myemail } }
 %\date{Info East 130 (M) / 109 (W)\newline MW 4:00pm--5:15pm. \newline Office hours: W 9:15am-10am}
-\date{Office hours: Tuesday 1pm-4pm at \myaddress}
+\date{Office hours: Thursday 10am-10:30am \& 3:30pm-4pm\\ at Myles Brand E316 and/or \myaddress}
 
-%\published{\sffamily I590/H400/I400 / Fall 2014 / Mon \& Wed 4:00--5:15pm / Info West 107 (M) \& 109 (W)}
+\published{\sffamily Fall 2021 / Mon \& Wed 4:55pm--6:10pm / Lindley Hall 035} 
 
 \maketitle 
 
-\vspace{-20pt}{\bfseries Assistant Instructor} \\ %: TBD} \\ 
-TBD
-%Elise Jing (\texttt{jingy@iu.edu}), Office hours: Monday 5:30pm-6:30pm and Tuesday 2pm-3pm\\
+\vspace{-20pt}{\bfseries Assistant Instructors (residential)} \\ %: TBD} \\ 
+Vincent Wong (\texttt{vmwong@iu.edu}), TBD\\
+Ashutosh Hathidara (\texttt{ashuhath@iu.edu}), Fri. 10am-12pm at \url{https://iu.zoom.us/my/ashuhath}\\\\
+{\bfseries Assistant Instructors (online)}\\  
+Shubham Singh (\texttt{shusingh@iu.edu}), Sun. \& Tue. 10-11am at \url{https://iu.zoom.us/my/shusingh}\\
+
 
 %}}}
 \section{Course Description}%{{{
 
-From news to cutting-edge scientific papers, from a home office to the largest companies in the world, data visualization is a critical step in understanding data. 
+From news to cutting-edge scientific papers, from a home office to the largest companies in the world, data visualization is used as a critical step in understanding data. 
 Because data visualization is indispensable in data analysis, data visualization has become an essential skill for every knowledge worker.  
 This course is an introduction to basic statistical data analysis and visualization.  
 We will learn the fundamentals of data visualization in the context of perception, integrity, design, statistics, types of data, and visualization techniques.  
-The hands-on exercises using the Python stack aim to equip you with practical data visualization skills. 
+The hands-on exercises using the Python stack aim to equip you with practical data processing and visualization skills. 
 
 \paragraph{Relationships with E583/Z637 Information Visualization (IVMOOC)} Compared with E583/Z637, this course is geared more towards producing fundamental statistical visualizations and exploratory data analysis by writing code using the Python data science and visualization stack.  
 Therefore, this course may be more suitable for students who pursue their careers in research, development, engineering, and data analysis, and those who will directly process and analyze complex datasets. 
@@ -73,22 +77,25 @@ Therefore, this course may be more suitable for students who pursue their career
 %}}}
 \section{Course Objectives}%{{{
 
-By the end of the course, you are expected to be able to understand, explain, and manipulate basic types of data, analyze them by applying exploratory visualization techniques, and create explanatory visualizations. 
+By the end of the course, you are expected to be capable to understand, explain, and manipulate basic types of data, analyze them by applying exploratory visualization techniques, and create explanatory visualizations. 
 You are also expected to be able to evaluate and improve the effectiveness of data visualizations based on the fundamental visualization principles about human perception, design, data types, and visualization techniques. 
- 
+You will demonstrate your capacity by completing a course project that documents the detailed process of creating data visualizations. 
 
 %}}}
 \section{Communication} %{{{
 
-Announcements, Q\&As, and other communication will be sent via Canvas and Slack. Joining Slack is optional but highly encouraged. When joining, feel free to avoid using your full name (e.g., ``John D.''). Slack allows quick messaging between individuals and groups (it is very similar to \texttt{discord} if you have used it). The address of the course slack is: 
+We will use Canvas and Slack for communication. \textbf{Canvas} is for official communications as well as for anything that contains personal and sensitive information. \textbf{Slack} is for day-to-day information sharing, Q\&As, team discussions, and other casusal conversations. 
 
-\url{https://iu-dviz-course.slack.com}
+Announcements, Q\&As, and other communication will be sent via Canvas and Slack. Although the most critical announcements will be sent via both platforms, a lot of course-related information (as well as questions and answers) will be shared on Slack and thus you will miss most of useful---although not \emph{essential} in completing the course---course-related information if you are not on Slack. 
+When joining the course Slack, feel free to avoid using your full name (e.g., use ``John D.'' instead of ``John Doe'') to protect your privacy. 
+Also never post your personal information or sensitive data (e.g., grades) to the course Slack. 
 
-You can create an account by using one of the following IU email addresses: \texttt{indiana.edu}, \texttt{umail.iu.edu}, \texttt{iu.edu}, and \texttt{iupui.edu}. Visit \url{https://join.slack.com/t/iu-dviz-course/signup} to signup.
+The address of the course slack is: \url{https://iu-dviz-course.slack.com}, and visit \url{https://join.slack.com/t/iu-dviz-course/signup} to signup.
+You can create an account by using one of the following IU email addresses: \texttt{indiana.edu}, \texttt{umail.iu.edu}, \texttt{iu.edu}, and \texttt{iupui.edu}. Please email the instructor if you want to use other email addresses. 
 
-Note that Email and Canvas will be much slower because the instructors are under a constant bombardment of emails about all kinds of things that you don't even want to know. 
+Note that Email and Canvas will be much slower than Slack because the instructors are under a constant bombardment of emails about all kinds of things that you don't even want to know. 
 
-Whenever you are not happy about the course or have a suggestion for improving the course, please share your thoughts! You can simply send a message on slack, or anonymously share your opinion:
+Whenever you have something to say about the course or have a suggestion for improving the course, please share your thoughts! You can simply send a message on slack, or anonymously share your opinion:
 
 \url{https://forms.gle/MzzNSV6Y8deJWGC77} 
 
@@ -108,11 +115,12 @@ Contact the instructor if you are uncertain about your background.
 
 %\paragraph{(All sections)} 
 %The final assessment will be mainly based on a mid-term exam and a final course project. 
-The primary assessment will be through the exam and the final course project. 
-Although the topic will be of your choice, I strongly encourage everyone to consult with the instructors. 
-You are required to submit a final paper that contains detailed explanation of the visualization \emph{process} and \emph{results}. 
+The primary assessment will be through the assignments, the final exam, and the final course project. 
+The topic of the final project will be of your (team's) choice, but I encourage everyone to consult with the instructors. 
+You are required to submit a final paper that contains not only the \emph{results} but also detailed explanation of the visualization \emph{process} to demonstrate your knowledge on visualization principles and techniques, as well as your ability to apply them to create visualizations. 
 
-You are expected to complete all course modules (quizzes and discussions) and assignments. You are also expected to engage in discussion on Canvas and Slack. 
+You are expected to attend all course meetings, except when you are sick or have a pre-approval from the instructor. 
+You are expected to complete all course modules (quizzes and discussions) and assignments, as well as visualization critiques through the ``visualization of the week''. You are also expected to engage in discussion on Canvas and Slack. 
 
 %\paragraph{(Residential course)} You are expected to attend every class and engage in class discussions. 
 %You are not allowed to use your phone or computer during the class unless explicitly asked to do so.  
@@ -126,7 +134,9 @@ You are expected to complete all course modules (quizzes and discussions) and as
 %}}}
 \section{Grading}\label{sec:grading_tentative_}%{{{
 
-The grade may be curved at the end of the course. Therefore, \emph{the grade that you can see on Canvas may not be the final grade}. 
+I sincerely hope that you focus on your learning and not on the grades! See \url{https://www.youtube.com/watch?v=u6XAPnuFjJc} 
+
+The grade may be curved at the end of the course. Moreover, the gradebook often has ungraded items. Therefore, \emph{the grade that you can see on Canvas may not be a faithful reflection of your projected grade!}. 
 
 There will be extra credits based on your strong engagement in the course, in terms of sharing useful resources \& interesting visualization-related articles, participating in discussions, and helping other students.
 
@@ -156,7 +166,7 @@ There is no required textbook, but we will mainly use materials from the followi
 
 \end{enumerate}
 
-See also \href{}{Visualization books} on my wiki (\url{http://yyahnwiki.appspot.com/Information_visualization}). 
+See also \href{https://yyiki.org/wiki/Data%20visualization/Books/}{Visualization books} and \href{https://yyiki.org/wiki/Data%20visualization/}{Data Visualization page} on my wiki. 
 
 
 If you are still in the process of learning the basics of Python, the following books and websites may be helpful for you:
@@ -177,10 +187,37 @@ If you are still in the process of learning the basics of Python, the following 
 %}}}
 
 %}}}
+
+\section{Final project}%{{{
+
+See \url{https://github.com/yy/dviz-course/wiki/Projects} for the final project details, including the deliverables, types of projects, and some project ideas. 
+
+%}}}
+
+\section{Course Schedule}%{{{
+
+The schedule may change due to unexpected circumstances. See also \href{https://registrar.indiana.edu/official-calendar/index.shtml}{IU Official Calendar}. 
+
+\subsection{Key dates}\label{sub:key_dates} %{{{
+
+Mark your calendar and plan ahead!
+
+\begin{itemize}%{{{
+\item Project proposal due: \textbf{10/1}
+\item Project presentation files and final paper due: \textbf{12/3}
+\item Project presentation (residential): \textbf{12/6} and \textbf{12/8} 
+\item Final Exam: During the final week of the semester.
+\end{itemize} %}}}
+
+%}}}
+\input{fall_schedule.tex}
+
 \section{Policies}%{{{
 \begin{enumerate}%{{{
+    \setlength\itemsep{1em}
+\item \emph{Let's keep everyone safer together.} Don't be a jerk. Free masks are available near the entrance of every building. Carry some extra. I'll carry some extra as well. If you don't follow IU's mask policy (``all students, faculty, and staff should wear a mask that fully covers the wearer’s nose and mouth''), I will have to report you to the Office of Student Conduct and there can be sanctions. 
 
-\item \emph{Be honest.} Your assignments and papers should be your own work.  
+\item \emph{Be honest.} Don't be a cheater. Your assignments and papers should be your own work.  
 If you find useful resources for your assignments, share them and cite them. 
 If your friends helped you, acknowledge them. 
 You should feel free to discuss both online and offline, but do not show your code directly.  
@@ -188,7 +225,8 @@ Any cases of academic misconduct (cheating, fabrication, plagiarism, etc) will b
 \emph{Cheating is not cool}. 
 
 \item \emph{You have the responsibility of backing up all your data and code}.
-Always back up your code and data. You should at least use Box, Dropbox, or Google Drive at the minimum.
+Always back up your code and data. You should at least use Google Drive or Dropbox at the minimum.
+You can also use cloud services like Google Colaboratory.
 Ideally, learn version control systems and use \url{https://github.iu.edu} or \url{https://github.com}. 
 Loss of data, code, or papers (e.g.~due to malfunction of your laptop) is not an acceptable excuse for delayed or missing submission. 
 
@@ -210,13 +248,11 @@ resources for students and visitors who need assistance at
 race, ethnicity, religious affiliation, gender, gender identity, sexual orientation, or
 disability can be reported to \texttt{biasincident@indiana.edu} or to the Dean of Students Office at (812) 855-8188. 
 
-\item \emph{Sexual misconduct and Title IX.} As your instructor, one of my
-responsibilities is to create a positive learning environment for all students.
+\item \emph{Sexual misconduct and Title IX.} 
 Title IX and IU's Sexual Misconduct Policy prohibit sexual misconduct in any
 form, including sexual harassment, sexual assault, stalking, and dating and
 domestic violence.  If you have experienced sexual misconduct, or know someone
-who has, the University can help. If you are seeking help and would like to
-speak to someone confidentially, you can make an appointment with:
+who has, you can use university resources:  
 
 \begin{enumerate}
     
@@ -229,7 +265,7 @@ speak to someone confidentially, you can make an appointment with:
 It is also important that you know that Title IX and University policy require me to share any information brought to my attention about potential sexual misconduct, with the campus Deputy Title IX Coordinator or IU's Title IX Coordinator. 
 In that event, those individuals will work to ensure that appropriate measures are taken and resources are made available. 
 Protecting student privacy is of utmost concern, and information will only be shared with those that need to know to ensure the University can respond and assist. 
-I encourage you to visit \emph{stopsexualviolence.iu.edu} to learn more. 
+Visit \emph{stopsexualviolence.iu.edu} to learn more. 
 
 %\item \emph{Bring your laptop on Wednesdays}. However, \emph{no electronics---laptops, tablets, and smartphones---may be used in the class}, unless the usage is specifically requested by the instructors. 
 %It has been shown that \href{http://www.scientificamerican.com/article/a-learning-secret-don-t-take-notes-with-a-laptop/}{using laptops in class hurts learning, \emph{even if} you are using it to take notes}.  
@@ -239,27 +275,10 @@ I encourage you to visit \emph{stopsexualviolence.iu.edu} to learn more.
 
 %\item \emph{Late assignments}. There will be 10\% late penalty for the late assignments unless excused. 
 
-\item If you have any mental issues, don't hesitate to contact \href{http://healthcenter.indiana.edu/counseling/index.shtml}{IU's Counseling and Psychological Services}, which provides free counseling sessions. 
+\item If you have any mental health issues, don't hesitate to contact \href{http://healthcenter.indiana.edu/counseling/index.shtml}{IU's Counseling and Psychological Services}, which provides free counseling sessions. Also, please contact Disability Services for Students at \url{http://disabilityservices.indiana.edu} or 812-855-7578 as soon as possible if accommodations are needed. See ``Disabilities'' section for more information. 
 
 
 \end{enumerate}%}}}
 %}}}
-\clearpage\section{Course Schedule}%{{{
-
-The schedule may change due to unexpected circumstances. See also \href{https://registrar.indiana.edu/official-calendar/index.shtml}{IU Official Calendar}. 
-
-\subsection{Key dates}\label{sub:key_dates} %{{{
-
-Mark your calendar and plan ahead!
-
-\begin{itemize}%{{{
-\item Exam: The last week of the semester%\textbf{11/18}
-\item Project proposal due: \textbf{6/11}
-\item Project presentation and paper due: \textbf{7/23}
-\item Final exam due: \textbf{7/30}
-\end{itemize} %}}}
-
-%}}}
-\input{summer_schedule.tex}
 
 \end{document} %}}}
