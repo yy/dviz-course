@@ -24,8 +24,7 @@
 - [The John Snow archive and research companion](https://johnsnow.matrix.msu.edu/book_images12.php)
 
 - [Wikipedia: Voronoi Diagram](https://en.wikipedia.org/wiki/Voronoi_diagram)
-- [A simple IPython notebook that explores the map and Voronoi diagram](https://github.com/yy/dviz-course/blob/master/w01-intro/cholera_map/john-snow-cholera-map.ipynb)
-- http://yyahnwiki.appspot.com/Voronoi_diagram
+- https://yyiki.org/wiki/Voronoi%20diagram/
 
 **Power of visualization**
 
