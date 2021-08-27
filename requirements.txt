@@ -11,3 +11,5 @@ bokeh
 holoviews
 wordcloud
 spacy
+jupyter
+pytest

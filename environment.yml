@@ -1,0 +1,20 @@
+name: dviz
+channels:
+  - conda-forge
+dependencies:
+  - ipykernel
+  - numpy
+  - scipy
+  - vega_datasets
+  - matplotlib
+  - pandas
+  - altair
+  - seaborn
+  - scikit-learn
+  - datashader
+  - bokeh
+  - holoviews
+  - wordcloud
+  - spacy
+  - jupyter
+  - pytest
