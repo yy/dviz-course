@@ -26,5 +26,7 @@ jobs:
         shell: bash -l {0}
         run: |
           conda activate dviz
-          pip install nbmake pytest-xdist
+          jupyter kernelspec list
+          pip install nbmake pytest-xdist nbconvert
+          jupyter nbconvert --ClearMetadataPreprocessor.enabled=True --inplace **/**.ipynb
           pytest --nbmake -n=auto ./
