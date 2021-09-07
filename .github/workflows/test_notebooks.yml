@@ -1,7 +1,7 @@
 name: pytest-notebooks
 
 # Run every time a new commit is pushed
-on: pull_request
+on: push
 
 jobs:
   # Set the job key
