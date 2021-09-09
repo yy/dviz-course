@@ -27,6 +27,6 @@ jobs:
         run: |
           conda activate dviz
           jupyter kernelspec list
-          pip install nbmake pytest-xdist nbconvert
+          pip install nbmake pytest-xdist nbconvert remotezip
           jupyter nbconvert --ClearMetadataPreprocessor.enabled=True --inplace **/**.ipynb
           pytest --nbmake -n=auto ./
