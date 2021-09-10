@@ -29,6 +29,5 @@ jobs:
           jupyter kernelspec list
           pip install nbmake pytest-xdist nbconvert remotezip
           python -m spacy download en_core_web_sm
-          python -m spacy link en_core_web_sm en
           jupyter nbconvert --ClearMetadataPreprocessor.enabled=True --inplace **/**.ipynb
           pytest --nbmake -n=auto ./
