@@ -13,3 +13,4 @@ wordcloud
 spacy
 jupyter
 pytest
+unidecode
