@@ -4,6 +4,7 @@ on:
   push:
     branches:
     - master
+    - test_links
     paths:
     - '**/**.md'
   pull_request:
