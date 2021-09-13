@@ -5,12 +5,12 @@ on:
     branches:
     - master
     paths:
-    - '**/*.md'
+    - '**/**.md'
   pull_request:
     branches:
     - master
     paths:
-    - '**/*.md'
+    - '**/**.md'
   schedule:
   # Run every Monday at 9AM EST (1PM UTC)
   - cron: "0 13 * * 1"
