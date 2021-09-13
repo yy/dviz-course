@@ -1,5 +1,5 @@
 # Why Visualizations?
-
+# Test Commit
 # Further readings
 
 - [Self assessment questions](http://bit.ly/dvizselfassess)
