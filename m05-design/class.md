@@ -15,8 +15,8 @@
 ## Chartjunk
 
 [Chartjunk](https://en.wikipedia.org/wiki/Chartjunk) has attracted some interests in academia, particularly about their effect on memorability or engagement. 
-- Bateman et al., [Useful junk?: the effects of visual embellishment on comprehension and memorability of charts](http://ww.w.cedma-europe.org/newsletter%20articles/misc/The%20Effects%20of%20Visual%20Embellishment%20on%20Comprehension%20and%20Memorability%20of%20Charts.pdf)
-- Borkin et al., [What Makes a Visualization Memorable?](http://ieeexplore.ieee.org/xpl/login.jsp?tp=&arnumber=6634103&url=http%3A%2F%2Fieeexplore.ieee.org%2Fxpls%2Fabs_all.jsp%3Farnumber%3D6634103)
+- Bateman et al., [Useful junk?: the effects of visual embellishment on comprehension and memorability of charts](https://dl.acm.org/doi/pdf/10.1145/1753326.1753716)
+- Borkin et al., [What Makes a Visualization Memorable?](https://ieeexplore.ieee.org/iel7/2945/6634084/06634103.pdf)
 
 ## Design
 
