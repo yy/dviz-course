@@ -6,7 +6,7 @@
 
 **Why quizzes and exams (retrievals) are more critical than reading or lecture in learning?**
 
-- Karpicke, Jeffrey D., and Henry L. Roediger. ["The critical importance of retrieval for learning." science 319.5865 (2008): 966-968.](http://www.sciencemag.org/content/319/5865/966.short) 
+- Karpicke, Jeffrey D., and Henry L. Roediger. ["The critical importance of retrieval for learning." science 319.5865 (2008): 966-968.](https://web.mit.edu/jbelcher/www/learner/retrieval.pdf) 
 
 **On the importance of internal motives**
 

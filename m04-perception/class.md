@@ -12,7 +12,7 @@
 - Colin Ware, [Visual Thinking: for Design](http://www.amazon.com/Visual-Thinking-Kaufmann-Interactive-Technologies/dp/0123708966)
 - M. Agrawala, W. Li, and F. Berthouzoz, [Design principles for visual communication](http://vis.berkeley.edu/papers/designprinciples/p60-agrawala.pdf)
 
-- Bang Wong, from "Points of View" (they are very short columns): http://clearscience.info/wp/?p=546
+- Bang Wong, from ["Points of View" (they are very short columns)](http://blogs.nature.com/methagora/2013/07/data-visualization-points-of-view.html)
   - [Color coding](http://www.nature.com/nmeth/journal/v7/n8/full/nmeth0810-573.html)
   - [Design of data figures](http://www.nature.com/nmeth/journal/v7/n9/full/nmeth0910-665.html)
   - [Salience](http://www.nature.com/nmeth/journal/v7/n10/full/nmeth1010-773.html)
@@ -23,7 +23,7 @@
 
 - [Just-noticeable difference](https://en.wikipedia.org/wiki/Just-noticeable_difference)
   - http://www.jnd.org/
-- [Weber's law and thresholds](https://www.khanacademy.org/science/health-and-medicine/nervous-system-and-sensory-infor/sensory-perception-2014-03-27T18:45:20.451Z/v/webers-law-and-thresholds)
+- [Weber's law and thresholds](https://www.khanacademy.org/test-prep/mcat/processing-the-environment/sensory-perception/v/webers-law-and-thresholds)
 - [Weber–Fechner law](https://en.wikipedia.org/wiki/Weber%E2%80%93Fechner_law)
 - [Stevens's power law](https://en.wikipedia.org/wiki/Stevens%27s_power_law)
 

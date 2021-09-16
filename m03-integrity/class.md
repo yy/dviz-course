@@ -66,7 +66,7 @@ Although I believe that statistics is one of the best tools that we have to make
 
 - [How to Lie with Statistics](http://www.amazon.com/How-Lie-Statistics-Darrell-Huff/dp/0393310728)
 
-![](http://ecx.images-amazon.com/images/I/51FKg7ecS%2BL._SX334_BO1,204,203,200_.jpg)
+![](https://user-images.githubusercontent.com/20843596/133619037-e827b3d6-4914-4e12-b30e-9030d03d1b88.jpg)
 
 The book talks about how you can manipulate perception by showing certain range of values for the vertical axis (mainly by not starting at zero). But it should not be followed religiously. The following video by Vox, titled [Shut up about the y-axis. It shouldn’t always start at zero](https://youtu.be/14VYnFhBKcY), explains this point nicely.
 
