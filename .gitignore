@@ -4,6 +4,9 @@
 # Vim
 *un~
 
+# vscode
+.vscode
+
 # TeX
 *.aux
 *.bbl
