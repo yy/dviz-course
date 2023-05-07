@@ -3,7 +3,7 @@ MAIN := syllabus
 all: $(MAIN).pdf
 
 upload: $(MAIN).pdf
-	scp syllabus.pdf yyahn@yongyeol.com:~/yongyeol.com/teaching/2022FA_dviz_syllabus.pdf 
+	scp syllabus.pdf yyahn@yongyeol.com:~/yongyeol.com/teaching/2023SU_dviz_syllabus.pdf 
 	scp syllabus.pdf yyahn@yongyeol.com:~/yongyeol.com/teaching/dviz_syllabus.pdf 
 
 $(MAIN).pdf: $(MAIN).tex
