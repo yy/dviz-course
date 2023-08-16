@@ -36,7 +36,7 @@ extra_javascript:
 # Theme
 theme:
   name: material
-  language: es
+  language: en
   logo: images/dv.png
   favicon: images/dv.png
   features:
