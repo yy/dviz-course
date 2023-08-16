@@ -68,17 +68,11 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/fralfaro
-    - icon: fontawesome/brands/gitlab
-      link: https://gitlab.com/fralfaro
+      link: https://github.com/yy
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/faam/
-    - icon: fontawesome/brands/kaggle
-      link: https://www.kaggle.com/faamds
-    - icon: fontawesome/brands/medium
-      link: https://medium.com/@fralfaro
+      link: https://www.linkedin.com/in/yyahn/
     - icon: fontawesome/solid/globe
-      link: https://fralfaro.github.io/portfolio/
+      link: https://yongyeol.com/
 
 # Plugins
 plugins:

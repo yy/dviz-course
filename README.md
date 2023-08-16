@@ -1,7 +1,7 @@
 # DSCI 590 - Data Visualization
 
-![example workflow](https://github.com/fralfaro/dviz-course/actions/workflows/documentation.yml/badge.svg)
-<a href="https://fralfaro.github.io/dviz-course/"><img alt="Link a la Documentación" src="https://img.shields.io/badge/docs-link-brightgreen"></a>
+![example workflow](https://github.com/yy/dviz-course/actions/workflows/documentation.yml/badge.svg)
+<a href="https://yy.github.io/dviz-course/"><img alt="Link a la Documentación" src="https://img.shields.io/badge/docs-link-brightgreen"></a>
 
 
 ## Basic Information
