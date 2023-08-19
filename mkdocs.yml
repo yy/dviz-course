@@ -1,9 +1,9 @@
 # Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
 
 # Project information
-site_name: Home
-site_url: https://github.com/fralfaro/dviz-course
-site_author: Francisco Alfaro
+site_name: Data Visualization
+site_url: https://github.com/yy/dviz-course
+site_author: YY Ahn
 site_description:
 
 # Repository
