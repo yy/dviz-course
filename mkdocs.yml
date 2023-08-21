@@ -102,8 +102,8 @@ nav:
         - m01-intro/lab01.ipynb
         - m01-intro/lab01supp-python_review.ipynb
         - m02-history/lab02.ipynb
-        - m03-integrity/lab.md
-        - m04-perception/lab.ipynb
+        - m03-integrity/lab03.ipynb
+        - m04-perception/lab04.ipynb
         - m05-design/lab.ipynb
         - m06-data/m06-lab.ipynb
         - m07-1D/m07-lab.ipynb
