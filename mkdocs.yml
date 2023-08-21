@@ -100,6 +100,7 @@ nav:
         - m14-networks-and-interactive/class-network.md
     - Labs:
         - m01-intro/lab01.ipynb
+        - m01-intro/lab01supp-python_review.ipynb
         - m02-history/lab02.ipynb
         - m03-integrity/lab.md
         - m04-perception/lab.ipynb
