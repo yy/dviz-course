@@ -1,6 +1,6 @@
-# Why Visualizations?
+# Module 1: Why Visualizations?
 
-# Further readings
+## Further readings
 
 - [Self assessment questions](http://bit.ly/dvizselfassess)
 

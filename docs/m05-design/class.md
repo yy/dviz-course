@@ -1,3 +1,4 @@
+# Module 5: Design
 ## Tufte's Data-ink ratio 
 
 - Tufte, Data-Ink Ratio (Canvas)
