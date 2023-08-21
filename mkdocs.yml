@@ -104,16 +104,17 @@ nav:
         - m02-history/lab02.ipynb
         - m03-integrity/lab03.ipynb
         - m04-perception/lab04.ipynb
-        - m05-design/lab.ipynb
-        - m06-data/m06-lab.ipynb
-        - m07-1D/m07-lab.ipynb
-        - m08-histogram/m08-lab.ipynb
-        - m09-estimation/m09-lab.ipynb
-        - m10-logscale/m10-lab.ipynb
-        - m11-highdim/m11-lab.ipynb
-        - m12-maps/m12-lab.ipynb
-        - m13-text/m13-lab.ipynb
-        - m14-networks-and-interactive/lab.md
+        - m05-design/lab05.ipynb
+        - m06-data/lab06.ipynb
+        - m07-1D/lab07.ipynb
+        - m08-histogram/lab08.ipynb
+        - m09-estimation/lab09.ipynb
+        - m10-logscale/lab10.ipynb
+        - m11-highdim/lab11.ipynb
+        - m11-highdim/lab11supp-calc_eigenvector.ipynb
+        - m12-maps/lab12.ipynb
+        - m13-text/lab13.ipynb
+        - m14-networks-and-interactive/lab14.ipynb
 
 
 
