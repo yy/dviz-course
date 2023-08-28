@@ -1,8 +1,12 @@
 # Module 1: Why Visualizations?
 
+Whatever we learn, we need to know why we are learning it. So, why do we need to learn visualization? 
+
+
+
 ## Further readings
 
-- [Self assessment questions](http://bit.ly/dvizselfassess)
+### Meta-learning
 
 **Why quizzes and exams (retrievals) are more critical than reading or lecture in learning?**
 
@@ -12,6 +16,8 @@
 
 - [RSA Animate - Drive: The surprising truth about what motivates us](https://www.youtube.com/watch?feature=player_detailpage&v=u6XAPnuFjJc)
 - Wrzesniewski, Amy, et al. "Multiple types of motives don't multiply the motivation of West Point cadets." [Proceedings of the National Academy of Sciences 111.30 (2014): 10990-10995.](http://www.pnas.org/content/111/30/10990.short)
+
+### John Snow's map
 
 **Industrial revolution**
 
@@ -26,7 +32,7 @@
 - [Wikipedia: Voronoi Diagram](https://en.wikipedia.org/wiki/Voronoi_diagram)
 - https://yyiki.org/wiki/Voronoi%20diagram/
 
-**Power of visualization**
+### Power of visualization
 
 - [Anscombe's quartet](https://en.wikipedia.org/wiki/Anscombe%27s_quartet)
 - [Same Stats, Different Graphs - CHI 2017](https://www.youtube.com/watch?v=DbJyPELmhJc)

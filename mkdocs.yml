@@ -97,7 +97,7 @@ nav:
         - m11-highdim/class.md
         - m12-maps/class.md
         - m13-text/class.md
-        - m14-networks-and-interactive/class-network.md
+        - m14-networks/class.md
     - Labs:
         - m01-intro/lab01.ipynb
         - m01-intro/lab01supp-python_review.ipynb
@@ -114,7 +114,7 @@ nav:
         - m11-highdim/lab11supp-calc_eigenvector.ipynb
         - m12-maps/lab12.ipynb
         - m13-text/lab13.ipynb
-        - m14-networks-and-interactive/lab14.ipynb
+        - m14-networks/lab14.ipynb
 
 
 
