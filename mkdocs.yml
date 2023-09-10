@@ -111,7 +111,6 @@ nav:
         - m09-estimation/lab09.ipynb
         - m10-logscale/lab10.ipynb
         - m11-highdim/lab11.ipynb
-        - m11-highdim/lab11supp-calc_eigenvector.ipynb
         - m12-maps/lab12.ipynb
         - m13-text/lab13.ipynb
         - m14-networks/lab14.ipynb
