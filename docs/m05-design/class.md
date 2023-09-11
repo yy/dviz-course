@@ -1,11 +1,37 @@
 # Module 5: Design
+
+One of the things that make data visualization fun and interesting is its artistic aspect.
+A beautiful visualization may not only pleasing to the eyes, but also can be more effective and engaging in communicating the message.
+At the same time, the design principles are not arbitrary, but are based on the human perception and cognition that we covered. 
+
+To think about the importance of design in visualization, let us start with two visualization examples. 
+The first one is "Gun deaths in Florida" from Reuters: https://www.businessinsider.com/gun-deaths-in-florida-increased-with-stand-your-ground-2014-2 
+This graphic shows the number of murders committed using firearms in Florida for a couple of decades, highlighting the year (2005) when the "Stand Your Ground" law was enacted.
+It shows that the number of murders _may_ be increasing after the law was enacted. 
+As we discussed earlier, it is hard to conclude anything from this single graph given the complex contexts that this graph does not show.
+
+You may wonder, "wait, what do you mean by _increasing_? I think the number of murders is going down."
+Yeah, that's the problem. 
+This visualization is super confusing!
+The y-axis is flipped—the top is 0 and the bottom is 1,000! 
+Indeed, this visualization is often mentioned as one of the most confusing visualizations.
+
+Here is another one: https://www.simonscarr.com/iraqs-bloody-toll 
+Sorry for all these morbid examples, but these two are the best examples that I know of. 
+It is similar to the previous one, in a sense that it flipped the y-axis and used the same red color. 
+However, I would say this visualization is extremely well-done and effective and conveying the message of "bloody toll"!
+
+This visualization also lets us understand the idea behind the first visualization. 
+"Ah, the first visualization was trying to have the same effect, representing the number of murders as the blood dripping down!"
+But the problem is that it failed to do so (spectacularly), not because the data was bad, not because the idea was bad, not because bad visual encodings were used, but because the design was bad!
+
+
 ## Tufte's Data-ink ratio 
 
 - Tufte, Data-Ink Ratio (Canvas)
 - S. Bateman et al., [Useful Junk? The Effects of Visual Embellishment on comprehension and memorability of charts](http://dl.acm.org/citation.cfm?id=1753716), CHI'10
 - Thomas Haslwanter, [An Introduction to Statistics: basic principles](http://work.thaslwanter.at/Stats/html/statsBasics.html)
 - [The Best Stats You've Ever Seen | Hans Rosling](https://www.youtube.com/watch?v=hVimVzgtD6w)
-
 
 ## More on colors
 
