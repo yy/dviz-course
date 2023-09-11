@@ -23,7 +23,8 @@ However, I would say this visualization is extremely well-done and effective and
 
 This visualization also lets us understand the idea behind the first visualization. 
 "Ah, the first visualization was trying to have the same effect, representing the number of murders as the blood dripping down!"
-But the problem is that it failed to do so (spectacularly), not because the data was bad, not because the idea was bad, not because bad visual encodings were used, but because the design was bad!
+Actually, the creator of the first visualization said that they were directly inspired by the second one. 
+But the problem is that it failed to do so (spectacularly), not because the data was bad, not because the idea was bad, not because bad visual encodings were used, but because of the design!
 
 
 ## Tufte's Data-ink ratio 
