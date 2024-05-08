@@ -83,10 +83,14 @@ plugins:
 # TOC
 nav:
     - index.md
-    - Classes:
+    - "Module 1: Introduction":
         - m01-intro/class.md
+        - m01-intro/lab01.ipynb
+    - "Module 2: History":
         - m02-history/class.md
+    - "Module 3: Integrity":
         - m03-integrity/class.md
+    - "Module 4: Perception":
         - m04-perception/class.md
         - m05-design/class.md
         - m06-data/class.md

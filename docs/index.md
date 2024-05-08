@@ -4,6 +4,8 @@ layout: default
 
 # Course overview
 
+## Course description 
+
 From dashboards to cutting-edge scientific papers, from a home office to the
 largest companies in the world, we extensively use data visualization to reveal
 patterns in data. As our world becomes increasingly connected and digitized,
@@ -15,7 +17,7 @@ integrity, design, and statistics, as well as various types of data and
 visualization techniques. The hands-on exercises using Python stack and D3.js
 will be an integral part of the course. 
 
-# Course objectives
+## Course objectives
 
 By the end of the course, you are expected to understand, explain, and handle
 basic types of data, analyze them using basic exploratory visualization
@@ -26,7 +28,7 @@ techniques.
 
 
 
-# Basic Information
+## Basic Information
 
 - **Homepage**: [https://yy.github.io/dviz-course/](https://yy.github.io/dviz-course/)
 - **GitHub**: [https://github.com/yy/dviz-course](https://github.com/yy/dviz-course)
@@ -36,14 +38,14 @@ techniques.
 - **Prerequisites**: This course is open to advanced undergraduate students (I422) as well as graduate students (I590). Because programming (in Python and Javascript) is an integral part of the course, it is required to have good understanding and working knowledge of programming. The basic programming courses (Both I210/I211 or equivalent) are required prerequisites. In addition, *I308: Information Representation* and a basic statistics course is a recommended prerequisite. Basic understanding of design process and web (HTML, CSS, Javascript) is also highly recommended.
 - **Syllabus**: You can download the syllabus [here](http://yongyeol.com/teaching/dviz_syllabus.pdf), but you should check this homepage for up-to-date information. 
 
-# Links 
+## Links 
 
 - [Course Wiki](https://github.com/yy/dviz-course/wiki)
 - [Projects](https://github.com/yy/dviz-course/wiki/Projects)
 - [Resources](https://github.com/yy/dviz-course/wiki/Resources)
 
 
-# Special Thanks
+## Special Thanks
 
 - [Francisco Alfaro](https://github.com/fralfaro) helped the migration with [mkdocs](https://www.mkdocs.org). 
 
