@@ -33,5 +33,6 @@ The quality and promptness of answers you get will largely depend on the quality
 
 **Don’t summon, just ask your question.** 
 
-- **Don't**: "Hello professor? Can I ask a question?" - Of course you can ask a question! You can just ask! 
+- **Don't**: "Hello professor? Can I ask a question?" - Of course you can ask a question! 😊 You can just ask! 
+- **Do**: "Could you clarify the following quiz question? Here's the screenshot of the quiz and it is module X review quiz. I thought that the answer was X but it was Y. blah blah ..."
 
