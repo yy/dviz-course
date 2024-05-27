@@ -1,1 +1,3 @@
-# Module 10: Log scale
+# Log scale
+
+

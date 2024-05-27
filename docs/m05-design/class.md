@@ -1,4 +1,4 @@
-# Module 5: Design
+# Perception 
 
 One of the things that make data visualization fun and interesting is its artistic aspect.
 A beautiful visualization may not only pleasing to the eyes, but also can be more effective and engaging in communicating the message.

@@ -1,4 +1,5 @@
-# Module 11: High-dimensional data
+# High-dimensional data
+
 ## Dimensionality reduction
 
 - [Principal Component Analysis Explained Visually](http://setosa.io/ev/principal-component-analysis/)

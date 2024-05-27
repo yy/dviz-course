@@ -1,4 +1,4 @@
-# Module 4: Perception
+# Perception
 
 ## Psychophysics
 

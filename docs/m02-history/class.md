@@ -1,4 +1,5 @@
-# Module 2: History of visualization
+# History of visualization
+
 ## Further reading
 
 - E. R. Tufte, Visual Display of Quantitative Information, Ch. 1 and 2. 

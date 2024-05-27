@@ -1,4 +1,5 @@
-# Module 7: 1D data
+# Univariate data
+
 ## If you want to know more
 
 - https://en.wikipedia.org/wiki/Histogram

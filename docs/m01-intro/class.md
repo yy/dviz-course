@@ -1,8 +1,6 @@
-# Module 1: Why Visualizations?
+# Why?
 
 Whatever we learn, we need to know why we are learning it. So, why do we need to learn visualization? 
-
-
 
 ## Further readings
 

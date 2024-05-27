@@ -1,4 +1,5 @@
-# Module 9: Estimation
+# Estimation
+
 ## Before the class
 
 - [Khan academy: Logarithmic scale](https://www.khanacademy.org/math/algebra2/logarithms-tutorial/logarithmic-scale-patterns/v/logarithmic-scale)
