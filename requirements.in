@@ -6,6 +6,7 @@ matplotlib
 seaborn
 pandas
 altair
+pillow
 vega_datasets
 scikit-learn
 bokeh
