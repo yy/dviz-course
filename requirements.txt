@@ -8,8 +8,6 @@ anyio==4.3.0
     # via
     #   httpx
     #   jupyter-server
-appnope==0.1.4
-    # via ipykernel
 argon2-cffi==23.1.0
     # via jupyter-server
 argon2-cffi-bindings==21.2.0
@@ -167,7 +165,7 @@ json5==0.9.25
     # via jupyterlab-server
 jsonpointer==2.4
     # via jsonschema
-jsonschema==4.22.0
+jsonschema[format-nongpl]==4.22.0
     # via
     #   altair
     #   jupyter-events
@@ -212,7 +210,7 @@ jupyter-server==2.14.0
     #   notebook-shim
 jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterlab==4.1.8
+jupyterlab==4.2.5
     # via notebook
 jupyterlab-pygments==0.3.0
     # via nbconvert
@@ -312,7 +310,7 @@ nbformat==5.10.4
     #   nbconvert
 nest-asyncio==1.6.0
     # via ipykernel
-notebook==7.1.3
+notebook==7.2.2
     # via jupyter
 notebook-shim==0.2.4
     # via
@@ -522,11 +520,6 @@ seaborn==0.13.2
     # via -r requirements.in
 send2trash==1.8.3
     # via jupyter-server
-setuptools==70.2.0
-    # via
-    #   marisa-trie
-    #   spacy
-    #   thinc
 six==1.16.0
     # via
     #   asttokens
