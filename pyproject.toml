@@ -1,0 +1,28 @@
+[project]
+name = "dviz-course"
+version = "0.1.0"
+description = "Data Visualization Course"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "altair>=5.5.0",
+    "bokeh>=3.7.3",
+    "datashader>=0.18.1",
+    "holoviews>=1.20.2",
+    "ipykernel>=6.29.5",
+    "ipyleaflet>=0.19.2",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.3",
+    "mkdocs>=1.6.1",
+    "mkdocs-jupyter>=0.25.1",
+    "mkdocs-material>=9.6.14",
+    "numpy>=2.2.6",
+    "pandas>=2.2.3",
+    "pillow>=11.2.1",
+    "scikit-learn>=1.6.1",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+    "spacy>=3.8.4",
+    "vega-datasets>=0.9.0",
+    "wordcloud>=1.9.4",
+]
